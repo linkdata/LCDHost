@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/">
+        <file>translations/languages.cache</file>
+        <file>translations/translations.Weather.en.en.cache</file>
+        <file>translations/translations.Weather.en.fr.cache</file>
+        <file>translations/translations.Weather.en.de.cache</file>
+    </qresource>
+</RCC>

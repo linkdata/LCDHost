@@ -1,0 +1,306 @@
+/*
+  Copyright (C) 2011 Birunthan Mohanathas (www.poiru.net)
+
+  This program is free software; you can redistribute it and/or
+  modify it under the terms of the GNU General Public License
+  as published by the Free Software Foundation; either version 2
+  of the License, or (at your option) any later version.
+
+  This program is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+
+  You should have received a copy of the GNU General Public License
+  along with this program; if not, write to the Free Software
+  Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
+*/
+
+#include "Internet.h"
+#include <QDebug>
+
+#include <errno.h>
+
+HINTERNET CInternet::c_NetHandle = NULL;
+
+/*
+** Initialize
+**
+** Initialize internet handle and crtical section.
+**
+*/
+void CInternet::Initialize()
+{
+    c_NetHandle = InternetOpen(L"LH_NowPlaying.dll",
+								INTERNET_OPEN_TYPE_PRECONFIG,
+								NULL,
+								NULL,
+								0);
+
+	if (!c_NetHandle)
+        qDebug() << "LH_NowPlaying.dll: Unable to open net handle";
+}
+
+/*
+** Finalize
+**
+** Close handles and delete critical section.
+**
+*/
+void CInternet::Finalize()
+{
+	if (c_NetHandle) InternetCloseHandle(c_NetHandle);
+}
+
+QString CInternet::getLastErrorMessage()
+{
+    DWORD dwError;
+    wchar_t errBuf[256];
+
+    dwError = GetLastError();
+    FormatMessage(FORMAT_MESSAGE_FROM_SYSTEM, NULL, dwError, MAKELANGID(LANG_NEUTRAL, SUBLANG_DEFAULT), (LPTSTR)errBuf, sizeof(errBuf),NULL);
+
+    return QString("Err Code: %1 - %2").arg(dwError).arg(QString::fromWCharArray(errBuf));
+}
+
+
+bool CInternet::TestUrl(const std::wstring& url)
+{
+    DWORD flags = INTERNET_FLAG_RESYNCHRONIZE;
+    HINTERNET hUrlDump = InternetOpenUrl(c_NetHandle, url.c_str(), NULL, 0, flags, 0);
+
+    if (!hUrlDump)
+        return false;
+    else
+    {
+        InternetCloseHandle(hUrlDump);
+        return true;
+    }
+}
+
+/*
+** DownloadUrl
+**
+** Downloads given url and returns it as a string.
+**
+*/
+std::wstring CInternet::DownloadUrl(const std::wstring& url, int codepage)
+{
+	// From WebParser.cpp
+	std::wstring result;
+	DWORD flags = INTERNET_FLAG_RESYNCHRONIZE;
+    HINTERNET hUrlDump = InternetOpenUrl(c_NetHandle, url.c_str(), NULL, 0, flags, 0);
+
+	if (!hUrlDump)
+	{
+		return result;
+	}
+
+	// Allocate the buffer.
+	const int CHUNK_SIZE = 8192;
+	BYTE* lpData = new BYTE[CHUNK_SIZE];
+	BYTE* lpOutPut;
+	BYTE* lpHolding = NULL;
+	int nCounter = 1;
+	int nBufferSize;
+	DWORD dwDataSize = 0;
+	DWORD dwSize = 0;
+
+	do
+	{
+		// Read the data.
+		if (!InternetReadFile(hUrlDump, (LPVOID)lpData, CHUNK_SIZE, &dwSize))
+		{
+			break;
+		}
+		else
+		{
+			// Check if all of the data has been read. This should
+			// never get called on the first time through the loop.
+			if (dwSize == 0)
+			{
+				break;
+			}
+
+			// Determine the buffer size to hold the new data and the data
+			// already written (if any).
+			nBufferSize = dwDataSize + dwSize;
+
+			// Allocate the output buffer.
+			lpOutPut = new BYTE[nBufferSize + 2];
+
+			// Make sure the buffer is not the initial buffer.
+			if (lpHolding != NULL)
+			{
+				// Copy the data in the holding buffer.
+				memcpy(lpOutPut, lpHolding, dwDataSize);
+
+				// Delete the old buffer
+				delete [] lpHolding;
+
+				lpHolding = lpOutPut;
+				lpOutPut = lpOutPut + dwDataSize;
+			}
+			else
+			{
+				lpHolding = lpOutPut;
+			}
+
+			// Copy the data buffer.
+			memcpy(lpOutPut, lpData, dwSize);
+
+			dwDataSize += dwSize;
+
+			// End with double null
+			lpOutPut[dwSize] = 0;
+			lpOutPut[dwSize + 1] = 0;
+
+			// Increment the number of buffers read.
+			++nCounter;
+
+			// Clear the buffer
+			memset(lpData, 0, CHUNK_SIZE);
+		}
+	} while (true);
+
+	InternetCloseHandle(hUrlDump);
+
+	delete [] lpData;
+
+	if (lpHolding)
+	{
+		result = ConvertToWide((LPCSTR)lpHolding, codepage);
+		delete [] lpHolding;
+	}
+
+	return result;
+}
+
+/*
+** EncodeUrl
+**
+** Encode reserved characters.
+**
+*/
+std::wstring CInternet::EncodeUrl(const std::wstring& url)
+{
+	// Based on http://www.zedwood.com/article/111/cpp-urlencode-function
+	const WCHAR* urlChars = L" !*'();:@&=+$,/?#[]";
+	std::wstring ret;
+
+	for (size_t i = 0, max = url.length(); i < max; ++i)
+	{
+		if (wcschr(urlChars, url[i]))
+		{
+			// If reserved character
+			ret.append(L"%");
+			WCHAR buffer[3];
+                        _snwprintf(buffer, 3, L"%.2X", url[i]);
+			ret.append(buffer);
+		}
+		else
+		{
+			ret.push_back(url[i]);
+		}
+	}
+	return ret;
+}
+
+/*
+** DecodeReferences
+**
+** Decodes numeric references.
+**
+*/
+void CInternet::DecodeReferences(std::wstring& str)
+{
+	// From WebParser.cpp
+	std::wstring::size_type start = 0;
+
+	while ((start = str.find(L'&', start)) != std::wstring::npos)
+	{
+		std::wstring::size_type end, pos;
+
+		if ((end = str.find(L';', start)) == std::wstring::npos) break;
+		pos = start + 1;
+
+		if (pos == end)  // &; - skip
+		{
+			start = end + 1;
+			continue;
+		}
+		else if ((end - pos) > 10)  // name (or number) is too long
+		{
+			++start;
+			continue;
+		}
+
+		if (str[pos] == L'#')  // Numeric character reference
+		{
+			if (++pos == end)  // &#; - skip
+			{
+				start = end + 1;
+				continue;
+			}
+
+			int base;
+			if (str[pos] == L'x' || str[pos] == L'X')
+			{
+				if (++pos == end)  // &#x; or &#X; - skip
+				{
+					start = end + 1;
+					continue;
+				}
+				base = 16;
+			}
+			else
+			{
+				base = 10;
+			}
+
+			std::wstring num(str, pos, end - pos);
+			WCHAR* pch = NULL;
+			errno = 0;
+			long ch = wcstol(num.c_str(), &pch, base);
+                        if (pch == NULL ||
+                                *pch != L'\0' ||
+                                errno == ERANGE ||
+                                ch <= 0 || ch >= 0xFFFE)  // invalid character
+			{
+				start = pos;
+				continue;
+			}
+			str.replace(start, end - start + 1, 1, (WCHAR)ch);
+			++start;
+		}
+		else  // Character entity reference
+		{
+			start = end + 1;
+			continue;
+		}
+	}
+}
+
+/*
+** ConvertToWide
+**
+** Convert multibyte string to wide string.
+**
+*/
+std::wstring CInternet::ConvertToWide(LPCSTR str, int codepage)
+{
+	std::wstring szWide;
+
+	if (str && *str)
+	{
+		int strLen = (int)strlen(str);
+		int bufLen = MultiByteToWideChar(codepage, 0, str, strLen, NULL, 0);
+		if (bufLen > 0)
+		{
+			szWide.resize(bufLen);
+			MultiByteToWideChar(codepage, 0, str, strLen, &szWide[0], bufLen);
+		}
+	}
+
+	return szWide;
+}

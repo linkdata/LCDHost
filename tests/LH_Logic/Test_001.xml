@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<instance>
+    <identity name="Logitech QVGA device" id="10r9zk"/>
+    <state modifiable="0" selectable="0" alerts="1"/>
+    <origin x="0" y="0"/>
+    <size w="320" h="240"/>
+    <plugin_size w="-1" h="-1"/>
+    <pos x="0" y="0" z="0"/>
+    <x_ref id="0" align="0" ref_align="0"/>
+    <y_ref id="0" align="0" ref_align="0"/>
+    <w_ref id="0" mod="0" units="0"/>
+    <h_ref id="0" mod="0" units="0"/>
+    <instance class="LH_Logic/LayoutOptions">
+        <identity name="The Layout Options" id="116vhs"/>
+        <state modifiable="1" selectable="1" alerts="1"/>
+        <origin x="0" y="0"/>
+        <size w="24" h="24"/>
+        <plugin_size w="24" h="24"/>
+        <pos x="80" y="52" z="0"/>
+        <x_ref id="10r9zk" align="0" ref_align="0"/>
+        <y_ref id="10r9zk" align="0" ref_align="0"/>
+        <w_ref id="0" mod="0" units="0"/>
+        <h_ref id="0" mod="0" units="0"/>
+        <setupitem>
+            <identity name="~hr1" type="18"/>
+            <value type="QString">&lt;hr /&gt;</value>
+        </setupitem>
+        <setupitem>
+            <identity name="__Edit Config" type="17"/>
+            <value type="QString">Edit Config</value>
+        </setupitem>
+        <setupitem>
+            <identity name="__Configuration" type="9"/>
+            <value type="QString">; This defines the user options
+; Need some notes here about how
+; to set it up.
+;
+; Add [[LOCK]] to prevent the
+; edit command from being shown
+
+[Boolean]
+Name=Option 1
+Default=false
+
+[Boolean]
+Name=Option 2
+Default=false
+
+[List]
+Name=Option 3
+Option=a
+Option=b
+Option=c
+Default=a</value>
+        </setupitem>
+    </instance>
+</instance>

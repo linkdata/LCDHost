@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<instance>
+    <identity name="Logitech QVGA device" id="swxx4"/>
+    <state modifiable="0" selectable="0" alerts="1"/>
+    <origin x="0" y="0"/>
+    <size w="320" h="240"/>
+    <plugin_size w="-1" h="-1"/>
+    <pos x="0" y="0" z="0"/>
+    <x_ref id="0" align="0" ref_align="0"/>
+    <y_ref id="0" align="0" ref_align="0"/>
+    <w_ref id="0" mod="0" units="0"/>
+    <h_ref id="0" mod="0" units="0"/>
+    <instance class="LH_DriveStats/Drive PerformanceText">
+        <identity name="Drive Performance (Text) [1]" id="ti628"/>
+        <state modifiable="1" selectable="1" alerts="1"/>
+        <origin x="0" y="0"/>
+        <size w="45" h="19"/>
+        <plugin_size w="45" h="19"/>
+        <pos x="128" y="83" z="0"/>
+        <x_ref id="swxx4" align="0" ref_align="0"/>
+        <y_ref id="swxx4" align="0" ref_align="0"/>
+        <w_ref id="0" mod="0" units="0"/>
+        <h_ref id="0" mod="0" units="0"/>
+        <setupitem>
+            <identity name="Application" type="6"/>
+        </setupitem>
+        <setupitem>
+            <identity name="(Application Name)" type="8"/>
+            <value type="QString"></value>
+        </setupitem>
+        <setupitem>
+            <identity name="Value Type" type="6"/>
+        </setupitem>
+        <setupitem>
+            <identity name="(Value Type)" type="1"/>
+            <value type="QString">0</value>
+        </setupitem>
+        <setupitem>
+            <identity name="(Value Type Name)" type="8"/>
+            <value type="QString"></value>
+        </setupitem>
+        <setupitem>
+            <identity name="Value Group" type="6"/>
+        </setupitem>
+        <setupitem>
+            <identity name="(Value Group)" type="1"/>
+            <value type="QString">0</value>
+        </setupitem>
+        <setupitem>
+            <identity name="(Value Group Name)" type="8"/>
+            <value type="QString"></value>
+        </setupitem>
+        <setupitem>
+            <identity name="Value Item" type="6"/>
+        </setupitem>
+        <setupitem>
+            <identity name="(Value Item)" type="1"/>
+            <value type="QString">0</value>
+        </setupitem>
+        <setupitem>
+            <identity name="(Value Item Name)" type="8"/>
+            <value type="QString"></value>
+        </setupitem>
+        <setupitem>
+            <identity name="(Value Index)" type="1"/>
+            <value type="QString">0</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Apply Offsets" type="2"/>
+            <value type="QString">true</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Use Formatted Data" type="2"/>
+            <value type="QString">false</value>
+        </setupitem>
+        <setupitem>
+            <identity name="image-hr-data" type="18"/>
+        </setupitem>
+        <setupitem>
+            <identity name="Units" type="6"/>
+            <value type="int">0</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Round" type="2"/>
+            <value type="QString">false</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Append Units" type="2"/>
+            <value type="QString">true</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Pre-Text" type="8"/>
+            <value type="QString"></value>
+        </setupitem>
+        <setupitem>
+            <identity name="Post-Text" type="8"/>
+            <value type="QString"></value>
+        </setupitem>
+        <setupitem>
+            <identity name="image-hr2" type="18"/>
+        </setupitem>
+        <setupitem>
+            <identity name="Text" type="8"/>
+        </setupitem>
+        <setupitem>
+            <identity name="Font" type="11"/>
+            <value type="QString">Arial,10,-1,5,50,0,0,0,0,0</value>
+        </setupitem>
+        <setupitem>
+            <identity name="^Adjust font size to instance height" type="2"/>
+            <value type="QString">true</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Color" type="3"/>
+            <value type="QString">-16777216</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Background" type="3"/>
+            <value type="QString">0</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Horizontal" type="6"/>
+            <value type="QString">0</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Vertical" type="6"/>
+            <value type="QString">0</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Scroll rate" type="4"/>
+            <value type="QString">15</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Scroll step" type="4"/>
+            <value type="QString">2</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Scroll gap" type="4"/>
+            <value type="QString">10</value>
+        </setupitem>
+        <setupitem>
+            <identity name="CF-Area-Rule" type="18"/>
+        </setupitem>
+        <setupitem>
+            <identity name="^Enable Conditional Formatting" type="2"/>
+            <value type="QString">false</value>
+        </setupitem>
+        <setupitem>
+            <identity name="State" type="8"/>
+        </setupitem>
+        <setupitem>
+            <identity name="Visibility" type="2"/>
+        </setupitem>
+        <setupitem>
+            <identity name="^Copy Conditions" type="17"/>
+        </setupitem>
+        <setupitem>
+            <identity name="^Paste Conditions" type="17"/>
+        </setupitem>
+        <setupitem>
+            <identity name="^Conditions" type="16"/>
+        </setupitem>
+        <setupitem>
+            <identity name="^Move Condition Up" type="17"/>
+        </setupitem>
+        <setupitem>
+            <identity name="^Move Condition Down" type="17"/>
+        </setupitem>
+        <setupitem>
+            <identity name="^New Condition" type="17"/>
+        </setupitem>
+        <setupitem>
+            <identity name="^Delete Condition" type="17"/>
+        </setupitem>
+        <setupitem>
+            <identity name="Source" type="6"/>
+        </setupitem>
+        <setupitem>
+            <identity name="Value" type="6"/>
+        </setupitem>
+        <setupitem>
+            <identity name="Condition" type="6"/>
+        </setupitem>
+        <setupitem>
+            <identity name="^Value 1" type="8"/>
+        </setupitem>
+        <setupitem>
+            <identity name="^Value 2" type="8"/>
+        </setupitem>
+        <setupitem>
+            <identity name="Target" type="6"/>
+        </setupitem>
+        <setupitem>
+            <identity name="^New Value - Color" type="3"/>
+        </setupitem>
+        <setupitem>
+            <identity name="^New Value - Font" type="11"/>
+        </setupitem>
+        <setupitem>
+            <identity name="^New Value - String" type="8"/>
+        </setupitem>
+        <setupitem>
+            <identity name="^New Value - Boolean" type="2"/>
+        </setupitem>
+        <setupitem>
+            <identity name="^New Value - File" type="10"/>
+        </setupitem>
+        <setupitem>
+            <identity name="^Save Condition" type="17"/>
+        </setupitem>
+        <setupitem>
+            <identity name="^Cancel Condition Edit" type="17"/>
+        </setupitem>
+        <setupitem>
+            <identity name="Conditions XML" type="9"/>
+            <value type="QString">&lt;rules/&gt;</value>
+        </setupitem>
+    </instance>
+</instance>

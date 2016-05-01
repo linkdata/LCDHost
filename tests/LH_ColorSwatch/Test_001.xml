@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<instance>
+    <identity name="Logitech QVGA device" id="uv39k"/>
+    <state modifiable="0" selectable="0" alerts="1"/>
+    <origin x="0" y="0"/>
+    <size w="320" h="240"/>
+    <plugin_size w="-1" h="-1"/>
+    <pos x="0" y="0" z="-1"/>
+    <x_ref id="0" align="0" ref_align="0"/>
+    <y_ref id="0" align="0" ref_align="0"/>
+    <w_ref id="0" mod="0" units="0"/>
+    <h_ref id="0" mod="0" units="0"/>
+    <instance class="LH_ColorSwatch/ColorSwatch">
+        <identity name="Color Swatch [1]" id="vbaw0"/>
+        <state modifiable="1" selectable="1" alerts="1"/>
+        <origin x="0" y="0"/>
+        <size w="320" h="240"/>
+        <plugin_size w="-1" h="-1"/>
+        <pos x="0" y="0" z="0"/>
+        <x_ref id="uv39k" align="0" ref_align="0"/>
+        <y_ref id="uv39k" align="0" ref_align="0"/>
+        <w_ref id="uv39k" mod="0" units="0"/>
+        <h_ref id="uv39k" mod="0" units="0"/>
+        <setupitem>
+            <identity name="Lower Bound Value" type="7"/>
+            <value type="float">500</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Lower Bound Color" type="3"/>
+            <value type="int">-256</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Upper Bound Value" type="7"/>
+            <value type="float">600</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Upper Bound Color" type="3"/>
+            <value type="int">-65536</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Current Value" type="7"/>
+            <subscribe>Ticker/Ticks</subscribe>
+            <value type="double">0</value>
+        </setupitem>
+        <setupitem>
+            <identity name="^Enable Conditional Formatting" type="2"/>
+            <value type="QString">true</value>
+        </setupitem>
+        <setupitem>
+            <identity name="State" type="8"/>
+        </setupitem>
+        <setupitem>
+            <identity name="Conditions XML" type="9"/>
+            <value type="QString">&lt;rules&gt;
+ &lt;rule&gt;
+  &lt;conditions&gt;
+   &lt;condition test=&quot;Between&quot;&gt;
+    &lt;source&gt;Current Value&lt;/source&gt;
+    &lt;value id=&quot;1&quot;&gt;0&lt;/value&gt;
+    &lt;value id=&quot;2&quot;&gt;100&lt;/value&gt;
+   &lt;/condition&gt;
+  &lt;/conditions&gt;
+  &lt;actions&gt;
+   &lt;action type=&quot;property&quot;&gt;
+    &lt;target&gt;Lower Bound Color&lt;/target&gt;
+    &lt;value&gt;FFFF0000&lt;/value&gt;
+   &lt;/action&gt;
+  &lt;/actions&gt;
+ &lt;/rule&gt;
+ &lt;rule&gt;
+  &lt;conditions&gt;
+   &lt;condition test=&quot;Between&quot;&gt;
+    &lt;source&gt;Current Value&lt;/source&gt;
+    &lt;value id=&quot;1&quot;&gt;0&lt;/value&gt;
+    &lt;value id=&quot;2&quot;&gt;100&lt;/value&gt;
+   &lt;/condition&gt;
+  &lt;/conditions&gt;
+  &lt;actions&gt;
+   &lt;action type=&quot;property&quot;&gt;
+    &lt;target&gt;Lower Bound Value&lt;/target&gt;
+    &lt;value&gt;0&lt;/value&gt;
+   &lt;/action&gt;
+  &lt;/actions&gt;
+ &lt;/rule&gt;
+ &lt;rule&gt;
+  &lt;conditions&gt;
+   &lt;condition test=&quot;Between&quot;&gt;
+    &lt;source&gt;Current Value&lt;/source&gt;
+    &lt;value id=&quot;1&quot;&gt;0&lt;/value&gt;
+    &lt;value id=&quot;2&quot;&gt;100&lt;/value&gt;
+   &lt;/condition&gt;
+  &lt;/conditions&gt;
+  &lt;actions&gt;
+   &lt;action type=&quot;property&quot;&gt;
+    &lt;target&gt;Upper Bound Color&lt;/target&gt;
+    &lt;value&gt;FFFF00FF&lt;/value&gt;
+   &lt;/action&gt;
+  &lt;/actions&gt;
+ &lt;/rule&gt;
+ &lt;rule&gt;
+  &lt;conditions&gt;
+   &lt;condition test=&quot;Between&quot;&gt;
+    &lt;source&gt;Current Value&lt;/source&gt;
+    &lt;value id=&quot;1&quot;&gt;0&lt;/value&gt;
+    &lt;value id=&quot;2&quot;&gt;100&lt;/value&gt;
+   &lt;/condition&gt;
+  &lt;/conditions&gt;
+  &lt;actions&gt;
+   &lt;action type=&quot;property&quot;&gt;
+    &lt;target&gt;Upper Bound Value&lt;/target&gt;
+    &lt;value&gt;100&lt;/value&gt;
+   &lt;/action&gt;
+  &lt;/actions&gt;
+ &lt;/rule&gt;
+ &lt;rule&gt;
+  &lt;conditions&gt;
+   &lt;condition test=&quot;Between&quot;&gt;
+    &lt;source&gt;Current Value&lt;/source&gt;
+    &lt;value id=&quot;1&quot;&gt;100&lt;/value&gt;
+    &lt;value id=&quot;2&quot;&gt;200&lt;/value&gt;
+   &lt;/condition&gt;
+  &lt;/conditions&gt;
+  &lt;actions&gt;
+   &lt;action type=&quot;property&quot;&gt;
+    &lt;target&gt;Lower Bound Color&lt;/target&gt;
+    &lt;value&gt;FFFF00FF&lt;/value&gt;
+   &lt;/action&gt;
+  &lt;/actions&gt;
+ &lt;/rule&gt;
+ &lt;rule&gt;
+  &lt;conditions&gt;
+   &lt;condition test=&quot;Between&quot;&gt;
+    &lt;source&gt;Current Value&lt;/source&gt;
+    &lt;value id=&quot;1&quot;&gt;100&lt;/value&gt;
+    &lt;value id=&quot;2&quot;&gt;200&lt;/value&gt;
+   &lt;/condition&gt;
+  &lt;/conditions&gt;
+  &lt;actions&gt;
+   &lt;action type=&quot;property&quot;&gt;
+    &lt;target&gt;Lower Bound Value&lt;/target&gt;
+    &lt;value&gt;100&lt;/value&gt;
+   &lt;/action&gt;
+  &lt;/actions&gt;
+ &lt;/rule&gt;
+ &lt;rule&gt;
+  &lt;conditions&gt;
+   &lt;condition test=&quot;Between&quot;&gt;
+    &lt;source&gt;Current Value&lt;/source&gt;
+    &lt;value id=&quot;1&quot;&gt;100&lt;/value&gt;
+    &lt;value id=&quot;2&quot;&gt;200&lt;/value&gt;
+   &lt;/condition&gt;
+  &lt;/conditions&gt;
+  &lt;actions&gt;
+   &lt;action type=&quot;property&quot;&gt;
+    &lt;target&gt;Upper Bound Color&lt;/target&gt;
+    &lt;value&gt;FF0000FF&lt;/value&gt;
+   &lt;/action&gt;
+  &lt;/actions&gt;
+ &lt;/rule&gt;
+ &lt;rule&gt;
+  &lt;conditions&gt;
+   &lt;condition test=&quot;Between&quot;&gt;
+    &lt;source&gt;Current Value&lt;/source&gt;
+    &lt;value id=&quot;1&quot;&gt;100&lt;/value&gt;
+    &lt;value id=&quot;2&quot;&gt;200&lt;/value&gt;
+   &lt;/condition&gt;
+  &lt;/conditions&gt;
+  &lt;actions&gt;
+   &lt;action type=&quot;property&quot;&gt;
+    &lt;target&gt;Upper Bound Value&lt;/target&gt;
+    &lt;value&gt;200&lt;/value&gt;
+   &lt;/action&gt;
+  &lt;/actions&gt;
+ &lt;/rule&gt;
+ &lt;rule&gt;
+  &lt;conditions&gt;
+   &lt;condition test=&quot;Between&quot;&gt;
+    &lt;source&gt;Current Value&lt;/source&gt;
+    &lt;value id=&quot;1&quot;&gt;200&lt;/value&gt;
+    &lt;value id=&quot;2&quot;&gt;300&lt;/value&gt;
+   &lt;/condition&gt;
+  &lt;/conditions&gt;
+  &lt;actions&gt;
+   &lt;action type=&quot;property&quot;&gt;
+    &lt;target&gt;Lower Bound Color&lt;/target&gt;
+    &lt;value&gt;FF0000FF&lt;/value&gt;
+   &lt;/action&gt;
+  &lt;/actions&gt;
+ &lt;/rule&gt;
+ &lt;rule&gt;
+  &lt;conditions&gt;
+   &lt;condition test=&quot;Between&quot;&gt;
+    &lt;source&gt;Current Value&lt;/source&gt;
+    &lt;value id=&quot;1&quot;&gt;200&lt;/value&gt;
+    &lt;value id=&quot;2&quot;&gt;300&lt;/value&gt;
+   &lt;/condition&gt;
+  &lt;/conditions&gt;
+  &lt;actions&gt;
+   &lt;action type=&quot;property&quot;&gt;
+    &lt;target&gt;Lower Bound Value&lt;/target&gt;
+    &lt;value&gt;200&lt;/value&gt;
+   &lt;/action&gt;
+  &lt;/actions&gt;
+ &lt;/rule&gt;
+ &lt;rule&gt;
+  &lt;conditions&gt;
+   &lt;condition test=&quot;Between&quot;&gt;
+    &lt;source&gt;Current Value&lt;/source&gt;
+    &lt;value id=&quot;1&quot;&gt;200&lt;/value&gt;
+    &lt;value id=&quot;2&quot;&gt;300&lt;/value&gt;
+   &lt;/condition&gt;
+  &lt;/conditions&gt;
+  &lt;actions&gt;
+   &lt;action type=&quot;property&quot;&gt;
+    &lt;target&gt;Upper Bound Color&lt;/target&gt;
+    &lt;value&gt;FF00FFFF&lt;/value&gt;
+   &lt;/action&gt;
+  &lt;/actions&gt;
+ &lt;/rule&gt;
+ &lt;rule&gt;
+  &lt;conditions&gt;
+   &lt;condition test=&quot;Between&quot;&gt;
+    &lt;source&gt;Current Value&lt;/source&gt;
+    &lt;value id=&quot;1&quot;&gt;200&lt;/value&gt;
+    &lt;value id=&quot;2&quot;&gt;300&lt;/value&gt;
+   &lt;/condition&gt;
+  &lt;/conditions&gt;
+  &lt;actions&gt;
+   &lt;action type=&quot;property&quot;&gt;
+    &lt;target&gt;Upper Bound Value&lt;/target&gt;
+    &lt;value&gt;300&lt;/value&gt;
+   &lt;/action&gt;
+  &lt;/actions&gt;
+ &lt;/rule&gt;
+ &lt;rule&gt;
+  &lt;conditions&gt;
+   &lt;condition test=&quot;Between&quot;&gt;
+    &lt;source&gt;Current Value&lt;/source&gt;
+    &lt;value id=&quot;1&quot;&gt;300&lt;/value&gt;
+    &lt;value id=&quot;2&quot;&gt;400&lt;/value&gt;
+   &lt;/condition&gt;
+  &lt;/conditions&gt;
+  &lt;actions&gt;
+   &lt;action type=&quot;property&quot;&gt;
+    &lt;target&gt;Lower Bound Color&lt;/target&gt;
+    &lt;value&gt;FF00FFFF&lt;/value&gt;
+   &lt;/action&gt;
+  &lt;/actions&gt;
+ &lt;/rule&gt;
+ &lt;rule&gt;
+  &lt;conditions&gt;
+   &lt;condition test=&quot;Between&quot;&gt;
+    &lt;source&gt;Current Value&lt;/source&gt;
+    &lt;value id=&quot;1&quot;&gt;300&lt;/value&gt;
+    &lt;value id=&quot;2&quot;&gt;400&lt;/value&gt;
+   &lt;/condition&gt;
+  &lt;/conditions&gt;
+  &lt;actions&gt;
+   &lt;action type=&quot;property&quot;&gt;
+    &lt;target&gt;Lower Bound Value&lt;/target&gt;
+    &lt;value&gt;300&lt;/value&gt;
+   &lt;/action&gt;
+  &lt;/actions&gt;
+ &lt;/rule&gt;
+ &lt;rule&gt;
+  &lt;conditions&gt;
+   &lt;condition test=&quot;Between&quot;&gt;
+    &lt;source&gt;Current Value&lt;/source&gt;
+    &lt;value id=&quot;1&quot;&gt;300&lt;/value&gt;
+    &lt;value id=&quot;2&quot;&gt;400&lt;/value&gt;
+   &lt;/condition&gt;
+  &lt;/conditions&gt;
+  &lt;actions&gt;
+   &lt;action type=&quot;property&quot;&gt;
+    &lt;target&gt;Upper Bound Color&lt;/target&gt;
+    &lt;value&gt;FF00FF00&lt;/value&gt;
+   &lt;/action&gt;
+  &lt;/actions&gt;
+ &lt;/rule&gt;
+ &lt;rule&gt;
+  &lt;conditions&gt;
+   &lt;condition test=&quot;Between&quot;&gt;
+    &lt;source&gt;Current Value&lt;/source&gt;
+    &lt;value id=&quot;1&quot;&gt;300&lt;/value&gt;
+    &lt;value id=&quot;2&quot;&gt;400&lt;/value&gt;
+   &lt;/condition&gt;
+  &lt;/conditions&gt;
+  &lt;actions&gt;
+   &lt;action type=&quot;property&quot;&gt;
+    &lt;target&gt;Upper Bound Value&lt;/target&gt;
+    &lt;value&gt;400&lt;/value&gt;
+   &lt;/action&gt;
+  &lt;/actions&gt;
+ &lt;/rule&gt;
+ &lt;rule&gt;
+  &lt;conditions&gt;
+   &lt;condition test=&quot;Between&quot;&gt;
+    &lt;source&gt;Current Value&lt;/source&gt;
+    &lt;value id=&quot;1&quot;&gt;400&lt;/value&gt;
+    &lt;value id=&quot;2&quot;&gt;500&lt;/value&gt;
+   &lt;/condition&gt;
+  &lt;/conditions&gt;
+  &lt;actions&gt;
+   &lt;action type=&quot;property&quot;&gt;
+    &lt;target&gt;Lower Bound Color&lt;/target&gt;
+    &lt;value&gt;FF00FF00&lt;/value&gt;
+   &lt;/action&gt;
+  &lt;/actions&gt;
+ &lt;/rule&gt;
+ &lt;rule&gt;
+  &lt;conditions&gt;
+   &lt;condition test=&quot;Between&quot;&gt;
+    &lt;source&gt;Current Value&lt;/source&gt;
+    &lt;value id=&quot;1&quot;&gt;400&lt;/value&gt;
+    &lt;value id=&quot;2&quot;&gt;500&lt;/value&gt;
+   &lt;/condition&gt;
+  &lt;/conditions&gt;
+  &lt;actions&gt;
+   &lt;action type=&quot;property&quot;&gt;
+    &lt;target&gt;Lower Bound Value&lt;/target&gt;
+    &lt;value&gt;400&lt;/value&gt;
+   &lt;/action&gt;
+  &lt;/actions&gt;
+ &lt;/rule&gt;
+ &lt;rule&gt;
+  &lt;conditions&gt;
+   &lt;condition test=&quot;Between&quot;&gt;
+    &lt;source&gt;Current Value&lt;/source&gt;
+    &lt;value id=&quot;1&quot;&gt;400&lt;/value&gt;
+    &lt;value id=&quot;2&quot;&gt;500&lt;/value&gt;
+   &lt;/condition&gt;
+  &lt;/conditions&gt;
+  &lt;actions&gt;
+   &lt;action type=&quot;property&quot;&gt;
+    &lt;target&gt;Upper Bound Color&lt;/target&gt;
+    &lt;value&gt;FFFFFF00&lt;/value&gt;
+   &lt;/action&gt;
+  &lt;/actions&gt;
+ &lt;/rule&gt;
+ &lt;rule&gt;
+  &lt;conditions&gt;
+   &lt;condition test=&quot;Between&quot;&gt;
+    &lt;source&gt;Current Value&lt;/source&gt;
+    &lt;value id=&quot;1&quot;&gt;400&lt;/value&gt;
+    &lt;value id=&quot;2&quot;&gt;500&lt;/value&gt;
+   &lt;/condition&gt;
+  &lt;/conditions&gt;
+  &lt;actions&gt;
+   &lt;action type=&quot;property&quot;&gt;
+    &lt;target&gt;Upper Bound Value&lt;/target&gt;
+    &lt;value&gt;500&lt;/value&gt;
+   &lt;/action&gt;
+  &lt;/actions&gt;
+ &lt;/rule&gt;
+ &lt;rule&gt;
+  &lt;conditions&gt;
+   &lt;condition test=&quot;Between&quot;&gt;
+    &lt;source&gt;Current Value&lt;/source&gt;
+    &lt;value id=&quot;1&quot;&gt;500&lt;/value&gt;
+    &lt;value id=&quot;2&quot;&gt;600&lt;/value&gt;
+   &lt;/condition&gt;
+  &lt;/conditions&gt;
+  &lt;actions&gt;
+   &lt;action type=&quot;property&quot;&gt;
+    &lt;target&gt;Lower Bound Color&lt;/target&gt;
+    &lt;value&gt;FFFFFF00&lt;/value&gt;
+   &lt;/action&gt;
+  &lt;/actions&gt;
+ &lt;/rule&gt;
+ &lt;rule&gt;
+  &lt;conditions&gt;
+   &lt;condition test=&quot;Between&quot;&gt;
+    &lt;source&gt;Current Value&lt;/source&gt;
+    &lt;value id=&quot;1&quot;&gt;500&lt;/value&gt;
+    &lt;value id=&quot;2&quot;&gt;600&lt;/value&gt;
+   &lt;/condition&gt;
+  &lt;/conditions&gt;
+  &lt;actions&gt;
+   &lt;action type=&quot;property&quot;&gt;
+    &lt;target&gt;Lower Bound Value&lt;/target&gt;
+    &lt;value&gt;500&lt;/value&gt;
+   &lt;/action&gt;
+  &lt;/actions&gt;
+ &lt;/rule&gt;
+ &lt;rule&gt;
+  &lt;conditions&gt;
+   &lt;condition test=&quot;Between&quot;&gt;
+    &lt;source&gt;Current Value&lt;/source&gt;
+    &lt;value id=&quot;1&quot;&gt;500&lt;/value&gt;
+    &lt;value id=&quot;2&quot;&gt;600&lt;/value&gt;
+   &lt;/condition&gt;
+  &lt;/conditions&gt;
+  &lt;actions&gt;
+   &lt;action type=&quot;property&quot;&gt;
+    &lt;target&gt;Upper Bound Color&lt;/target&gt;
+    &lt;value&gt;FFFF0000&lt;/value&gt;
+   &lt;/action&gt;
+  &lt;/actions&gt;
+ &lt;/rule&gt;
+ &lt;rule&gt;
+  &lt;conditions&gt;
+   &lt;condition test=&quot;Between&quot;&gt;
+    &lt;source&gt;Current Value&lt;/source&gt;
+    &lt;value id=&quot;1&quot;&gt;500&lt;/value&gt;
+    &lt;value id=&quot;2&quot;&gt;600&lt;/value&gt;
+   &lt;/condition&gt;
+  &lt;/conditions&gt;
+  &lt;actions&gt;
+   &lt;action type=&quot;property&quot;&gt;
+    &lt;target&gt;Upper Bound Value&lt;/target&gt;
+    &lt;value&gt;600&lt;/value&gt;
+   &lt;/action&gt;
+  &lt;/actions&gt;
+ &lt;/rule&gt;
+&lt;/rules&gt;
+</value>
+        </setupitem>
+    </instance>
+    <instance class="LH_Logic/Ticker">
+        <identity name="Ticker" id="v7g54"/>
+        <state modifiable="1" selectable="1" alerts="1"/>
+        <origin x="0" y="0"/>
+        <size w="1" h="1"/>
+        <plugin_size w="1" h="1"/>
+        <pos x="183" y="42" z="1"/>
+        <x_ref id="uv39k" align="0" ref_align="0"/>
+        <y_ref id="uv39k" align="0" ref_align="0"/>
+        <w_ref id="0" mod="0" units="0"/>
+        <h_ref id="0" mod="0" units="0"/>
+        <setupitem>
+            <identity name="Ticks" type="1"/>
+        </setupitem>
+        <setupitem>
+            <identity name="Rate (ms)" type="1"/>
+            <value type="int">100</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Increment" type="1"/>
+            <value type="int">5</value>
+        </setupitem>
+        <setupitem>
+            <identity name="^Enable Conditional Formatting" type="2"/>
+            <value type="QString">true</value>
+        </setupitem>
+        <setupitem>
+            <identity name="State" type="8"/>
+        </setupitem>
+        <setupitem>
+            <identity name="Conditions XML" type="9"/>
+            <value type="QString">&lt;rules&gt;
+ &lt;rule&gt;
+  &lt;conditions&gt;
+   &lt;condition test=&quot;Greater than&quot;&gt;
+    &lt;source&gt;Ticks&lt;/source&gt;
+    &lt;value id=&quot;1&quot;&gt;600&lt;/value&gt;
+   &lt;/condition&gt;
+  &lt;/conditions&gt;
+  &lt;actions&gt;
+   &lt;action type=&quot;property&quot;&gt;
+    &lt;target&gt;Ticks&lt;/target&gt;
+    &lt;value&gt;0&lt;/value&gt;
+   &lt;/action&gt;
+  &lt;/actions&gt;
+ &lt;/rule&gt;
+ &lt;rule&gt;
+  &lt;conditions&gt;
+   &lt;condition test=&quot;Less than&quot;&gt;
+    &lt;source&gt;Ticks&lt;/source&gt;
+    &lt;value id=&quot;1&quot;&gt;0&lt;/value&gt;
+   &lt;/condition&gt;
+  &lt;/conditions&gt;
+  &lt;actions&gt;
+   &lt;action type=&quot;property&quot;&gt;
+    &lt;target&gt;Ticks&lt;/target&gt;
+    &lt;value&gt;600&lt;/value&gt;
+   &lt;/action&gt;
+  &lt;/actions&gt;
+ &lt;/rule&gt;
+&lt;/rules&gt;
+</value>
+        </setupitem>
+    </instance>
+</instance>

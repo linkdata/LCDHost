@@ -1,0 +1,19 @@
+; The image map file instructs the SpeedFan Status Image on what image
+; file should be displayed for what circumstance. The images listed 
+; need to be in the same folder.
+;
+; The format is as follows:
+; <Code>	<Image File>
+; Note that each item is seperated by a tab.
+;
+; You can miss out any of the codes below and the Status Image will
+; try to adapt sensibly. Usually this results in removing a threshold,
+; apart from in the case ok leaving out the OK code, in which case no 
+; icon will be displayed whilst within the desired range.
+;
+NA	0_NA.png	; Icon for when data is unavailable
+VLO	5_danger.png	; Icon for when Value < Very Low
+LO	4_warning.png	; Icon for when Value < Low
+OK	3_good.png	; Icon for when Low <= Value < High
+
+

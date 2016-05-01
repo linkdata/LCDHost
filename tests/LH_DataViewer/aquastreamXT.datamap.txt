@@ -1,0 +1,40 @@
+[Format]
+type=xml		; xml / txt / ini
+dataExpiry=2		; # of seconds to consider the data invalid
+language=EN		; The language used by the lists in this file. Other languages can be added by copying the lists to a new text file,
+			; translating them and then saving the file as "lists.<language>.txt", e.g. lists.RU.txt
+
+[List:TempStatuses]
+; lower bound	Short Code	Caption
+	VLO	Very Low
+35	LO	Low
+45	OK	Normal
+65	HI	High
+75	VHI	Very High
+
+
+[Parsing]
+aquastreamXtLogData.Date.Year   	aquastreamXtLogData.Date	rx:[^.]*\.[^.]*\.([^.]*)
+aquastreamXtLogData.Date.Month  	aquastreamXtLogData.Date	rx:[^.]*\.([^.]*)\.[^.]*
+aquastreamXtLogData.Date.Day    	aquastreamXtLogData.Date	rx:([^.]*)\.[^.]*\.[^.]*
+aquastreamXtLogData.Time.Hours  	aquastreamXtLogData.Time	rx:([^:]*):[^:]*:[^:]*
+aquastreamXtLogData.Time.Minutes	aquastreamXtLogData.Time	rx:[^:]*:([^:]*):[^:]*
+aquastreamXtLogData.Time.Seconds	aquastreamXtLogData.Time	rx:[^:]*:[^:]*:([^:]*)
+
+aquastreamXtLogData.Temperatures
+aquastreamXtLogData.Temperatures.Electronic
+aquastreamXtLogData.Temperatures.Electronic.*Value	aquastreamXtLogData.TemperatureElectronic
+aquastreamXtLogData.Temperatures.Electronic.Level	aquastreamXtLogData.TemperatureElectronic	list:TempStatuses,2
+aquastreamXtLogData.Temperatures.Electronic.Level.Code	aquastreamXtLogData.TemperatureElectronic	list:TempStatuses,1
+
+aquastreamXtLogData.Temperatures.Ext
+aquastreamXtLogData.Temperatures.Ext.*Value	aquastreamXtLogData.TemperatureSensorExt
+aquastreamXtLogData.Temperatures.Ext.Level	aquastreamXtLogData.TemperatureSensorExt	list:TempStatuses,2
+aquastreamXtLogData.Temperatures.Ext.Level.Code	aquastreamXtLogData.TemperatureSensorExt	list:TempStatuses,1
+
+aquastreamXtLogData.Temperatures.Water
+aquastreamXtLogData.Temperatures.Water.*Value	aquastreamXtLogData.TemperatureSensorWater
+aquastreamXtLogData.Temperatures.Water.Level	aquastreamXtLogData.TemperatureSensorWater	list:TempStatuses,2
+aquastreamXtLogData.Temperatures.Water.Level.Code	aquastreamXtLogData.TemperatureSensorWater	list:TempStatuses,1
+
+

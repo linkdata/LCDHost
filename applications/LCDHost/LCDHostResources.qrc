@@ -1,0 +1,26 @@
+<RCC>
+    <qresource prefix="/lcdhost">
+        <file>images/padlockclosed24.ico</file>
+        <file>images/padlockopen24.ico</file>
+        <file>images/settings24.ico</file>
+        <file>images/delete24.ico</file>
+        <file>images/error.png</file>
+        <file>images/information.png</file>
+        <file>images/warning.png</file>
+        <file>images/help.png</file>
+        <file>pubkeys/lcdhost-public.pem</file>
+        <file>images/lcdhost128.png</file>
+        <file>images/LCDHost-GB.ico</file>
+        <file>images/LCDHost.ico</file>
+        <file>images/green16.png</file>
+        <file>images/red16.png</file>
+        <file>images/green-on-16.ico</file>
+        <file>images/gray16.png</file>
+        <file>whatsnew.html</file>
+        <file>images/LCDHost-Gray.ico</file>
+        <file>images/source.png</file>
+        <file>images/sourcered.png</file>
+        <file>images/sourceout.png</file>
+        <file>images/sourcegreen.png</file>
+    </qresource>
+</RCC>

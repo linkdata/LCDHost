@@ -1,0 +1,56 @@
+; The image map file instructs the weather image on how to match up
+; a weather code with the appropriate images in the same folder.
+;
+; The format is as follows:
+; <Code>	<Day Image>	<Night Image>
+; Note that each item is seperated by a tab.
+;
+00	12.png	12.png	;tornado
+01	12.png	12.png	;tropical storm
+02	12.png	12.png	;hurricane
+03	12.png	12.png	;severe thunderstorms
+04	12.png	12.png	;thunderstorms
+05	13.png	13.png	;mixed rain and snow
+06	6d.png	6d.png	;mixed rain and sleet
+07	6d.png	6d.png	;mixed snow and sleet
+08	3.png	3.png	;freezing drizzle
+09	3.png	3.png	;drizzle
+10	4.png	4.png	;freezing rain
+11	3.png	3.png	;showers
+12	4.png	4.png	;showers
+13	11.png	11.png	;snow flurries
+14	11.png	11.png	;light snow showers
+15	11.png	11.png	;blowing snow
+16	11.png	11.png	;snow
+17	1d.png	1d.png	;hail
+18	11.png	11.png	;sleet
+19	5.png	5.png	;dust
+20	5.png	5.png	;foggy
+21	5.png	5.png	;haze
+22	5.png	5.png	;smoky
+23	23d.png	23d.png	;blustery
+24	23d.png	23d.png	;windy
+25	13.png	13.png	;cold
+26	6.png	6.png	;cloudy
+27	7.png	8.png	;mostly cloudy (night)
+28	7.png	8.png	;mostly cloudy (day)
+29	7.png	8.png	;partly cloudy (night)
+30	7.png	8.png	;partly cloudy (day)
+31	1.png	2.png	;clear (night)
+32	1.png	2.png	;sunny
+33	1.png	2.png	;fair (night)
+34	1.png	2.png	;fair (day)
+35	1d.png	1d.png	;mixed rain and hail
+36	1.png	2.png	;hot
+37	14.png	14.png	;isolated thunderstorms
+38	14.png	14.png	;scattered thunderstorms
+39	14.png	14.png	;scattered thunderstorms
+40	3.png	3.png	;scattered showers
+41	11.png	11.png	;heavy snow
+42	11.png	11.png	;scattered snow showers
+43	11.png  11.png	;heavy snow
+44	7.png	8.png	;partly cloudy
+45	12.png	12.png	;thundershowers
+46	11.png	11.png	;snow showers
+47	12.png	12.png	;isolated thundershowers
+3200	44d.png	44d.png	;not available

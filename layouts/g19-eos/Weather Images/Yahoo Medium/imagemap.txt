@@ -1,0 +1,56 @@
+; The image map file instructs the weather image on how to match up			
+; a weather code with the appropriate images in the same folder.			
+;			
+; The format is as follows:			
+; <Code>	<Day Image>	<Night Image>	
+; Note that each item is seperated by a tab.			
+;			
+0	0.gif	0.gif	;tornado
+1	1.gif	1.gif	;tropical storm
+2	2.gif	2.gif	;hurricane
+3	3.gif	3.gif	;severe thunderstorms
+4	4.gif	4.gif	;thunderstorms
+5	5.gif	5.gif	;mixed rain and snow
+6	6.gif	6.gif	;mixed rain and sleet
+7	7.gif	7.gif	;mixed snow and sleet
+8	8.gif	8.gif	;freezing drizzle
+9	9.gif	9.gif	;drizzle
+10	10.gif	10.gif	;freezing rain
+11	11.gif	11.gif	;showers
+12	12.gif	12.gif	;showers
+13	13.gif	13.gif	;snow flurries
+14	14.gif	14.gif	;light snow showers
+15	15.gif	15.gif	;blowing snow
+16	16.gif	16.gif	;snow
+17	17.gif	17.gif	;hail
+18	18.gif	18.gif	;sleet
+19	19.gif	19.gif	;dust
+20	20.gif	20.gif	;foggy
+21	21.gif	21.gif	;haze
+22	22.gif	22.gif	;smoky
+23	23.gif	23.gif	;blustery
+24	24.gif	24.gif	;windy
+25	25.gif	25.gif	;cold
+26	26.gif	26.gif	;cloudy
+27	27.gif	27.gif	;mostly cloudy (night)
+28	28.gif	28.gif	;mostly cloudy (day)
+29	29.gif	29.gif	;partly cloudy (night)
+30	30.gif	30.gif	;partly cloudy (day)
+31	31.gif	31.gif	;clear (night)
+32	32.gif	32.gif	;sunny
+33	33.gif	33.gif	;fair (night)
+34	34.gif	34.gif	;fair (day)
+35	35.gif	35.gif	;mixed rain and hail
+36	36.gif	36.gif	;hot
+37	37.gif	37.gif	;isolated thunderstorms
+38	38.gif	38.gif	;scattered thunderstorms
+39	39.gif	39.gif	;scattered thunderstorms
+40	40.gif	40.gif	;scattered showers
+41	41.gif	41.gif	;heavy snow
+42	42.gif	42.gif	;scattered snow showers
+43	43.gif	43.gif	;heavy snow
+44	44.gif	44.gif	;partly cloudy
+45	45.gif	45.gif	;thundershowers
+46	46.gif	46.gif	;snow showers
+47	47.gif	47.gif	;isolated thundershowers
+3200	3200.gif	3200.gif	;not available

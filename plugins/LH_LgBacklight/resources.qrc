@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/LH_Backlight">
+        <file>source.png</file>
+    </qresource>
+</RCC>

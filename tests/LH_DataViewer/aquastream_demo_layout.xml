@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<instance>
+    <identity name="Virtual 320x240x32 device" id="33nuhk"/>
+    <state modifiable="0" selectable="0" alerts="1"/>
+    <origin x="0" y="0"/>
+    <size w="320" h="240"/>
+    <plugin_size w="-1" h="-1"/>
+    <pos x="0" y="0" z="0"/>
+    <x_ref id="0" align="0" ref_align="0"/>
+    <y_ref id="0" align="0" ref_align="0"/>
+    <w_ref id="0" mod="0" units="0"/>
+    <h_ref id="0" mod="0" units="0"/>
+    <instance class="LH_Decor/StaticBackground">
+        <identity name="Background [1]" id="3ag12w"/>
+        <state modifiable="1" selectable="1" alerts="1"/>
+        <origin x="0" y="0"/>
+        <size w="320" h="240"/>
+        <plugin_size w="-1" h="-1"/>
+        <pos x="0" y="0" z="0"/>
+        <x_ref id="33nuhk" align="0" ref_align="0"/>
+        <y_ref id="33nuhk" align="0" ref_align="0"/>
+        <w_ref id="33nuhk" mod="0" units="0"/>
+        <h_ref id="33nuhk" mod="0" units="0"/>
+        <setupitem>
+            <identity name="First color" type="3"/>
+            <value type="QString">-15637142</value>
+        </setupitem>
+        <setupitem>
+            <identity name="^Background is a gradient" type="2"/>
+            <value type="QString">true</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Second color" type="3"/>
+            <value type="QString">-15847082</value>
+        </setupitem>
+        <setupitem>
+            <identity name="^Gradient is horizontal" type="2"/>
+            <value type="QString">false</value>
+        </setupitem>
+    </instance>
+    <instance class="LH_DataViewer/DataViewerConnector">
+        <identity name="Data Connector [1]" id="3ag2zc"/>
+        <state modifiable="1" selectable="1" alerts="1"/>
+        <origin x="0" y="0"/>
+        <size w="64" h="16"/>
+        <plugin_size w="64" h="16"/>
+        <pos x="76" y="-44" z="1"/>
+        <x_ref id="33nuhk" align="0" ref_align="0"/>
+        <y_ref id="33nuhk" align="0" ref_align="0"/>
+        <w_ref id="0" mod="0" units="0"/>
+        <h_ref id="0" mod="0" units="0"/>
+        <setupitem>
+            <identity name="Language" type="6"/>
+            <value type="int">0</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Data Map" type="10"/>
+            <value type="QString">aquastreamXT.datamap.txt</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Data Source" type="10"/>
+            <value type="QString">aquastreamXT.xml</value>
+        </setupitem>
+    </instance>
+    <instance class="LH_DataViewer/DataViewerText">
+        <identity name="Data Text [1]" id="3ag3i0"/>
+        <state modifiable="1" selectable="1" alerts="1"/>
+        <origin x="0" y="0"/>
+        <size w="41" h="19"/>
+        <plugin_size w="41" h="19"/>
+        <pos x="133" y="45" z="2"/>
+        <x_ref id="33nuhk" align="0" ref_align="0"/>
+        <y_ref id="33nuhk" align="0" ref_align="0"/>
+        <w_ref id="0" mod="0" units="0"/>
+        <h_ref id="0" mod="0" units="0"/>
+        <setupitem>
+            <identity name="Data Template" type="8"/>
+            <value type="QString">{={aquastreamXtLogData.PumpFrequency}:%.2f}</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Font" type="11"/>
+            <value type="QString">Arial,10,-1,5,50,0,0,0,0,0</value>
+        </setupitem>
+        <setupitem>
+            <identity name="^Adjust font size to instance height" type="2"/>
+            <value type="QString">true</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Color" type="3"/>
+            <value type="QString">-16777216</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Background" type="3"/>
+            <value type="QString">0</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Horizontal" type="6"/>
+            <value type="QString">0</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Vertical" type="6"/>
+            <value type="QString">0</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Scroll rate" type="4"/>
+            <value type="QString">15</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Scroll step" type="4"/>
+            <value type="QString">2</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Scroll gap" type="4"/>
+            <value type="QString">10</value>
+        </setupitem>
+        <setupitem>
+            <identity name="^Enable Conditional Formatting" type="2"/>
+            <value type="QString">false</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Conditions XML" type="9"/>
+            <value type="QString">&lt;rules/&gt;</value>
+        </setupitem>
+    </instance>
+    <instance class="LH_DataViewer/DataViewerText">
+        <identity name="Data Text [1]" id="3ag3ug"/>
+        <state modifiable="1" selectable="1" alerts="1"/>
+        <origin x="0" y="0"/>
+        <size w="41" h="19"/>
+        <plugin_size w="41" h="19"/>
+        <pos x="109" y="120" z="3"/>
+        <x_ref id="33nuhk" align="0" ref_align="0"/>
+        <y_ref id="33nuhk" align="0" ref_align="0"/>
+        <w_ref id="0" mod="0" units="0"/>
+        <h_ref id="0" mod="0" units="0"/>
+        <setupitem>
+            <identity name="Data Template" type="8"/>
+            <value type="QString">{aquastreamXtLogData.Temperatures.Electronic}</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Font" type="11"/>
+            <value type="QString">Arial,10,-1,5,50,0,0,0,0,0</value>
+        </setupitem>
+        <setupitem>
+            <identity name="^Adjust font size to instance height" type="2"/>
+            <value type="QString">true</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Color" type="3"/>
+            <value type="QString">-16777216</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Background" type="3"/>
+            <value type="QString">0</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Horizontal" type="6"/>
+            <value type="QString">0</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Vertical" type="6"/>
+            <value type="QString">0</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Scroll rate" type="4"/>
+            <value type="QString">15</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Scroll step" type="4"/>
+            <value type="QString">2</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Scroll gap" type="4"/>
+            <value type="QString">10</value>
+        </setupitem>
+        <setupitem>
+            <identity name="^Enable Conditional Formatting" type="2"/>
+            <value type="QString">false</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Conditions XML" type="9"/>
+            <value type="QString">&lt;rules/&gt;</value>
+        </setupitem>
+    </instance>
+    <instance class="LH_DataViewer/DataViewerText">
+        <identity name="Data Text [2]" id="3ag35k"/>
+        <state modifiable="1" selectable="1" alerts="1"/>
+        <origin x="0" y="0"/>
+        <size w="68" h="19"/>
+        <plugin_size w="68" h="19"/>
+        <pos x="153" y="120" z="4"/>
+        <x_ref id="33nuhk" align="0" ref_align="0"/>
+        <y_ref id="33nuhk" align="0" ref_align="0"/>
+        <w_ref id="0" mod="0" units="0"/>
+        <h_ref id="0" mod="0" units="0"/>
+        <setupitem>
+            <identity name="Data Template" type="8"/>
+            <value type="QString">{aquastreamXtLogData.Temperatures.Electronic.Level}</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Font" type="11"/>
+            <value type="QString">Arial,10,-1,5,50,0,0,0,0,0</value>
+        </setupitem>
+        <setupitem>
+            <identity name="^Adjust font size to instance height" type="2"/>
+            <value type="QString">true</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Color" type="3"/>
+            <value type="QString">-16777216</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Background" type="3"/>
+            <value type="QString">0</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Horizontal" type="6"/>
+            <value type="QString">0</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Vertical" type="6"/>
+            <value type="QString">0</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Scroll rate" type="4"/>
+            <value type="QString">15</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Scroll step" type="4"/>
+            <value type="QString">2</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Scroll gap" type="4"/>
+            <value type="QString">10</value>
+        </setupitem>
+        <setupitem>
+            <identity name="^Enable Conditional Formatting" type="2"/>
+            <value type="QString">false</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Conditions XML" type="9"/>
+            <value type="QString">&lt;rules/&gt;</value>
+        </setupitem>
+    </instance>
+    <instance class="LH_DataViewer/DataViewerExpiredImage">
+        <identity name="Data Expired Image [1]" id="3ag4jc"/>
+        <state modifiable="1" selectable="1" alerts="1"/>
+        <origin x="0" y="0"/>
+        <size w="24" h="24"/>
+        <plugin_size w="24" h="24"/>
+        <pos x="278" y="-33" z="5"/>
+        <x_ref id="0" align="0" ref_align="0"/>
+        <y_ref id="0" align="0" ref_align="0"/>
+        <w_ref id="0" mod="0" units="0"/>
+        <h_ref id="0" mod="0" units="0"/>
+        <setupitem>
+            <identity name="File" type="10"/>
+            <value type="QString"></value>
+        </setupitem>
+        <instance class="LH_Text/StaticText">
+            <identity name="Text [1]" id="3ag588"/>
+            <state modifiable="1" selectable="1" alerts="1"/>
+            <origin x="0" y="0"/>
+            <size w="122" h="19"/>
+            <plugin_size w="122" h="19"/>
+            <pos x="-180" y="39" z="0"/>
+            <x_ref id="0" align="0" ref_align="0"/>
+            <y_ref id="0" align="0" ref_align="0"/>
+            <w_ref id="0" mod="0" units="0"/>
+            <h_ref id="0" mod="0" units="0"/>
+            <setupitem>
+                <identity name="Text" type="8"/>
+                <value type="QString">DATA EXPIRED!</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Font" type="11"/>
+                <value type="QString">Arial,10,-1,5,50,0,0,0,0,0</value>
+            </setupitem>
+            <setupitem>
+                <identity name="^Adjust font size to instance height" type="2"/>
+                <value type="bool">true</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Color" type="3"/>
+                <value type="int">-8388608</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Background" type="3"/>
+                <value type="int">0</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Horizontal" type="6"/>
+                <value type="int">0</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Vertical" type="6"/>
+                <value type="int">0</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Scroll rate" type="4"/>
+                <value type="int">15</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Scroll step" type="4"/>
+                <value type="int">2</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Scroll gap" type="4"/>
+                <value type="int">10</value>
+            </setupitem>
+            <setupitem>
+                <identity name="^Enable Conditional Formatting" type="2"/>
+                <value type="bool">false</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Conditions XML" type="9"/>
+                <value type="QString">&lt;rules/&gt;</value>
+            </setupitem>
+        </instance>
+    </instance>
+</instance>

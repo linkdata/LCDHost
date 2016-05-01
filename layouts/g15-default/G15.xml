@@ -1,0 +1,1477 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<instance>
+    <identity name="Logitech QVGA device" id="l33yw"/>
+    <state modifiable="0" selectable="0" alerts="1"/>
+    <origin x="0" y="0"/>
+    <size w="320" h="240"/>
+    <plugin_size w="-1" h="-1"/>
+    <pos x="0" y="0" z="0"/>
+    <x_ref id="0" align="0" ref_align="0"/>
+    <y_ref id="0" align="0" ref_align="0"/>
+    <w_ref id="0" mod="0" units="0"/>
+    <h_ref id="0" mod="0" units="0"/>
+    <instance class="LH_Weather/WeatherConnector">
+        <identity name="Weather Connector [1]" id="v54c0"/>
+        <state modifiable="1" selectable="1" alerts="1"/>
+        <origin x="0" y="0"/>
+        <size w="437" h="19"/>
+        <plugin_size w="437" h="19"/>
+        <pos x="0" y="0" z="0"/>
+        <x_ref id="l33yw" align="0" ref_align="0"/>
+        <y_ref id="l33yw" align="0" ref_align="0"/>
+        <w_ref id="0" mod="0" units="0"/>
+        <h_ref id="0" mod="0" units="0"/>
+        <setupitem>
+            <identity name="Text" type="8"/>
+            <value type="QString"> </value>
+        </setupitem>
+        <setupitem>
+            <identity name="Location" type="8"/>
+            <value type="QString">Orleans, france</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Y! WOEID" type="8"/>
+            <value type="QString">615134</value>
+        </setupitem>
+        <setupitem>
+            <identity name="LongLat" type="8"/>
+            <value type="QString"></value>
+        </setupitem>
+        <setupitem>
+            <identity name="Y! 5Day ID" type="8"/>
+            <value type="QString">FRXX0074</value>
+        </setupitem>
+        <setupitem>
+            <identity name=" " type="8"/>
+            <value type="QString">Orleans, France</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Open in browser" type="12"/>
+            <value type="QString"></value>
+        </setupitem>
+        <setupitem>
+            <identity name="Units" type="6"/>
+            <value type="QString">0</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Font" type="11"/>
+            <value type="QString">Arial,10,-1,5,50,0,0,0,0,0</value>
+        </setupitem>
+        <setupitem>
+            <identity name="^Adjust font size to instance height" type="2"/>
+            <value type="QString">true</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Color" type="3"/>
+            <value type="QString">-16777216</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Background" type="3"/>
+            <value type="QString">0</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Horizontal" type="6"/>
+            <value type="QString">0</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Vertical" type="6"/>
+            <value type="QString">0</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Scroll rate" type="4"/>
+            <value type="QString">15</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Scroll step" type="4"/>
+            <value type="QString">2</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Refresh (minutes)" type="1"/>
+            <value type="QString">5</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Full Weather URL" type="8"/>
+            <value type="QString">http://us.rd.yahoo.com/dailynews/rss/weather/Orleans__FR/*http://weather.yahoo.com/forecast/FRXX0074_c.html</value>
+        </setupitem>
+        <setupitem>
+            <identity name="~" type="9"/>
+            <value type="QString">The Weather Connector draws on Yahoo's weather feeds and makes the data available to all the other weather components. Adding multiple connectors is not recommended as this will end up confusing the other components.</value>
+        </setupitem>
+    </instance>
+    <instance class="LH_Decor/StaticBackground">
+        <identity name="Background [1]" id="v53ao"/>
+        <state modifiable="1" selectable="1" alerts="1"/>
+        <origin x="0" y="0"/>
+        <size w="160" h="43"/>
+        <plugin_size w="-1" h="-1"/>
+        <pos x="0" y="0" z="1"/>
+        <x_ref id="l33yw" align="0" ref_align="0"/>
+        <y_ref id="l33yw" align="0" ref_align="0"/>
+        <w_ref id="l33yw" mod="0" units="0"/>
+        <h_ref id="l33yw" mod="0" units="0"/>
+        <setupitem>
+            <identity name="First color" type="3"/>
+            <value type="QString">-16777216</value>
+        </setupitem>
+        <setupitem>
+            <identity name="^Background is a gradient" type="2"/>
+            <value type="QString">false</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Second color" type="3"/>
+            <value type="QString">-4144960</value>
+        </setupitem>
+        <setupitem>
+            <identity name="^Gradient is horizontal" type="2"/>
+            <value type="QString">false</value>
+        </setupitem>
+    </instance>
+    <instance class="LH_Image/StaticImage">
+        <identity name="Rounded rectangle [19]" id="v545s"/>
+        <state modifiable="1" selectable="1" alerts="1"/>
+        <origin x="0" y="0"/>
+        <size w="43" h="21"/>
+        <plugin_size w="-1" h="-1"/>
+        <pos x="116" y="1" z="2"/>
+        <x_ref id="l33yw" align="0" ref_align="0"/>
+        <y_ref id="l33yw" align="0" ref_align="0"/>
+        <w_ref id="0" mod="43" units="4"/>
+        <h_ref id="0" mod="21" units="4"/>
+        <setupitem>
+            <identity name="Pen width" type="4"/>
+            <value type="QString">129</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Corner rounding" type="4"/>
+            <value type="QString">20</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Pen color" type="3"/>
+            <value type="QString">-1</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Fill color 1" type="3"/>
+            <value type="QString">16777215</value>
+        </setupitem>
+        <setupitem>
+            <identity name="^Background is a gradient" type="2"/>
+            <value type="QString">false</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Fill color 2" type="3"/>
+            <value type="QString">-4144960</value>
+        </setupitem>
+        <setupitem>
+            <identity name="^Gradient is horizontal" type="2"/>
+            <value type="QString">false</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Filename" type="10"/>
+            <value type="QString">Pad.png</value>
+        </setupitem>
+    </instance>
+    <instance class="LH_NowPlaying/NowPlayingText">
+        <identity name="Now Playing (iTunes-Spotify-Winamp) [1]" id="v52ls"/>
+        <state modifiable="1" selectable="1" alerts="1"/>
+        <origin x="0" y="0"/>
+        <size w="68" h="8"/>
+        <plugin_size w="-1" h="-1"/>
+        <pos x="46" y="2" z="3"/>
+        <x_ref id="l33yw" align="0" ref_align="0"/>
+        <y_ref id="l33yw" align="0" ref_align="0"/>
+        <w_ref id="l33yw" mod="68" units="4"/>
+        <h_ref id="0" mod="8" units="4"/>
+        <setupitem>
+            <identity name="Item" type="6"/>
+            <value type="QString">8</value>
+        </setupitem>
+        <setupitem>
+            <identity name="^Custom" type="8"/>
+            <value type="QString">{artist}{artist?: &quot;}{title}{artist?:&quot;} {status?[}{status}{status?]}</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Hide &quot;Playing&quot; State" type="2"/>
+            <value type="QString">false</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Font" type="11"/>
+            <value type="QString">Arial,6,-1,5,50,0,0,0,0,0</value>
+        </setupitem>
+        <setupitem>
+            <identity name="^Adjust font size to instance height" type="2"/>
+            <value type="QString">false</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Color" type="3"/>
+            <value type="QString">-1</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Background" type="3"/>
+            <value type="QString">0</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Horizontal" type="6"/>
+            <value type="QString">3</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Vertical" type="6"/>
+            <value type="QString">0</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Scroll rate" type="4"/>
+            <value type="QString">14</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Scroll step" type="4"/>
+            <value type="QString">2</value>
+        </setupitem>
+        <instance class="LH_Image/StaticImage">
+            <identity name="Rounded rectangle [40]" id="v534g"/>
+            <state modifiable="1" selectable="1" alerts="1"/>
+            <origin x="0" y="0"/>
+            <size w="70" h="10"/>
+            <plugin_size w="-1" h="-1"/>
+            <pos x="-1" y="-1" z="0"/>
+            <x_ref id="v52ls" align="0" ref_align="0"/>
+            <y_ref id="v52ls" align="0" ref_align="0"/>
+            <w_ref id="v52ls" mod="70" units="4"/>
+            <h_ref id="v52ls" mod="10" units="4"/>
+            <setupitem>
+                <identity name="Pen width" type="4"/>
+                <value type="QString">222</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Corner rounding" type="4"/>
+                <value type="QString">20</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Pen color" type="3"/>
+                <value type="QString">-1</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Fill color 1" type="3"/>
+                <value type="QString">0</value>
+            </setupitem>
+            <setupitem>
+                <identity name="^Background is a gradient" type="2"/>
+                <value type="QString">false</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Fill color 2" type="3"/>
+                <value type="QString">-4144960</value>
+            </setupitem>
+            <setupitem>
+                <identity name="^Gradient is horizontal" type="2"/>
+                <value type="QString">false</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Filename" type="10"/>
+                <value type="QString">Pad Music.png</value>
+            </setupitem>
+        </instance>
+        <instance class="LH_Decor/StaticRectangle">
+            <identity name="Rounded rectangle [174]" id="v51e8"/>
+            <state modifiable="1" selectable="1" alerts="1"/>
+            <origin x="0" y="0"/>
+            <size w="6" h="10"/>
+            <plugin_size w="-1" h="-1"/>
+            <pos x="0" y="-1" z="1"/>
+            <x_ref id="v52ls" align="0" ref_align="0"/>
+            <y_ref id="v52ls" align="0" ref_align="0"/>
+            <w_ref id="0" mod="6" units="4"/>
+            <h_ref id="0" mod="10" units="4"/>
+            <setupitem>
+                <identity name="Pen width" type="4"/>
+                <value type="QString">0</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Corner rounding" type="4"/>
+                <value type="QString">20</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Pen color" type="3"/>
+                <value type="QString">-16777216</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Fill color 1" type="3"/>
+                <value type="QString">-1</value>
+            </setupitem>
+            <setupitem>
+                <identity name="^Background is a gradient" type="2"/>
+                <value type="QString">false</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Fill color 2" type="3"/>
+                <value type="QString">-4144960</value>
+            </setupitem>
+            <setupitem>
+                <identity name="^Gradient is horizontal" type="2"/>
+                <value type="QString">false</value>
+            </setupitem>
+        </instance>
+        <instance class="LH_Image/StaticImage">
+            <identity name="Image [1]" id="v500g"/>
+            <state modifiable="1" selectable="1" alerts="1"/>
+            <origin x="0" y="0"/>
+            <size w="6" h="10"/>
+            <plugin_size w="-1" h="-1"/>
+            <pos x="0" y="-1" z="2"/>
+            <x_ref id="v52ls" align="0" ref_align="0"/>
+            <y_ref id="v52ls" align="0" ref_align="0"/>
+            <w_ref id="0" mod="6" units="4"/>
+            <h_ref id="0" mod="10" units="4"/>
+            <setupitem>
+                <identity name="Filename" type="10"/>
+                <value type="QString">Winamp B.png</value>
+            </setupitem>
+        </instance>
+    </instance>
+    <instance class="LH_Mailcount/SystemMailIcon">
+        <identity name="Unread mail (Icon) [1]" id="v4zu8"/>
+        <state modifiable="1" selectable="1" alerts="1"/>
+        <origin x="0" y="0"/>
+        <size w="12" h="8"/>
+        <plugin_size w="-1" h="-1"/>
+        <pos x="145" y="3" z="4"/>
+        <x_ref id="l33yw" align="0" ref_align="0"/>
+        <y_ref id="l33yw" align="0" ref_align="0"/>
+        <w_ref id="0" mod="12" units="4"/>
+        <h_ref id="0" mod="8" units="4"/>
+        <setupitem>
+            <identity name="Only check address" type="8"/>
+            <value type="QString">amaury.munier@hotmail.fr</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Days back to check" type="1"/>
+            <value type="QString">7</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Mail envelope image" type="10"/>
+            <value type="QString">Mail.png</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Check interval (seconds)" type="1"/>
+            <value type="QString">2</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Flash when there is mail" type="2"/>
+            <value type="QString">false</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Use smooth flashes" type="2"/>
+            <value type="QString">false</value>
+        </setupitem>
+    </instance>
+    <instance class="LH_Image/StaticImage">
+        <identity name="Rounded rectangle [2]" id="v50pc"/>
+        <state modifiable="1" selectable="1" alerts="1"/>
+        <origin x="0" y="0"/>
+        <size w="64" h="19"/>
+        <plugin_size w="-1" h="-1"/>
+        <pos x="1" y="24" z="5"/>
+        <x_ref id="l33yw" align="0" ref_align="0"/>
+        <y_ref id="l33yw" align="0" ref_align="0"/>
+        <w_ref id="0" mod="64" units="4"/>
+        <h_ref id="0" mod="19" units="4"/>
+        <setupitem>
+            <identity name="Pen width" type="4"/>
+            <value type="QString">129</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Corner rounding" type="4"/>
+            <value type="QString">20</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Pen color" type="3"/>
+            <value type="QString">-1</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Fill color 1" type="3"/>
+            <value type="QString">16777215</value>
+        </setupitem>
+        <setupitem>
+            <identity name="^Background is a gradient" type="2"/>
+            <value type="QString">false</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Fill color 2" type="3"/>
+            <value type="QString">-4144960</value>
+        </setupitem>
+        <setupitem>
+            <identity name="^Gradient is horizontal" type="2"/>
+            <value type="QString">false</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Filename" type="10"/>
+            <value type="QString">Pad L.png</value>
+        </setupitem>
+    </instance>
+    <instance class="LH_Bar/SystemCPUAverageBar">
+        <identity name="Average Load (Bar) [9]" id="v50vk"/>
+        <state modifiable="1" selectable="1" alerts="1"/>
+        <origin x="0" y="0"/>
+        <size w="39" h="3"/>
+        <plugin_size w="-1" h="-1"/>
+        <pos x="23" y="28" z="6"/>
+        <x_ref id="l33yw" align="0" ref_align="0"/>
+        <y_ref id="l33yw" align="0" ref_align="0"/>
+        <w_ref id="l33yw" mod="39" units="4"/>
+        <h_ref id="0" mod="3" units="4"/>
+        <setupitem>
+            <identity name="Bar Style" type="6"/>
+            <value type="QString">0</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Bar Image" type="10"/>
+            <value type="QString"></value>
+        </setupitem>
+        <setupitem>
+            <identity name="Masking" type="6"/>
+            <value type="QString">0</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Transparency Mask" type="10"/>
+            <value type="QString"></value>
+        </setupitem>
+        <setupitem>
+            <identity name="Bar color (start)" type="3"/>
+            <value type="QString">-1</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Bar color (end)" type="3"/>
+            <value type="QString">-1</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Bar Background Image" type="10"/>
+            <value type="QString"></value>
+        </setupitem>
+        <setupitem>
+            <identity name="Background color" type="3"/>
+            <value type="QString">0</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Direction" type="6"/>
+            <value type="QString">0</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Spacing" type="4"/>
+            <value type="QString">0</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Discrete Segments" type="2"/>
+            <value type="QString">false</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Number of Segments" type="1"/>
+            <value type="QString">20</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Smoothing" type="4"/>
+            <value type="QString">8</value>
+        </setupitem>
+        <instance class="LH_Bar/SystemMemoryPhysicalBar">
+            <identity name="Physical memory used (Bar) [9]" id="v51qo"/>
+            <state modifiable="1" selectable="1" alerts="1"/>
+            <origin x="0" y="0"/>
+            <size w="39" h="3"/>
+            <plugin_size w="-1" h="-1"/>
+            <pos x="0" y="8" z="0"/>
+            <x_ref id="v50vk" align="0" ref_align="0"/>
+            <y_ref id="v50vk" align="0" ref_align="0"/>
+            <w_ref id="v50vk" mod="0" units="0"/>
+            <h_ref id="v50vk" mod="0" units="0"/>
+            <setupitem>
+                <identity name="Bar Style" type="6"/>
+                <value type="QString">0</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Bar Image" type="10"/>
+                <value type="QString"></value>
+            </setupitem>
+            <setupitem>
+                <identity name="Masking" type="6"/>
+                <value type="QString">0</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Transparency Mask" type="10"/>
+                <value type="QString"></value>
+            </setupitem>
+            <setupitem>
+                <identity name="Bar color (start)" type="3"/>
+                <value type="QString">-1</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Bar color (end)" type="3"/>
+                <value type="QString">-1</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Bar Background Image" type="10"/>
+                <value type="QString"></value>
+            </setupitem>
+            <setupitem>
+                <identity name="Background color" type="3"/>
+                <value type="QString">0</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Direction" type="6"/>
+                <value type="QString">0</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Spacing" type="4"/>
+                <value type="QString">0</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Discrete Segments" type="2"/>
+                <value type="QString">false</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Number of Segments" type="1"/>
+                <value type="QString">20</value>
+            </setupitem>
+            <instance class="LH_Image/StaticImage">
+                <identity name="Rounded rectangle [13]" id="v53gw"/>
+                <state modifiable="1" selectable="1" alerts="1"/>
+                <origin x="0" y="0"/>
+                <size w="41" h="5"/>
+                <plugin_size w="-1" h="-1"/>
+                <pos x="-1" y="-1" z="0"/>
+                <x_ref id="v51qo" align="0" ref_align="0"/>
+                <y_ref id="v51qo" align="0" ref_align="0"/>
+                <w_ref id="v51qo" mod="2" units="0"/>
+                <h_ref id="v51qo" mod="2" units="0"/>
+                <setupitem>
+                    <identity name="Pen width" type="4"/>
+                    <value type="QString">430</value>
+                </setupitem>
+                <setupitem>
+                    <identity name="Corner rounding" type="4"/>
+                    <value type="QString">100</value>
+                </setupitem>
+                <setupitem>
+                    <identity name="Pen color" type="3"/>
+                    <value type="QString">-1</value>
+                </setupitem>
+                <setupitem>
+                    <identity name="Fill color 1" type="3"/>
+                    <value type="QString">16777215</value>
+                </setupitem>
+                <setupitem>
+                    <identity name="^Background is a gradient" type="2"/>
+                    <value type="QString">false</value>
+                </setupitem>
+                <setupitem>
+                    <identity name="Fill color 2" type="3"/>
+                    <value type="QString">-4144960</value>
+                </setupitem>
+                <setupitem>
+                    <identity name="^Gradient is horizontal" type="2"/>
+                    <value type="QString">false</value>
+                </setupitem>
+                <setupitem>
+                    <identity name="Filename" type="10"/>
+                    <value type="QString">Bars.png</value>
+                </setupitem>
+            </instance>
+        </instance>
+        <instance class="LH_Image/StaticImage">
+            <identity name="Rounded rectangle [14]" id="v52s0"/>
+            <state modifiable="1" selectable="1" alerts="1"/>
+            <origin x="0" y="0"/>
+            <size w="41" h="5"/>
+            <plugin_size w="-1" h="-1"/>
+            <pos x="-1" y="-1" z="1"/>
+            <x_ref id="v50vk" align="0" ref_align="0"/>
+            <y_ref id="v50vk" align="0" ref_align="0"/>
+            <w_ref id="v50vk" mod="41" units="4"/>
+            <h_ref id="v50vk" mod="5" units="4"/>
+            <setupitem>
+                <identity name="Filename" type="10"/>
+                <value type="QString">Bars.png</value>
+            </setupitem>
+        </instance>
+        <instance class="LH_Decor/StaticRectangle">
+            <identity name="Rounded rectangle [1]" id="v52y8"/>
+            <state modifiable="1" selectable="1" alerts="1"/>
+            <origin x="0" y="0"/>
+            <size w="20" h="19"/>
+            <plugin_size w="-1" h="-1"/>
+            <pos x="-22" y="-4" z="2"/>
+            <x_ref id="v50vk" align="0" ref_align="0"/>
+            <y_ref id="v50vk" align="0" ref_align="0"/>
+            <w_ref id="0" mod="20" units="4"/>
+            <h_ref id="0" mod="19" units="4"/>
+            <setupitem>
+                <identity name="Pen width" type="4"/>
+                <value type="QString">0</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Corner rounding" type="4"/>
+                <value type="QString">47</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Pen color" type="3"/>
+                <value type="QString">16777215</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Fill color 1" type="3"/>
+                <value type="QString">-1</value>
+            </setupitem>
+            <setupitem>
+                <identity name="^Background is a gradient" type="2"/>
+                <value type="QString">false</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Fill color 2" type="3"/>
+                <value type="QString">-4144960</value>
+            </setupitem>
+            <setupitem>
+                <identity name="^Gradient is horizontal" type="2"/>
+                <value type="QString">false</value>
+            </setupitem>
+        </instance>
+        <instance class="LH_Text/StaticText">
+            <identity name="CPU" id="v529c"/>
+            <state modifiable="1" selectable="1" alerts="1"/>
+            <origin x="0" y="0"/>
+            <size w="18" h="10"/>
+            <plugin_size w="-1" h="-1"/>
+            <pos x="-21" y="-4" z="3"/>
+            <x_ref id="v50vk" align="0" ref_align="0"/>
+            <y_ref id="v50vk" align="0" ref_align="0"/>
+            <w_ref id="0" mod="18" units="4"/>
+            <h_ref id="0" mod="10" units="4"/>
+            <setupitem>
+                <identity name="Text" type="8"/>
+                <value type="QString">CPU</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Font" type="11"/>
+                <value type="QString">Arial,6,-1,5,50,0,0,0,0,0</value>
+            </setupitem>
+            <setupitem>
+                <identity name="^Adjust font size to instance height" type="2"/>
+                <value type="QString">false</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Color" type="3"/>
+                <value type="QString">-16777216</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Background" type="3"/>
+                <value type="QString">0</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Horizontal" type="6"/>
+                <value type="QString">0</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Vertical" type="6"/>
+                <value type="QString">0</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Scroll rate" type="4"/>
+                <value type="QString">15</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Scroll step" type="4"/>
+                <value type="QString">2</value>
+            </setupitem>
+        </instance>
+        <instance class="LH_Text/StaticText">
+            <identity name="RAM" id="v50j4"/>
+            <state modifiable="1" selectable="1" alerts="1"/>
+            <origin x="0" y="0"/>
+            <size w="18" h="10"/>
+            <plugin_size w="-1" h="-1"/>
+            <pos x="-21" y="5" z="4"/>
+            <x_ref id="v50vk" align="0" ref_align="0"/>
+            <y_ref id="v50vk" align="0" ref_align="0"/>
+            <w_ref id="v529c" mod="0" units="0"/>
+            <h_ref id="v529c" mod="0" units="0"/>
+            <setupitem>
+                <identity name="Text" type="8"/>
+                <value type="QString">RAM</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Font" type="11"/>
+                <value type="QString">Arial,6,-1,5,50,0,0,0,0,0</value>
+            </setupitem>
+            <setupitem>
+                <identity name="^Adjust font size to instance height" type="2"/>
+                <value type="QString">false</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Color" type="3"/>
+                <value type="QString">-16777216</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Background" type="3"/>
+                <value type="QString">0</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Horizontal" type="6"/>
+                <value type="QString">0</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Vertical" type="6"/>
+                <value type="QString">0</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Scroll rate" type="4"/>
+                <value type="QString">15</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Scroll step" type="4"/>
+                <value type="QString">2</value>
+            </setupitem>
+        </instance>
+    </instance>
+    <instance class="LH_Image/StaticImage">
+        <identity name="Rounded rectangle [9]" id="v50cw"/>
+        <state modifiable="1" selectable="1" alerts="1"/>
+        <origin x="0" y="0"/>
+        <size w="64" h="19"/>
+        <plugin_size w="-1" h="-1"/>
+        <pos x="95" y="24" z="7"/>
+        <x_ref id="l33yw" align="0" ref_align="0"/>
+        <y_ref id="l33yw" align="0" ref_align="0"/>
+        <w_ref id="0" mod="64" units="4"/>
+        <h_ref id="0" mod="19" units="4"/>
+        <setupitem>
+            <identity name="Pen width" type="4"/>
+            <value type="QString">129</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Corner rounding" type="4"/>
+            <value type="QString">20</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Pen color" type="3"/>
+            <value type="QString">-1</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Fill color 1" type="3"/>
+            <value type="QString">16777215</value>
+        </setupitem>
+        <setupitem>
+            <identity name="^Background is a gradient" type="2"/>
+            <value type="QString">false</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Fill color 2" type="3"/>
+            <value type="QString">-4144960</value>
+        </setupitem>
+        <setupitem>
+            <identity name="^Gradient is horizontal" type="2"/>
+            <value type="QString">false</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Filename" type="10"/>
+            <value type="QString">Pad L.png</value>
+        </setupitem>
+    </instance>
+    <instance class="LH_Bar/SystemNetworkInboundBar">
+        <identity name="Inbound Bandwidth Usage (Bar) [9]" id="v5234"/>
+        <state modifiable="1" selectable="1" alerts="1"/>
+        <origin x="0" y="0"/>
+        <size w="39" h="3"/>
+        <plugin_size w="-1" h="-1"/>
+        <pos x="98" y="28" z="8"/>
+        <x_ref id="l33yw" align="0" ref_align="0"/>
+        <y_ref id="l33yw" align="0" ref_align="0"/>
+        <w_ref id="0" mod="39" units="4"/>
+        <h_ref id="0" mod="3" units="4"/>
+        <setupitem>
+            <identity name="Bar Style" type="6"/>
+            <value type="QString">0</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Bar Image" type="10"/>
+            <value type="QString"></value>
+        </setupitem>
+        <setupitem>
+            <identity name="Masking" type="6"/>
+            <value type="QString">0</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Transparency Mask" type="10"/>
+            <value type="QString"></value>
+        </setupitem>
+        <setupitem>
+            <identity name="Bar color (start)" type="3"/>
+            <value type="QString">-1</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Bar color (end)" type="3"/>
+            <value type="QString">-1</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Bar Background Image" type="10"/>
+            <value type="QString"></value>
+        </setupitem>
+        <setupitem>
+            <identity name="Background color" type="3"/>
+            <value type="QString">0</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Direction" type="6"/>
+            <value type="QString">4</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Spacing" type="4"/>
+            <value type="QString">0</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Discrete Segments" type="2"/>
+            <value type="QString">false</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Number of Segments" type="1"/>
+            <value type="QString">20</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Smoothing" type="4"/>
+            <value type="QString">8</value>
+        </setupitem>
+        <instance class="LH_Bar/SystemNetworkOutboundBar">
+            <identity name="Outbound Bandwidth Usage (Bar) [9]" id="v51kg"/>
+            <state modifiable="1" selectable="1" alerts="1"/>
+            <origin x="0" y="0"/>
+            <size w="39" h="3"/>
+            <plugin_size w="-1" h="-1"/>
+            <pos x="0" y="8" z="0"/>
+            <x_ref id="v5234" align="0" ref_align="0"/>
+            <y_ref id="v5234" align="0" ref_align="0"/>
+            <w_ref id="v5234" mod="0" units="0"/>
+            <h_ref id="v5234" mod="0" units="0"/>
+            <setupitem>
+                <identity name="Bar Style" type="6"/>
+                <value type="QString">0</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Bar Image" type="10"/>
+                <value type="QString"></value>
+            </setupitem>
+            <setupitem>
+                <identity name="Masking" type="6"/>
+                <value type="QString">0</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Transparency Mask" type="10"/>
+                <value type="QString"></value>
+            </setupitem>
+            <setupitem>
+                <identity name="Bar color (start)" type="3"/>
+                <value type="QString">-1</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Bar color (end)" type="3"/>
+                <value type="QString">-1</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Bar Background Image" type="10"/>
+                <value type="QString"></value>
+            </setupitem>
+            <setupitem>
+                <identity name="Background color" type="3"/>
+                <value type="QString">0</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Direction" type="6"/>
+                <value type="QString">4</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Spacing" type="4"/>
+                <value type="QString">0</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Discrete Segments" type="2"/>
+                <value type="QString">false</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Number of Segments" type="1"/>
+                <value type="QString">20</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Smoothing" type="4"/>
+                <value type="QString">8</value>
+            </setupitem>
+            <instance class="LH_Image/StaticImage">
+                <identity name="Rounded rectangle [11]" id="v51ww"/>
+                <state modifiable="1" selectable="1" alerts="1"/>
+                <origin x="0" y="0"/>
+                <size w="41" h="5"/>
+                <plugin_size w="-1" h="-1"/>
+                <pos x="-1" y="-1" z="0"/>
+                <x_ref id="v51kg" align="0" ref_align="0"/>
+                <y_ref id="v51kg" align="0" ref_align="0"/>
+                <w_ref id="v51kg" mod="2" units="0"/>
+                <h_ref id="v51kg" mod="2" units="0"/>
+                <setupitem>
+                    <identity name="Pen width" type="4"/>
+                    <value type="QString">430</value>
+                </setupitem>
+                <setupitem>
+                    <identity name="Corner rounding" type="4"/>
+                    <value type="QString">100</value>
+                </setupitem>
+                <setupitem>
+                    <identity name="Pen color" type="3"/>
+                    <value type="QString">-1</value>
+                </setupitem>
+                <setupitem>
+                    <identity name="Fill color 1" type="3"/>
+                    <value type="QString">16777215</value>
+                </setupitem>
+                <setupitem>
+                    <identity name="^Background is a gradient" type="2"/>
+                    <value type="QString">false</value>
+                </setupitem>
+                <setupitem>
+                    <identity name="Fill color 2" type="3"/>
+                    <value type="QString">-4144960</value>
+                </setupitem>
+                <setupitem>
+                    <identity name="^Gradient is horizontal" type="2"/>
+                    <value type="QString">false</value>
+                </setupitem>
+                <setupitem>
+                    <identity name="Filename" type="10"/>
+                    <value type="QString">Bars.png</value>
+                </setupitem>
+            </instance>
+        </instance>
+        <instance class="LH_Decor/StaticRectangle">
+            <identity name="Rounded rectangle [10]" id="v5180"/>
+            <state modifiable="1" selectable="1" alerts="1"/>
+            <origin x="0" y="0"/>
+            <size w="20" h="19"/>
+            <plugin_size w="-1" h="-1"/>
+            <pos x="41" y="-4" z="1"/>
+            <x_ref id="v5234" align="0" ref_align="0"/>
+            <y_ref id="v5234" align="0" ref_align="0"/>
+            <w_ref id="0" mod="20" units="4"/>
+            <h_ref id="0" mod="19" units="4"/>
+            <setupitem>
+                <identity name="Pen width" type="4"/>
+                <value type="QString">0</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Corner rounding" type="4"/>
+                <value type="QString">47</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Pen color" type="3"/>
+                <value type="QString">16777215</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Fill color 1" type="3"/>
+                <value type="QString">-1</value>
+            </setupitem>
+            <setupitem>
+                <identity name="^Background is a gradient" type="2"/>
+                <value type="QString">false</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Fill color 2" type="3"/>
+                <value type="QString">-4144960</value>
+            </setupitem>
+            <setupitem>
+                <identity name="^Gradient is horizontal" type="2"/>
+                <value type="QString">false</value>
+            </setupitem>
+        </instance>
+        <instance class="LH_Text/StaticText">
+            <identity name="IN" id="v511s"/>
+            <state modifiable="1" selectable="1" alerts="1"/>
+            <origin x="0" y="0"/>
+            <size w="18" h="10"/>
+            <plugin_size w="-1" h="-1"/>
+            <pos x="42" y="-4" z="2"/>
+            <x_ref id="v5234" align="0" ref_align="0"/>
+            <y_ref id="v5234" align="0" ref_align="0"/>
+            <w_ref id="0" mod="18" units="4"/>
+            <h_ref id="0" mod="10" units="4"/>
+            <setupitem>
+                <identity name="Text" type="8"/>
+                <value type="QString">IN</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Font" type="11"/>
+                <value type="QString">Arial,6,-1,5,50,0,0,0,0,0</value>
+            </setupitem>
+            <setupitem>
+                <identity name="^Adjust font size to instance height" type="2"/>
+                <value type="QString">false</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Color" type="3"/>
+                <value type="QString">-16777216</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Background" type="3"/>
+                <value type="QString">0</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Horizontal" type="6"/>
+                <value type="QString">0</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Vertical" type="6"/>
+                <value type="QString">0</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Scroll rate" type="4"/>
+                <value type="QString">15</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Scroll step" type="4"/>
+                <value type="QString">2</value>
+            </setupitem>
+        </instance>
+        <instance class="LH_Text/StaticText">
+            <identity name="OUT" id="v52fk"/>
+            <state modifiable="1" selectable="1" alerts="1"/>
+            <origin x="0" y="0"/>
+            <size w="18" h="10"/>
+            <plugin_size w="-1" h="-1"/>
+            <pos x="42" y="5" z="3"/>
+            <x_ref id="v5234" align="0" ref_align="0"/>
+            <y_ref id="v5234" align="0" ref_align="0"/>
+            <w_ref id="v511s" mod="0" units="0"/>
+            <h_ref id="v511s" mod="0" units="0"/>
+            <setupitem>
+                <identity name="Text" type="8"/>
+                <value type="QString">OUT</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Font" type="11"/>
+                <value type="QString">Arial,6,-1,5,50,0,0,0,0,0</value>
+            </setupitem>
+            <setupitem>
+                <identity name="^Adjust font size to instance height" type="2"/>
+                <value type="QString">false</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Color" type="3"/>
+                <value type="QString">-16777216</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Background" type="3"/>
+                <value type="QString">0</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Horizontal" type="6"/>
+                <value type="QString">0</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Vertical" type="6"/>
+                <value type="QString">0</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Scroll rate" type="4"/>
+                <value type="QString">15</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Scroll step" type="4"/>
+                <value type="QString">2</value>
+            </setupitem>
+        </instance>
+        <instance class="LH_Image/StaticImage">
+            <identity name="Rounded rectangle [12]" id="1i56kg"/>
+            <state modifiable="1" selectable="1" alerts="1"/>
+            <origin x="0" y="0"/>
+            <size w="41" h="5"/>
+            <plugin_size w="-1" h="-1"/>
+            <pos x="-1" y="-1" z="4"/>
+            <x_ref id="v5234" align="0" ref_align="0"/>
+            <y_ref id="v5234" align="0" ref_align="0"/>
+            <w_ref id="v5234" mod="2" units="0"/>
+            <h_ref id="v5234" mod="2" units="0"/>
+            <setupitem>
+                <identity name="Pen width" type="4"/>
+                <value type="QString">430</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Corner rounding" type="4"/>
+                <value type="QString">100</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Pen color" type="3"/>
+                <value type="QString">-1</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Fill color 1" type="3"/>
+                <value type="QString">16777215</value>
+            </setupitem>
+            <setupitem>
+                <identity name="^Background is a gradient" type="2"/>
+                <value type="QString">false</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Fill color 2" type="3"/>
+                <value type="QString">-4144960</value>
+            </setupitem>
+            <setupitem>
+                <identity name="^Gradient is horizontal" type="2"/>
+                <value type="QString">false</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Filename" type="10"/>
+                <value type="QString">Bars.png</value>
+            </setupitem>
+        </instance>
+    </instance>
+    <instance class="LH_Text/SystemTimeText">
+        <identity name="Time (Text) [17]" id="1i545c"/>
+        <state modifiable="1" selectable="1" alerts="1"/>
+        <origin x="0" y="0"/>
+        <size w="28" h="18"/>
+        <plugin_size w="-1" h="-1"/>
+        <pos x="66" y="24" z="9"/>
+        <x_ref id="l33yw" align="0" ref_align="0"/>
+        <y_ref id="l33yw" align="0" ref_align="0"/>
+        <w_ref id="0" mod="28" units="4"/>
+        <h_ref id="0" mod="18" units="4"/>
+        <setupitem>
+            <identity name="Current time" type="8"/>
+            <value type="QString">15:18</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Font" type="11"/>
+            <value type="QString">Arial,8,-1,5,75,0,0,0,0,0</value>
+        </setupitem>
+        <setupitem>
+            <identity name="^Adjust font size to instance height" type="2"/>
+            <value type="QString">false</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Color" type="3"/>
+            <value type="QString">-1</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Background" type="3"/>
+            <value type="QString">0</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Horizontal" type="6"/>
+            <value type="QString">0</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Vertical" type="6"/>
+            <value type="QString">0</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Scroll rate" type="4"/>
+            <value type="QString">15</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Scroll step" type="4"/>
+            <value type="QString">2</value>
+        </setupitem>
+        <setupitem>
+            <identity name="&lt;a href=&quot;http://doc.trolltech.com/4.6/qtime.html#toString&quot;&gt;Format&lt;/a&gt;" type="8"/>
+            <value type="QString">HH:mm</value>
+        </setupitem>
+    </instance>
+    <instance class="LH_Image/StaticImage">
+        <identity name="Rounded rectangle [9]" id="1i52f4"/>
+        <state modifiable="1" selectable="1" alerts="1"/>
+        <origin x="0" y="0"/>
+        <size w="43" h="21"/>
+        <plugin_size w="-1" h="-1"/>
+        <pos x="1" y="1" z="10"/>
+        <x_ref id="l33yw" align="0" ref_align="0"/>
+        <y_ref id="l33yw" align="0" ref_align="0"/>
+        <w_ref id="0" mod="43" units="4"/>
+        <h_ref id="0" mod="21" units="4"/>
+        <setupitem>
+            <identity name="Pen width" type="4"/>
+            <value type="QString">129</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Corner rounding" type="4"/>
+            <value type="QString">20</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Pen color" type="3"/>
+            <value type="QString">-1</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Fill color 1" type="3"/>
+            <value type="QString">16777215</value>
+        </setupitem>
+        <setupitem>
+            <identity name="^Background is a gradient" type="2"/>
+            <value type="QString">false</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Fill color 2" type="3"/>
+            <value type="QString">-4144960</value>
+        </setupitem>
+        <setupitem>
+            <identity name="^Gradient is horizontal" type="2"/>
+            <value type="QString">false</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Filename" type="10"/>
+            <value type="QString">Pad.png</value>
+        </setupitem>
+        <instance class="LH_Weather/WeatherImage">
+            <identity name="Weather Image [1]" id="1i556o"/>
+            <state modifiable="1" selectable="1" alerts="1"/>
+            <origin x="0" y="0"/>
+            <size w="20" h="19"/>
+            <plugin_size w="-1" h="-1"/>
+            <pos x="2" y="1" z="0"/>
+            <x_ref id="1i52f4" align="0" ref_align="0"/>
+            <y_ref id="1i52f4" align="0" ref_align="0"/>
+            <w_ref id="0" mod="20" units="4"/>
+            <h_ref id="0" mod="19" units="4"/>
+            <setupitem>
+                <identity name="Icon Type" type="6"/>
+                <value type="QString">0</value>
+            </setupitem>
+            <setupitem>
+                <identity name="File" type="10"/>
+                <value type="QString">Weather/imagemap.txt</value>
+            </setupitem>
+        </instance>
+        <instance class="LH_Weather/WeatherText">
+            <identity name="Weather Text [1]" id="1i54hs"/>
+            <state modifiable="1" selectable="1" alerts="1"/>
+            <origin x="0" y="0"/>
+            <size w="41" h="8"/>
+            <plugin_size w="-1" h="-1"/>
+            <pos x="1" y="1" z="1"/>
+            <x_ref id="1i52f4" align="0" ref_align="0"/>
+            <y_ref id="1i52f4" align="0" ref_align="0"/>
+            <w_ref id="0" mod="41" units="4"/>
+            <h_ref id="0" mod="8" units="4"/>
+            <setupitem>
+                <identity name="Value Type" type="6"/>
+                <value type="QString">0</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Append Units" type="2"/>
+                <value type="QString">true</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Pre-Text" type="8"/>
+                <value type="QString"></value>
+            </setupitem>
+            <setupitem>
+                <identity name="Post-Text" type="8"/>
+                <value type="QString"></value>
+            </setupitem>
+            <setupitem>
+                <identity name="Font" type="11"/>
+                <value type="QString">Arial,6,-1,5,50,0,0,0,0,0</value>
+            </setupitem>
+            <setupitem>
+                <identity name="^Adjust font size to instance height" type="2"/>
+                <value type="QString">false</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Color" type="3"/>
+                <value type="QString">16777215</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Background" type="3"/>
+                <value type="QString">0</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Horizontal" type="6"/>
+                <value type="QString">0</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Vertical" type="6"/>
+                <value type="QString">0</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Scroll rate" type="4"/>
+                <value type="QString">15</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Scroll step" type="4"/>
+                <value type="QString">2</value>
+            </setupitem>
+        </instance>
+        <instance class="LH_Weather/WeatherText">
+            <identity name="Weather Text [2]" id="1i550g"/>
+            <state modifiable="1" selectable="1" alerts="1"/>
+            <origin x="0" y="0"/>
+            <size w="24" h="10"/>
+            <plugin_size w="-1" h="-1"/>
+            <pos x="17" y="10" z="2"/>
+            <x_ref id="1i52f4" align="0" ref_align="0"/>
+            <y_ref id="1i52f4" align="0" ref_align="0"/>
+            <w_ref id="0" mod="24" units="4"/>
+            <h_ref id="0" mod="10" units="4"/>
+            <setupitem>
+                <identity name="Value Type" type="6"/>
+                <value type="QString">5</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Append Units" type="2"/>
+                <value type="QString">true</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Pre-Text" type="8"/>
+                <value type="QString"></value>
+            </setupitem>
+            <setupitem>
+                <identity name="Post-Text" type="8"/>
+                <value type="QString"></value>
+            </setupitem>
+            <setupitem>
+                <identity name="Font" type="11"/>
+                <value type="QString">Arial,6,-1,5,50,0,0,0,0,0</value>
+            </setupitem>
+            <setupitem>
+                <identity name="^Adjust font size to instance height" type="2"/>
+                <value type="QString">false</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Color" type="3"/>
+                <value type="QString">-1</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Background" type="3"/>
+                <value type="QString">0</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Horizontal" type="6"/>
+                <value type="QString">2</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Vertical" type="6"/>
+                <value type="QString">0</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Scroll rate" type="4"/>
+                <value type="QString">15</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Scroll step" type="4"/>
+                <value type="QString">2</value>
+            </setupitem>
+        </instance>
+        <instance class="LH_Weather/WeatherText">
+            <identity name="Weather Text [15]" id="1i54o0"/>
+            <state modifiable="1" selectable="1" alerts="1"/>
+            <origin x="0" y="0"/>
+            <size w="24" h="10"/>
+            <plugin_size w="-1" h="-1"/>
+            <pos x="17" y="1" z="3"/>
+            <x_ref id="1i52f4" align="0" ref_align="0"/>
+            <y_ref id="1i52f4" align="0" ref_align="0"/>
+            <w_ref id="0" mod="24" units="4"/>
+            <h_ref id="0" mod="10" units="4"/>
+            <setupitem>
+                <identity name="Value Type" type="6"/>
+                <value type="QString">10</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Append Units" type="2"/>
+                <value type="QString">true</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Pre-Text" type="8"/>
+                <value type="QString"></value>
+            </setupitem>
+            <setupitem>
+                <identity name="Post-Text" type="8"/>
+                <value type="QString"></value>
+            </setupitem>
+            <setupitem>
+                <identity name="Font" type="11"/>
+                <value type="QString">Arial,6,-1,5,50,0,0,0,0,0</value>
+            </setupitem>
+            <setupitem>
+                <identity name="^Adjust font size to instance height" type="2"/>
+                <value type="QString">false</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Color" type="3"/>
+                <value type="QString">-1</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Background" type="3"/>
+                <value type="QString">0</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Horizontal" type="6"/>
+                <value type="QString">2</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Vertical" type="6"/>
+                <value type="QString">0</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Scroll rate" type="4"/>
+                <value type="QString">15</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Scroll step" type="4"/>
+                <value type="QString">2</value>
+            </setupitem>
+        </instance>
+    </instance>
+    <instance class="LH_Monitoring/LogitechStatusImage">
+        <identity name="Logitech Status Image [1]" id="1i53sw"/>
+        <state modifiable="1" selectable="1" alerts="1"/>
+        <origin x="0" y="0"/>
+        <size w="13" h="8"/>
+        <plugin_size w="-1" h="-1"/>
+        <pos x="130" y="3" z="11"/>
+        <x_ref id="l33yw" align="0" ref_align="0"/>
+        <y_ref id="l33yw" align="0" ref_align="0"/>
+        <w_ref id="0" mod="13" units="4"/>
+        <h_ref id="0" mod="8" units="4"/>
+        <setupitem>
+            <identity name="Value Item" type="6"/>
+            <value type="QString">0</value>
+        </setupitem>
+        <setupitem>
+            <identity name="(Value Item)" type="1"/>
+            <value type="QString">0</value>
+        </setupitem>
+        <setupitem>
+            <identity name="File" type="10"/>
+            <value type="QString">imagemap.txt</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Very Low" type="7"/>
+            <value type="float">0</value>
+        </setupitem>
+        <setupitem>
+            <identity name=" Very Low" type="1"/>
+            <value type="int">0</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Low" type="7"/>
+            <value type="float">25</value>
+        </setupitem>
+        <setupitem>
+            <identity name=" Low" type="1"/>
+            <value type="int">25</value>
+        </setupitem>
+        <setupitem>
+            <identity name="High" type="7"/>
+            <value type="float">50</value>
+        </setupitem>
+        <setupitem>
+            <identity name=" High" type="1"/>
+            <value type="int">50</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Very High" type="7"/>
+            <value type="float">75</value>
+        </setupitem>
+        <setupitem>
+            <identity name=" Very High" type="1"/>
+            <value type="int">75</value>
+        </setupitem>
+    </instance>
+</instance>

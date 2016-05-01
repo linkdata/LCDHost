@@ -1,0 +1,57 @@
+11.12.2011 14:07:04  DBG  "LCDHost version 0.0.21 (Qt 4.7.3, 32 bits)" changeset 235 791f2978115b746dcabdb1fc51ace1c72bdd0037 
+11.12.2011 14:07:04  DBG  image formats ("bmp", "gif", "ico", "jpeg", "jpg", "mng", "pbm", "pgm", "png", "ppm", "tif", "tiff", "xbm", "xpm") 
+11.12.2011 14:07:04  DBG  executable "C:/Program Files/LCDHost/LCDHost.exe" 
+11.12.2011 14:07:04  DBG  currentDir "C:/program files/LCDHost" 
+11.12.2011 14:07:04  DBG  libraryPaths ("C:/Program Files/LCDHost/plugins/") 
+11.12.2011 14:07:04  DBG  binaries "C:/Program Files/LCDHost/" 
+11.12.2011 14:07:04  DBG  plugins "C:/Program Files/LCDHost/plugins/" 
+11.12.2011 14:07:04  DBG  data "C:\program files\LCDHost/" 
+11.12.2011 14:07:04  DBG  "Windows Vista (32 bits), Qt 4.7.3" 
+11.12.2011 14:07:04  DBG  HTTP proxy not detected 
+11.12.2011 14:07:05  DBG  loading layout "C:/Program Files/LCDHost/layouts/G19-GKZ/News.xml" 
+11.12.2011 14:07:05  DBG  "LH_Bar" loaded with 6 classes 
+11.12.2011 14:07:05  DBG  Fetching public key for "LH_Cursor" from "http://www.codeleap.co.uk/lcdhost/public-key" 
+11.12.2011 14:07:05  DBG  "LH_Cursor" loaded with 6 classes 
+11.12.2011 14:07:05  DBG  "LH_DataViewer" loaded with 6 classes 
+11.12.2011 14:07:05  DBG  "LH_Decor" loaded with 2 classes 
+11.12.2011 14:07:05  DBG  "LH_Image" loaded with 1 classes 
+11.12.2011 14:07:05  DBG  "LH_Graph" loaded with 6 classes 
+11.12.2011 14:07:05  DBG  "LH_LgLcdMan" loaded with 0 classes 
+11.12.2011 14:07:05  WRN  "LH_Lg320x240" returned error message "Logitech drivers are loaded" 
+11.12.2011 14:07:05  DBG  "LH_Monitoring" loaded with 44 classes 
+11.12.2011 14:07:05  DBG  "LH_Lua" loaded with 0 classes 
+11.12.2011 14:07:05  DBG  "LH_Mailcount" loaded with 2 classes 
+11.12.2011 14:07:05  WRN  "LH_Lg160x43" returned error message "Logitech drivers are loaded" 
+11.12.2011 14:07:05  DBG  "LH_Dial" loaded with 7 classes 
+11.12.2011 14:07:05  DBG  "LH_Lg320x240" unloaded 
+11.12.2011 14:07:05  DBG  "LH_Lg160x43" unloaded 
+11.12.2011 14:07:05  DBG  "LH_VirtualLCD" loaded with 0 classes 
+11.12.2011 14:07:05  DBG  "LH_WebKit" loaded with 5 classes 
+11.12.2011 14:07:05  DBG  "LH_Text" loaded with 13 classes 
+11.12.2011 14:07:05  DBG  "LH_Weather" loaded with 3 classes 
+11.12.2011 14:07:05  DBG  "Not found." 
+11.12.2011 14:07:05  DBG  "LH_NowPlaying" loaded with 4 classes 
+11.12.2011 14:07:05  DBG  "LH_LgBacklight" loaded with 0 classes 
+11.12.2011 14:07:05  DBG  Device changed to "28:320x240x32" 
+11.12.2011 14:07:05  DBG  Device changed to "28:320x240x32" 
+11.12.2011 14:07:05  DBG  Device changed to "30:QVGA" 
+11.12.2011 14:07:05  WRN  QSslSocket: cannot call unresolved function SSLv3_client_method
+11.12.2011 14:07:05  WRN  QSslSocket: cannot call unresolved function SSL_CTX_new
+11.12.2011 14:07:05  WRN  QSslSocket: cannot call unresolved function SSL_library_init
+11.12.2011 14:07:05  WRN  QSslSocket: cannot call unresolved function ERR_get_error
+11.12.2011 14:07:05  WRN  GoogleTranslator: Error during HTTP (Language) fetch: QVariant(, ) "Error creating SSL context ()" "https://www.googleapis.com/language/translate/v2/languages?target=en&key=AIzaSyBAwN3KYbAS7qMJbVs8ltoXObrAVaKmQBk" 
+11.12.2011 14:07:06  DBG  Got public key from "http://www.codeleap.co.uk/lcdhost/public-key" containing 426 bytes 
+11.12.2011 14:07:06  DBG  LH_WebKit: attempting to start "C:/Program Files/LCDHost/WebKitServer" 
+11.12.2011 14:07:06  WRN  "LH_Lg160x43" returned error message "Logitech drivers are loaded" 
+11.12.2011 14:07:06  DBG  "LH_Lg160x43" unloaded 
+11.12.2011 14:07:06  WRN  "LH_Lg320x240" returned error message "Logitech drivers are loaded" 
+11.12.2011 14:07:06  DBG  "LH_Lg320x240" unloaded 
+11.12.2011 14:07:06  DBG  Version data from "http://www.linkdata.se/lcdhost/version.php?arch=win32" containing 946 bytes 
+11.12.2011 14:07:06  WRN  "LH_Lg160x43" returned error message "Logitech drivers are loaded" 
+11.12.2011 14:07:06  WRN  "LH_Lg320x240" returned error message "Logitech drivers are loaded" 
+11.12.2011 14:07:06  DBG  "LH_Lg160x43" unloaded 
+11.12.2011 14:07:06  DBG  "LH_Lg320x240" unloaded 
+11.12.2011 14:07:06  DBG  LH_RSSFeed: Changing URL, content permanently moved to "http://www.faz.net/aktuell/?rssview=1" 
+11.12.2011 14:11:09  WRN  QPixmap::scaled: Pixmap is a null pixmap
+11.12.2011 14:11:09  WRN  QPixmap::scaled: Pixmap is a null pixmap
+11.12.2011 14:11:09  WRN  QPixmap::scaled: Pixmap is a null pixmap

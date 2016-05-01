@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/mailcount" >
+        <file>images/envelope16.ico</file>
+        <file>images/envelope24.ico</file>
+        <file>images/envelope32.ico</file>
+        <file>images/envelope48.ico</file>
+        <file>images/envelope48.png</file>
+        <file>images/envelope16.png</file>
+        <file>images/envelope24.png</file>
+        <file>images/envelope32.png</file>
+    </qresource>
+</RCC>

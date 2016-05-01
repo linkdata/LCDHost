@@ -1,0 +1,21 @@
+<aquastreamXT>
+  <aquastreamXtLogData test="100">
+    <Date>26.09.2011</Date>
+    <Time>02:28:05</Time>
+    <TemperatureElectronic>23.84</TemperatureElectronic>
+    <TemperatureSensorExt>0</TemperatureSensorExt>
+    <TemperatureSensorWater>28.52</TemperatureSensorWater>
+    <FanRpm>0</FanRpm>
+    <FanPower>0</FanPower>
+    <PumpFrequency>53.011026293469044</PumpFrequency>
+    <PumpFrequencyMax>53.003533568904594</PumpFrequencyMax>
+    <Voltage12V>12.21311475409836</Voltage12V>
+    <VoltageFan>0</VoltageFan>
+    <PumpCurrent>459.20000000000005</PumpCurrent>
+    <Flow>45.692280698714171</Flow>
+    <ControllerOut>0</ControllerOut>
+    <ControllerP>0.38623846649023674</ControllerP>
+    <ControllerI>0</ControllerI>
+    <ControllerD>0</ControllerD>
+  </aquastreamXtLogData>
+</aquastreamXT>

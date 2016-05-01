@@ -1,0 +1,12 @@
+[Format]
+type=MEM
+
+[Process]
+name=UT3.exe
+
+[Definition:Player]
+
+*Health	01DFC7F4>9C>174>0>330>73C	4Byte
+;"UT3.exe"+019FC7F4>9C>174>0>330>73C
+
+[/Definition:Player]

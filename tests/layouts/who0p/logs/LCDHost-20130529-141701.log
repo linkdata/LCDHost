@@ -1,0 +1,268 @@
+2013-05-29 14:17:01 | D.. | NDIS: Adapter "Realtek PCIe GBE Family Controller" reporting NDIS 6 statistics 
+2013-05-29 14:17:01 | D.. | NDIS: Adapter "ASUS WL-167G V3" reporting NDIS 5.1 64-bit statistics 
+2013-05-29 14:17:01 | D.. | "LCDHost version 0.0.31 (Qt 5.0.2, 32 bits)" changeset 404 c8210bbb9a23269c9ead7080f49e01bc3fea0f4b 
+2013-05-29 14:17:01 | D.. | image formats ("bmp", "gif", "ico", "jpeg", "jpg", "pbm", "pgm", "png", "ppm", "xbm", "xpm") 
+2013-05-29 14:17:01 | D.. | executable "E:/Users/Jono/Documents/LCDHost/bin/LCDHost.exe" 
+2013-05-29 14:17:01 | D.. | currentDir "E:/Users/Jono/Documents/LCDHost" 
+2013-05-29 14:17:01 | D.. | libraryPaths ("E:/Users/Jono/Documents/LCDHost/bin/plugins", "E:/Users/Jono/Documents/LCDHost/bin") 
+2013-05-29 14:17:01 | D.. | binaries "E:/Users/Jono/Documents/LCDHost/bin/" 
+2013-05-29 14:17:01 | D.. | plugins "E:/Users/Jono/Documents/LCDHost/bin/" 
+2013-05-29 14:17:01 | D.. | data "E:/Users/Jono/Documents/LCDHost/" 
+2013-05-29 14:17:01 | D.. | "Windows 7 (64 bits), Qt 5.0.2" 
+2013-05-29 14:17:01 | D.. | "E:/Users/Jono/Documents/LCDHost/layouts/who0p cursor/who0p/who0p v4a.xml" doesn't exist, trying default layout directory 
+2013-05-29 14:17:01 | .W. | can't load from "E:/Users/Jono/Documents/LCDHost/layouts/who0p v4a.xml" "No such file or directory" 
+2013-05-29 14:17:01 | D.. | "LH_Bar" loaded with 6 classes 
+2013-05-29 14:17:01 | D.. | "LH_ColorSwatch" loaded with 6 classes 
+2013-05-29 14:17:01 | D.. | "LH_Cursor" loaded with 6 classes 
+2013-05-29 14:17:01 | D.. | "LH_Decor" loaded with 2 classes 
+2013-05-29 14:17:01 | D.. | "LH_DataViewer" loaded with 6 classes 
+2013-05-29 14:17:01 | D.. | "LH_Dial" loaded with 9 classes 
+2013-05-29 14:17:01 | D.. | "LH_Graph" loaded with 6 classes 
+2013-05-29 14:17:01 | D.. | "LH_DriveStats" loaded with 6 classes 
+2013-05-29 14:17:01 | D.. | "LH_Image" loaded with 1 classes 
+2013-05-29 14:17:01 | D.. | "LH_LCoreReboot" loaded with 0 classes 
+2013-05-29 14:17:01 | .W. | "LH_Lg160x43" returned error message "Logitech drivers are loaded" 
+2013-05-29 14:17:01 | D.. | "LH_Lg160x43" unloading 
+2013-05-29 14:17:01 | .W. | "LH_Lg320x240" returned error message "Logitech drivers are loaded" 
+2013-05-29 14:17:01 | D.. | "LH_Lg320x240" unloading 
+2013-05-29 14:17:01 | .W. | <b>LH_LgBacklight</b>: old link style: <tt>=/plugin/backlight/all/set</tt> FIXME!
+2013-05-29 14:17:01 | D.. | "LH_LgBacklight" loaded with 0 classes 
+2013-05-29 14:17:01 | D.. | "LH_LgLcdMan" loaded with 0 classes 
+2013-05-29 14:17:01 | D.. | "LH_Logic" loaded with 2 classes 
+2013-05-29 14:17:01 | .W. | <b>LH_QtPlugin_Mailcount</b>: old link style: <tt>@/system/Mail count</tt> FIXME!
+2013-05-29 14:17:01 | D.. | "LH_Mailcount" loaded with 2 classes 
+2013-05-29 14:17:01 | D.. | "LH_Monitoring" loaded with 6 classes 
+2013-05-29 14:17:01 | D.. | "LH_Text" loaded with 13 classes 
+2013-05-29 14:17:01 | .W. | AppSetupItem::setPublishPath() "" whitespace in linkpath "LH_Weather/ " 
+2013-05-29 14:17:01 | .W. | <b>LH_QtPlugin_TS3</b>: old link style: <tt>@/3rdParty/TeamSpeak 3/Nickname</tt> FIXME!
+2013-05-29 14:17:01 | .W. | <b>LH_QtPlugin_TS3</b>: old link style: <tt>@/3rdParty/TeamSpeak 3/Speaking</tt> FIXME!
+2013-05-29 14:17:01 | .W. | <b>LH_QtPlugin_TS3</b>: old link style: <tt>@/3rdParty/TeamSpeak 3/Self Speaking</tt> FIXME!
+2013-05-29 14:17:01 | D.. | "LH_VirtualLCD" loaded with 0 classes 
+2013-05-29 14:17:01 | .W. | <b>LH_QtPlugin_TS3</b>: old link style: <tt>@/3rdParty/TeamSpeak 3/Channel Name</tt> FIXME!
+2013-05-29 14:17:01 | .W. | <b>LH_QtPlugin_TS3</b>: old link style: <tt>@/3rdParty/TeamSpeak 3/Connection Status</tt> FIXME!
+2013-05-29 14:17:01 | .W. | <b>LH_QtPlugin_TS3</b>: old link style: <tt>@/3rdParty/TeamSpeak 3/Microphone Status</tt> FIXME!
+2013-05-29 14:17:01 | .W. | <b>LH_QtPlugin_TS3</b>: old link style: <tt>@/3rdParty/TeamSpeak 3/Speaker Status</tt> FIXME!
+2013-05-29 14:17:01 | D.. | "LH_TS3" loaded with 7 classes 
+2013-05-29 14:17:01 | .W. | <b>LH_QtPlugin_Weather</b>: old link style: <tt>@/JSON_Weather_Data</tt> FIXME!
+2013-05-29 14:17:01 | D.. | "LH_WebKit" loaded with 5 classes 
+2013-05-29 14:17:01 | D.. | "LH_Weather" loaded with 3 classes 
+2013-05-29 14:17:01 | .W. | <b>LH_QtPlugin_NowPlaying</b>: old link style: <tt>@/3rdParty/Music/Music Player</tt> FIXME!
+2013-05-29 14:17:01 | .W. | <b>LH_QtPlugin_NowPlaying</b>: old link style: <tt>@/3rdParty/Music/Current Track/Artist</tt> FIXME!
+2013-05-29 14:17:01 | .W. | <b>LH_QtPlugin_NowPlaying</b>: old link style: <tt>@/3rdParty/Music/Current Track/Album Name</tt> FIXME!
+2013-05-29 14:17:01 | .W. | <b>LH_QtPlugin_NowPlaying</b>: old link style: <tt>@/3rdParty/Music/Current Track/Track Title</tt> FIXME!
+2013-05-29 14:17:01 | .W. | <b>LH_QtPlugin_NowPlaying</b>: old link style: <tt>@/3rdParty/Music/Playing Status</tt> FIXME!
+2013-05-29 14:17:01 | D.. | "Not found." 
+2013-05-29 14:17:01 | D.. | "LH_NowPlaying" loaded with 5 classes 
+2013-05-29 14:17:02 | .W. | <b>LH_Mailcount</b>: LH_FLAG_NOSAVE: => LH_FLAG_NOSAVE_DATA FIXME!
+2013-05-29 14:17:02 | .W. | <b>LH_TS3</b>: LH_FLAG_NOSAVE: => LH_FLAG_NOSAVE_DATA FIXME!
+2013-05-29 14:17:02 | .W. | <b>LH_TS3</b>: LH_FLAG_NOSAVE|LH_FLAG_HIDDEN: => LH_FLAG_NOSAVE_LINK FIXME!
+2013-05-29 14:17:02 | .W. | <b>LH_NowPlaying</b>: LH_FLAG_NOSAVE: => LH_FLAG_NOSAVE_DATA FIXME!
+2013-05-29 14:17:02 | .W. | <b>LH_NowPlaying</b>: LH_FLAG_NOSAVE|LH_FLAG_HIDDEN: => LH_FLAG_NOSAVE_LINK FIXME!
+2013-05-29 14:17:02 | D.. | Device changed to "29:320x240x32" 
+2013-05-29 14:17:02 | .W. | <b>LH_LCoreReboot</b>: LH_FLAG_NOSAVE: => LH_FLAG_NOSAVE_DATA FIXME!
+2013-05-29 14:17:02 | .W. | <b>LH_LCoreReboot</b>: LH_FLAG_NOSAVE|LH_FLAG_HIDDEN: => LH_FLAG_NOSAVE_LINK FIXME!
+2013-05-29 14:17:02 | .W. | <b>LH_LgBacklight</b>: LH_FLAG_NOSAVE: => LH_FLAG_NOSAVE_DATA FIXME!
+2013-05-29 14:17:02 | .W. | <b>LH_LgBacklight</b>: LH_FLAG_NOSAVE|LH_FLAG_HIDDEN: => LH_FLAG_NOSAVE_LINK FIXME!
+2013-05-29 14:17:02 | .W. | <b>LH_Weather</b>: LH_FLAG_NOSAVE: => LH_FLAG_NOSAVE_DATA FIXME!
+2013-05-29 14:17:02 | D.. | "LH_NowPlaying" has unused setup item "^Enable Foobar Control" 
+2013-05-29 14:17:02 | D.. | "LH_NowPlaying" has unused setup item "^Enable MSN-Compatible Control" 
+2013-05-29 14:17:02 | D.. | "LH_NowPlaying" has unused setup item "^Enable Spotify Control" 
+2013-05-29 14:17:02 | D.. | "LH_NowPlaying" has unused setup item "^Enable Winamp Control" 
+2013-05-29 14:17:02 | D.. | "LH_NowPlaying" has unused setup item "^Enable iTunes Control" 
+2013-05-29 14:17:02 | D.. | "LH_NowPlaying" has unused setup item "~blurb1" 
+2013-05-29 14:17:02 | D.. | "LH_NowPlaying" has unused setup item "~blurb2" 
+2013-05-29 14:17:02 | D.. | "LH_NowPlaying" has unused setup item "~blurb3" 
+2013-05-29 14:17:02 | D.. | "LH_NowPlaying" has unused setup item "~hr1" 
+2013-05-29 14:17:02 | D.. | "LH_NowPlaying" has unused setup item "~hr2" 
+2013-05-29 14:17:02 | D.. | "LH_NowPlaying" has unused setup item "~hr3" 
+2013-05-29 14:17:02 | D.. | Device changed to "31:QVGA" 
+2013-05-29 14:17:03 | D.. | HID: \\?\hid#vid_046d&pid_c229&mi_01&col01#8&32e012b1&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030} 'G19 Gaming Keyboard (Macro interface)' readFeature: hid_open_path failed
+2013-05-29 14:17:06 | D.. | LH_QtMonitoringPlugin events connected 
+2013-05-29 14:17:06 | D.. | LH_QtMonitoringPlugin events connected 
+2013-05-29 14:17:08 | D.. | Version data from "http://www.linkdata.se/lcdhost/version.php?arch=win32" containing 217 bytes 
+2013-05-29 14:17:08 | D.. | "LH_Lg160x43" unloading 
+2013-05-29 14:17:08 | D.. | "LH_Lg320x240" unloading 
+2013-05-29 14:18:12 | D.. | loading layout "E:/Users/Jono/Documents/LCDHost/layouts/who0p cursor/who0p/who0p v4a.xml" 
+2013-05-29 14:18:12 | .W. | <b>LH_MailcountText</b>: old link style: <tt>=/system/Mail count</tt> FIXME!
+2013-05-29 14:18:12 | .W. | LH_QtObject::callback() LH_LogicBox "" has no callback data for 8 
+2013-05-29 14:18:12 | .W. | <b>LH_CursorPage</b>: old link style: <tt>=/Cursors/Primary Cursor</tt> FIXME!
+2013-05-29 14:18:12 | .W. | <b>LH_CursorPage</b>: old link style: <tt>@/Cursors/Postback</tt> FIXME!
+2013-05-29 14:18:12 | .W. | <b>LH_WeatherText</b>: old link style: <tt>=/JSON_Weather_Data</tt> FIXME!
+2013-05-29 14:18:12 | .W. | <b>LH_WeatherImage</b>: old link style: <tt>=/JSON_Weather_Data</tt> FIXME!
+2013-05-29 14:18:12 | .W. | <b>LH_CursorRectangle</b>: old link style: <tt>=/Cursors/Primary Cursor</tt> FIXME!
+2013-05-29 14:18:12 | .W. | <b>LH_CursorRectangle</b>: old link style: <tt>@/Cursors/Postback</tt> FIXME!
+2013-05-29 14:18:12 | .W. | <b>LH_Cursor/CursorPage</b>: LH_FLAG_NOSAVE: => LH_FLAG_NOSAVE_DATA FIXME!
+2013-05-29 14:18:12 | .W. | <b>LH_Cursor/CursorRectangle</b>: LH_FLAG_NOSAVE: => LH_FLAG_NOSAVE_DATA FIXME!
+2013-05-29 14:18:12 | .W. | <b>LH_NowPlaying/NowPlayingStatusImage</b>: LH_FLAG_NOSAVE: => LH_FLAG_NOSAVE_DATA FIXME!
+2013-05-29 14:18:12 | D.. | "CPU Clock - Text" has unused setup item "(Value Type)" 
+2013-05-29 14:18:12 | .W. | <b>LH_CursorController</b>: old link style: <tt>=/Cursors/Postback</tt> FIXME!
+2013-05-29 14:18:12 | D.. | "CPU Clock - Text" has unused setup item "(Value Group)" 
+2013-05-29 14:18:12 | .W. | <b>LH_CursorController</b>: old link style: <tt>@/Cursors/Primary Cursor</tt> FIXME!
+2013-05-29 14:18:12 | D.. | "CPU Clock - Text" has unused setup item "(Value Item)" 
+2013-05-29 14:18:12 | .W. | <b>LH_CursorController</b>: old link style: <tt>@/Cursors/Primary Cursor/Cursor Position</tt> FIXME!
+2013-05-29 14:18:12 | D.. | "CPU Clock - Text" has unused setup item "(Value Index)" 
+2013-05-29 14:18:12 | .W. | <b>LH_CursorController</b>: old link style: <tt>@/Cursors/Primary Cursor/Selected Position</tt> FIXME!
+2013-05-29 14:18:12 | .W. | <b>LH_Mailcount/SystemMailText</b>: LH_FLAG_NOSAVE: => LH_FLAG_NOSAVE_DATA FIXME!
+2013-05-29 14:18:12 | D.. | "CPU Average Load - Text" has unused setup item "(Value Type)" 
+2013-05-29 14:18:12 | D.. | "CPU Average Load - Text" has unused setup item "(Value Group)" 
+2013-05-29 14:18:12 | D.. | "CPU Average Load - Text" has unused setup item "(Value Item)" 
+2013-05-29 14:18:12 | D.. | "CPU Average Load - Text" has unused setup item "(Value Index)" 
+2013-05-29 14:18:12 | D.. | "CPU Average Temp - Text" has unused setup item "(Value Type)" 
+2013-05-29 14:18:12 | D.. | "CPU Average Temp - Text" has unused setup item "(Value Group)" 
+2013-05-29 14:18:12 | D.. | "CPU Average Temp - Text" has unused setup item "(Value Item)" 
+2013-05-29 14:18:12 | D.. | "CPU Average Temp - Text" has unused setup item "(Value Index)" 
+2013-05-29 14:18:12 | D.. | "CPU Average Load - Graph" has unused setup item "(Value Type)" 
+2013-05-29 14:18:12 | D.. | "CPU Average Load - Graph" has unused setup item "(Value Group)" 
+2013-05-29 14:18:12 | D.. | "CPU Average Load - Graph" has unused setup item "(Value Item)" 
+2013-05-29 14:18:12 | D.. | "CPU Average Load - Graph" has unused setup item "(Value Index)" 
+2013-05-29 14:18:12 | D.. | "CPU Average Temp - Graph" has unused setup item "(Value Type)" 
+2013-05-29 14:18:12 | D.. | "CPU Average Temp - Graph" has unused setup item "(Value Group)" 
+2013-05-29 14:18:12 | D.. | "CPU Average Temp - Graph" has unused setup item "(Value Item)" 
+2013-05-29 14:18:12 | D.. | "CPU Average Temp - Graph" has unused setup item "(Value Index)" 
+2013-05-29 14:18:12 | D.. | "Core #1 - Temp Bar " has unused setup item "(Value Type)" 
+2013-05-29 14:18:12 | D.. | "Core #1 - Temp Bar " has unused setup item "(Value Group)" 
+2013-05-29 14:18:12 | D.. | "Core #1 - Temp Bar " has unused setup item "(Value Item)" 
+2013-05-29 14:18:12 | D.. | "Core #1 - Temp Bar " has unused setup item "(Value Index)" 
+2013-05-29 14:18:12 | D.. | "Core #2 - Temp Bar " has unused setup item "(Value Type)" 
+2013-05-29 14:18:12 | D.. | "Core #2 - Temp Bar " has unused setup item "(Value Group)" 
+2013-05-29 14:18:12 | D.. | "Core #2 - Temp Bar " has unused setup item "(Value Item)" 
+2013-05-29 14:18:12 | D.. | "Core #2 - Temp Bar " has unused setup item "(Value Index)" 
+2013-05-29 14:18:12 | D.. | "Core #3 - Temp Bar" has unused setup item "(Value Type)" 
+2013-05-29 14:18:12 | D.. | "Core #3 - Temp Bar" has unused setup item "(Value Group)" 
+2013-05-29 14:18:12 | D.. | "Core #3 - Temp Bar" has unused setup item "(Value Item)" 
+2013-05-29 14:18:12 | D.. | "Core #3 - Temp Bar" has unused setup item "(Value Index)" 
+2013-05-29 14:18:12 | D.. | "Core #4 - Temp Bar " has unused setup item "(Value Type)" 
+2013-05-29 14:18:12 | D.. | "Core #4 - Temp Bar " has unused setup item "(Value Group)" 
+2013-05-29 14:18:12 | D.. | "Core #4 - Temp Bar " has unused setup item "(Value Item)" 
+2013-05-29 14:18:12 | D.. | "Core #4 - Temp Bar " has unused setup item "(Value Index)" 
+2013-05-29 14:18:12 | D.. | "GPU Clock - Text" has unused setup item "(Value Type)" 
+2013-05-29 14:18:12 | D.. | "GPU Clock - Text" has unused setup item "(Value Group)" 
+2013-05-29 14:18:12 | D.. | "GPU Clock - Text" has unused setup item "(Value Item)" 
+2013-05-29 14:18:12 | D.. | "GPU Clock - Text" has unused setup item "(Value Index)" 
+2013-05-29 14:18:12 | D.. | "GPU Load - Text" has unused setup item "(Value Type)" 
+2013-05-29 14:18:12 | D.. | "GPU Load - Text" has unused setup item "(Value Group)" 
+2013-05-29 14:18:12 | D.. | "GPU Load - Text" has unused setup item "(Value Item)" 
+2013-05-29 14:18:12 | D.. | "GPU Load - Text" has unused setup item "(Value Index)" 
+2013-05-29 14:18:12 | D.. | "GPU Temp - Text" has unused setup item "(Value Type)" 
+2013-05-29 14:18:12 | D.. | "GPU Temp - Text" has unused setup item "(Value Group)" 
+2013-05-29 14:18:12 | D.. | "GPU Temp - Text" has unused setup item "(Value Item)" 
+2013-05-29 14:18:12 | D.. | "GPU Temp - Text" has unused setup item "(Value Index)" 
+2013-05-29 14:18:12 | D.. | "GPU Load - Graph" has unused setup item "(Value Type)" 
+2013-05-29 14:18:12 | D.. | "GPU Load - Graph" has unused setup item "(Value Group)" 
+2013-05-29 14:18:12 | D.. | "GPU Load - Graph" has unused setup item "(Value Item)" 
+2013-05-29 14:18:12 | D.. | "GPU Load - Graph" has unused setup item "(Value Index)" 
+2013-05-29 14:18:12 | D.. | "GPU Temp - Graph" has unused setup item "(Value Type)" 
+2013-05-29 14:18:12 | D.. | "GPU Temp - Graph" has unused setup item "(Value Group)" 
+2013-05-29 14:18:12 | D.. | "GPU Temp - Graph" has unused setup item "(Value Item)" 
+2013-05-29 14:18:12 | D.. | "GPU Temp - Graph" has unused setup item "(Value Index)" 
+2013-05-29 14:18:12 | .W. | <b>LH_Cursor/CursorPage</b>: LH_FLAG_NOSAVE|LH_FLAG_HIDDEN: => LH_FLAG_NOSAVE_LINK FIXME!
+2013-05-29 14:18:12 | D.. | "Video Memory - Bar" has unused setup item "(Value Type)" 
+2013-05-29 14:18:12 | D.. | "Video Memory - Bar" has unused setup item "(Value Group)" 
+2013-05-29 14:18:12 | D.. | "Video Memory - Bar" has unused setup item "(Value Item)" 
+2013-05-29 14:18:12 | D.. | "Video Memory - Bar" has unused setup item "(Value Index)" 
+2013-05-29 14:18:12 | D.. | "Free Monitoring" has unused setup item "(Value Type)" 
+2013-05-29 14:18:12 | D.. | "Free Monitoring" has unused setup item "(Value Group)" 
+2013-05-29 14:18:12 | D.. | "Free Monitoring" has unused setup item "(Value Item)" 
+2013-05-29 14:18:12 | D.. | "Free Monitoring" has unused setup item "(Value Index)" 
+2013-05-29 14:18:12 | .W. | <b>LH_Weather/WeatherText</b>: LH_FLAG_NOSAVE: => LH_FLAG_NOSAVE_DATA FIXME!
+2013-05-29 14:18:12 | D.. | "Used Memory" has unused setup item "(Value Type)" 
+2013-05-29 14:18:12 | D.. | "Used Memory" has unused setup item "(Value Group)" 
+2013-05-29 14:18:12 | D.. | "Used Memory" has unused setup item "(Value Item)" 
+2013-05-29 14:18:12 | D.. | "Used Memory" has unused setup item "(Value Index)" 
+2013-05-29 14:18:12 | D.. | "RAM Clock - Text" has unused setup item "(Value Type)" 
+2013-05-29 14:18:12 | D.. | "RAM Clock - Text" has unused setup item "(Value Group)" 
+2013-05-29 14:18:12 | D.. | "RAM Clock - Text" has unused setup item "(Value Item)" 
+2013-05-29 14:18:12 | D.. | "RAM Clock - Text" has unused setup item "(Value Index)" 
+2013-05-29 14:18:12 | D.. | "Volume Value" has unused setup item "(Value Type)" 
+2013-05-29 14:18:12 | D.. | "Volume Value" has unused setup item "(Value Group)" 
+2013-05-29 14:18:12 | D.. | "Volume Value" has unused setup item "(Value Item)" 
+2013-05-29 14:18:12 | D.. | "Volume Value" has unused setup item "(Value Index)" 
+2013-05-29 14:18:12 | D.. | "Mute Image" has unused setup item "(Value Type)" 
+2013-05-29 14:18:12 | D.. | "Mute Image" has unused setup item "(Value Group)" 
+2013-05-29 14:18:12 | D.. | "Mute Image" has unused setup item "(Value Item)" 
+2013-05-29 14:18:12 | D.. | "Mute Image" has unused setup item "(Value Index)" 
+2013-05-29 14:18:12 | .W. | <b>LH_Weather/WeatherImage</b>: LH_FLAG_NOSAVE: => LH_FLAG_NOSAVE_DATA FIXME!
+2013-05-29 14:18:12 | .W. | <b>LH_Weather/WeatherImage</b>: LH_FLAG_NOSAVE|LH_FLAG_HIDDEN: => LH_FLAG_NOSAVE_LINK FIXME!
+2013-05-29 14:18:12 | D.. | "Volume Value" has unused setup item "(Value Type)" 
+2013-05-29 14:18:12 | D.. | "Volume Value" has unused setup item "(Value Group)" 
+2013-05-29 14:18:12 | D.. | "Volume Value" has unused setup item "(Value Item)" 
+2013-05-29 14:18:12 | D.. | "Volume Value" has unused setup item "(Value Index)" 
+2013-05-29 14:18:12 | D.. | "Mute Image" has unused setup item "(Value Type)" 
+2013-05-29 14:18:12 | D.. | "Mute Image" has unused setup item "(Value Group)" 
+2013-05-29 14:18:12 | D.. | "Mute Image" has unused setup item "(Value Item)" 
+2013-05-29 14:18:12 | D.. | "Mute Image" has unused setup item "(Value Index)" 
+2013-05-29 14:18:12 | D.. | "HDD Used Bar" has unused setup item "(Value Type)" 
+2013-05-29 14:18:12 | D.. | "HDD Used Bar" has unused setup item "(Value Group)" 
+2013-05-29 14:18:12 | D.. | "HDD Used Bar" has unused setup item "(Value Item)" 
+2013-05-29 14:18:12 | D.. | "HDD Used Bar" has unused setup item "(Value Index)" 
+2013-05-29 14:18:12 | D.. | "Volume - Value" has unused setup item "(Value Type)" 
+2013-05-29 14:18:12 | D.. | "Volume - Value" has unused setup item "(Value Group)" 
+2013-05-29 14:18:12 | D.. | "Volume - Value" has unused setup item "(Value Item)" 
+2013-05-29 14:18:12 | D.. | "Volume - Value" has unused setup item "(Value Index)" 
+2013-05-29 14:18:12 | D.. | "HDD Used - Monitoring Text" has unused setup item "(Value Type)" 
+2013-05-29 14:18:12 | D.. | "HDD Used - Monitoring Text" has unused setup item "(Value Group)" 
+2013-05-29 14:18:12 | D.. | "HDD Used - Monitoring Text" has unused setup item "(Value Item)" 
+2013-05-29 14:18:12 | D.. | "HDD Used - Monitoring Text" has unused setup item "(Value Index)" 
+2013-05-29 14:18:12 | D.. | "Mute Image" has unused setup item "(Value Type)" 
+2013-05-29 14:18:12 | D.. | "Mute Image" has unused setup item "(Value Group)" 
+2013-05-29 14:18:12 | D.. | "Mute Image" has unused setup item "(Value Item)" 
+2013-05-29 14:18:12 | D.. | "Mute Image" has unused setup item "(Value Index)" 
+2013-05-29 14:18:12 | D.. | "HDD Free - Monitoring Text" has unused setup item "(Value Type)" 
+2013-05-29 14:18:12 | D.. | "HDD Free - Monitoring Text" has unused setup item "(Value Group)" 
+2013-05-29 14:18:12 | D.. | "HDD Free - Monitoring Text" has unused setup item "(Value Item)" 
+2013-05-29 14:18:12 | D.. | "HDD Free - Monitoring Text" has unused setup item "(Value Index)" 
+2013-05-29 14:18:12 | .W. | <b>LH_Cursor/CursorRectangle</b>: LH_FLAG_NOSAVE|LH_FLAG_HIDDEN: => LH_FLAG_NOSAVE_LINK FIXME!
+2013-05-29 14:18:12 | D.. | "GPU Fan" has unused setup item "(Value Type)" 
+2013-05-29 14:18:12 | D.. | "GPU Fan" has unused setup item "(Value Group)" 
+2013-05-29 14:18:12 | D.. | "GPU Fan" has unused setup item "(Value Item)" 
+2013-05-29 14:18:12 | D.. | "GPU Fan" has unused setup item "(Value Index)" 
+2013-05-29 14:18:12 | D.. | "HDD Used Bar" has unused setup item "(Value Type)" 
+2013-05-29 14:18:12 | D.. | "HDD Used Bar" has unused setup item "(Value Group)" 
+2013-05-29 14:18:12 | D.. | "HDD Used Bar" has unused setup item "(Value Item)" 
+2013-05-29 14:18:12 | D.. | "HDD Used Bar" has unused setup item "(Value Index)" 
+2013-05-29 14:18:12 | D.. | "GPU Fan" has unused setup item "(Value Type)" 
+2013-05-29 14:18:12 | D.. | "GPU Fan" has unused setup item "(Value Group)" 
+2013-05-29 14:18:12 | D.. | "GPU Fan" has unused setup item "(Value Item)" 
+2013-05-29 14:18:12 | D.. | "GPU Fan" has unused setup item "(Value Index)" 
+2013-05-29 14:18:12 | D.. | "HDD Used - Monitoring Text" has unused setup item "(Value Type)" 
+2013-05-29 14:18:12 | D.. | "HDD Used - Monitoring Text" has unused setup item "(Value Group)" 
+2013-05-29 14:18:12 | D.. | "HDD Used - Monitoring Text" has unused setup item "(Value Item)" 
+2013-05-29 14:18:12 | D.. | "HDD Used - Monitoring Text" has unused setup item "(Value Index)" 
+2013-05-29 14:18:12 | D.. | "CPU Fan" has unused setup item "(Value Type)" 
+2013-05-29 14:18:12 | D.. | "CPU Fan" has unused setup item "(Value Group)" 
+2013-05-29 14:18:12 | D.. | "CPU Fan" has unused setup item "(Value Item)" 
+2013-05-29 14:18:12 | D.. | "CPU Fan" has unused setup item "(Value Index)" 
+2013-05-29 14:18:12 | D.. | "HDD Free - Monitoring Text" has unused setup item "(Value Type)" 
+2013-05-29 14:18:12 | D.. | "HDD Free - Monitoring Text" has unused setup item "(Value Group)" 
+2013-05-29 14:18:12 | D.. | "HDD Free - Monitoring Text" has unused setup item "(Value Item)" 
+2013-05-29 14:18:12 | D.. | "HDD Free - Monitoring Text" has unused setup item "(Value Index)" 
+2013-05-29 14:18:12 | D.. | "Core Volt" has unused setup item "(Value Type)" 
+2013-05-29 14:18:12 | D.. | "Core Volt" has unused setup item "(Value Group)" 
+2013-05-29 14:18:12 | D.. | "Core Volt" has unused setup item "(Value Item)" 
+2013-05-29 14:18:12 | D.. | "Core Volt" has unused setup item "(Value Index)" 
+2013-05-29 14:18:12 | D.. | "HDD Used Bar" has unused setup item "(Value Type)" 
+2013-05-29 14:18:12 | D.. | "HDD Used Bar" has unused setup item "(Value Group)" 
+2013-05-29 14:18:12 | D.. | "HDD Used Bar" has unused setup item "(Value Item)" 
+2013-05-29 14:18:12 | D.. | "HDD Used Bar" has unused setup item "(Value Index)" 
+2013-05-29 14:18:12 | D.. | "FSB" has unused setup item "(Value Type)" 
+2013-05-29 14:18:12 | D.. | "FSB" has unused setup item "(Value Group)" 
+2013-05-29 14:18:12 | D.. | "FSB" has unused setup item "(Value Item)" 
+2013-05-29 14:18:12 | D.. | "FSB" has unused setup item "(Value Index)" 
+2013-05-29 14:18:12 | D.. | "HDD Used - Monitoring Text" has unused setup item "(Value Type)" 
+2013-05-29 14:18:12 | D.. | "HDD Used - Monitoring Text" has unused setup item "(Value Group)" 
+2013-05-29 14:18:12 | D.. | "HDD Used - Monitoring Text" has unused setup item "(Value Item)" 
+2013-05-29 14:18:12 | D.. | "HDD Used - Monitoring Text" has unused setup item "(Value Index)" 
+2013-05-29 14:18:12 | D.. | "Multiplier" has unused setup item "(Value Type)" 
+2013-05-29 14:18:12 | D.. | "Multiplier" has unused setup item "(Value Group)" 
+2013-05-29 14:18:12 | D.. | "Multiplier" has unused setup item "(Value Item)" 
+2013-05-29 14:18:12 | D.. | "Multiplier" has unused setup item "(Value Index)" 
+2013-05-29 14:18:12 | D.. | "HDD Free - Monitoring Text" has unused setup item "(Value Type)" 
+2013-05-29 14:18:12 | D.. | "HDD Free - Monitoring Text" has unused setup item "(Value Group)" 
+2013-05-29 14:18:12 | D.. | "HDD Free - Monitoring Text" has unused setup item "(Value Item)" 
+2013-05-29 14:18:12 | D.. | "HDD Free - Monitoring Text" has unused setup item "(Value Index)" 
+2013-05-29 14:18:12 | D.. | "UpTime" has unused setup item "(Value Type)" 
+2013-05-29 14:18:12 | D.. | "UpTime" has unused setup item "(Value Group)" 
+2013-05-29 14:18:12 | D.. | "UpTime" has unused setup item "(Value Item)" 
+2013-05-29 14:18:12 | D.. | "UpTime" has unused setup item "(Value Index)" 
+2013-05-29 14:18:13 | .W. | <b>LH_NowPlaying/NowPlayingText</b>: LH_FLAG_NOSAVE: => LH_FLAG_NOSAVE_DATA FIXME!
+2013-05-29 14:18:13 | .W. | <b>LH_NowPlaying/NowPlayingText</b>: LH_FLAG_NOSAVE|LH_FLAG_HIDDEN: => LH_FLAG_NOSAVE_LINK FIXME!

@@ -1,0 +1,12 @@
+[Format]
+type=MEM
+
+[Process]
+name=DataViewerTestApp.exe
+version=1.0.0.0
+
+[Definition:Temp]
+
+*Gold	"DataViewerTestApp.exe"+1FB6708	8 Byte
+
+[/Definition:Player]

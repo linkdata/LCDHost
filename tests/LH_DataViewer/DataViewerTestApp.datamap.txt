@@ -1,0 +1,56 @@
+[Format]
+type=MEM
+
+[Process]
+name=DataViewerTestApp.exe
+version=1.0.0.0
+
+[Definition:Player]
+
+*Name	0028FE5C>0>0	Text
+Race	0028FE5C>4>0	Text-Ascii
+
+[Definition:Strength]
+Max	0028FE5C>8	4 Byte
+*Value	0028FE5C>C	4 Byte
+[/Definition:Strength]
+
+[Definition:Dexterity]
+Max	0028FE5C>10	4 Byte
+*Value	0028FE5C>14	4 Byte
+[/Definition:Dexterity]
+
+[Definition:Willpower]
+Max	0028FE5C>18	4 Byte
+*Value	0028FE5C>1C	4 Byte
+[/Definition:Willpower]
+
+[Definition:Magic]
+Max	0028FE5C>20	4 Byte
+*Value	0028FE5C>24	4 Byte
+[/Definition:Magic]
+
+[Definition:Cunning]
+Max	0028FE5C>28	4 Byte
+*Value	0028FE5C>2C	4 Byte
+[/Definition:Cunning]
+
+[Definition:Intelligence]
+Max	0028FE5C>30	4 Byte
+*Value	0028FE5C>34	4 Byte
+[/Definition:Intelligence]
+
+[Definition:Health]
+Max	0028FE5C>38	Float
+*Value	0028FE5C>3C	Float
+[/Definition:Health]
+
+[Definition:Mana]
+Max	0028FE5C>40	Float
+*Value	0028FE5C>44	Float
+[/Definition:Mana]
+
+
+Gold	0028FE5C>48	8 Byte
+
+[/Definition:Player]

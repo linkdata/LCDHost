@@ -1,0 +1,16 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/apps/aida64.png</file>
+        <file>images/apps/atitray.png</file>
+        <file>images/apps/CoreTemp.png</file>
+        <file>images/apps/fraps.png</file>
+        <file>images/apps/GPU-Z.png</file>
+        <file>images/apps/HWiNFO.png</file>
+        <file>images/apps/HWMonitor.png</file>
+        <file>images/apps/HwMonTray.png</file>
+        <file>images/apps/Logitech.png</file>
+        <file>images/apps/MSIAfterburner.png</file>
+        <file>images/apps/RivaTuner.png</file>
+        <file>images/apps/speedfan.png</file>
+    </qresource>
+</RCC>

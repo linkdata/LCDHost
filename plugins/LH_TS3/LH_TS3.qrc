@@ -1,0 +1,22 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/active.png</file>
+        <file>images/notrunning.png</file>
+        <file>images/unconnected.png</file>
+        <file>images/microphone.png</file>
+        <file>images/microphone-mute.png</file>
+        <file>images/sound.png</file>
+        <file>images/sound-mute.png</file>
+        <file>images/microphone-disabled.png</file>
+        <file>images/sound-disabled.png</file>
+        <file>images/sizer.png</file>
+        <file>images/talking.png</file>
+        <file>images/empty.png</file>
+        <file>images/LED_BothSpeaking.png</file>
+        <file>images/LED_NoSpeaker.png</file>
+        <file>images/LED_NotConnected.png</file>
+        <file>images/LED_NotRunning.png</file>
+        <file>images/LED_OtherSpeaking.png</file>
+        <file>images/LED_MeSpeaking.png</file>
+    </qresource>
+</RCC>

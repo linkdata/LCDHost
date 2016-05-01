@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<instance>
+    <identity name="Virtual 320x240x32 device" id="qvthc"/>
+    <state modifiable="0" selectable="0" alerts="1"/>
+    <origin x="0" y="0"/>
+    <size w="320" h="240"/>
+    <plugin_size w="-1" h="-1"/>
+    <pos x="0" y="0" z="0"/>
+    <x_ref id="0" align="0" ref_align="0"/>
+    <y_ref id="0" align="0" ref_align="0"/>
+    <w_ref id="0" mod="0" units="0"/>
+    <h_ref id="0" mod="0" units="0"/>
+    <instance class="LH_Monitoring/MonitoringText">
+        <identity name="Monitoring (Text) [37]" id="rc9ps"/>
+        <state modifiable="1" selectable="1" alerts="1"/>
+        <origin x="0" y="0"/>
+        <size w="132" h="19"/>
+        <plugin_size w="-1" h="19"/>
+        <pos x="85" y="94" z="0"/>
+        <x_ref id="qvthc" align="0" ref_align="0"/>
+        <y_ref id="qvthc" align="0" ref_align="0"/>
+        <w_ref id="0" mod="132" units="4"/>
+        <h_ref id="0" mod="0" units="0"/>
+        <setupitem>
+            <identity name="(Application Name)" type="8"/>
+            <value type="QString">SpeedFan</value>
+        </setupitem>
+        <setupitem>
+            <identity name="(Value Type Name)" type="8"/>
+            <value type="QString">Temperature</value>
+        </setupitem>
+        <setupitem>
+            <identity name="(Value Group Name)" type="8"/>
+            <value type="QString">GPU temperature</value>
+        </setupitem>
+        <setupitem>
+            <identity name="(Value Item Name)" type="8"/>
+            <value type="QString">Maximum GPU temperature</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Apply Offsets" type="2"/>
+            <value type="QString">true</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Use Formatted Data" type="2"/>
+            <value type="QString">false</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Units" type="6"/>
+            <value type="QString">0</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Round" type="2"/>
+            <value type="QString">false</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Append Units" type="2"/>
+            <value type="QString">true</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Pre-Text" type="8"/>
+            <value type="QString"></value>
+        </setupitem>
+        <setupitem>
+            <identity name="Post-Text" type="8"/>
+            <value type="QString"></value>
+        </setupitem>
+        <setupitem>
+            <identity name="Font" type="11"/>
+            <value type="QString">Arial,10,-1,5,50,0,0,0,0,0</value>
+        </setupitem>
+        <setupitem>
+            <identity name="^Adjust font size to instance height" type="2"/>
+            <value type="QString">true</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Color" type="3"/>
+            <value type="QString">-16777216</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Background" type="3"/>
+            <value type="QString">0</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Horizontal" type="6"/>
+            <value type="QString">0</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Vertical" type="6"/>
+            <value type="QString">0</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Scroll rate" type="4"/>
+            <value type="QString">15</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Scroll step" type="4"/>
+            <value type="QString">2</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Scroll gap" type="4"/>
+            <value type="QString">10</value>
+        </setupitem>
+        <setupitem>
+            <identity name="CF-Area-Rule" type="18"/>
+        </setupitem>
+        <setupitem>
+            <identity name="^Enable Conditional Formatting" type="2"/>
+            <value type="QString">false</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Conditions XML" type="9"/>
+            <value type="QString">&lt;rules/&gt;</value>
+        </setupitem>
+    </instance>
+    <instance class="LH_Monitoring/RivaWriter">
+        <identity name="RivaTuner DataWriter [1]" id="rh1o8"/>
+        <state modifiable="1" selectable="1" alerts="1"/>
+        <origin x="0" y="0"/>
+        <size w="0" h="0"/>
+        <plugin_size w="-1" h="-1"/>
+        <pos x="175" y="284" z="1"/>
+        <x_ref id="qvthc" align="0" ref_align="0"/>
+        <y_ref id="qvthc" align="0" ref_align="0"/>
+        <w_ref id="0" mod="0" units="0"/>
+        <h_ref id="0" mod="0" units="0"/>
+    </instance>
+</instance>

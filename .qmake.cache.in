@@ -1,0 +1,20 @@
+exists("$$LH_DIR_SRCROOT/LCDHost.pro"):exists("$$LH_DIR_SRCROOT/lh_features/lcdhost.pri") {
+    LH_VERSION=\$\$quote($$LH_VERSION)
+    LH_DIR_SRCROOT=\$\$quote($$LH_DIR_SRCROOT)
+    LH_DIR_DSTROOT=\$\$quote($$LH_DIR_DSTROOT)
+    LH_DIR_TOP=\$\$dirname(LH_DIR_SRCROOT)
+    LH_DIR_INCLUDE=\$\$quote($$LH_DIR_SRCROOT/include)
+    LH_DIR_LINKDATA=\$\$quote($$LH_DIR_SRCROOT/linkdata)
+    LH_DIR_CODELEAP=\$\$quote($$LH_DIR_SRCROOT/codeleap)
+    LH_DIR_FEATURES=\$\$quote($$LH_DIR_SRCROOT/lh_features)
+    include(\$\$LH_DIR_FEATURES/lcdhost.pri)
+    lh_featglob=\$\$quote(\$\$LH_DIR_FEATURES/lh_*.pri)
+    LH_FEATURES_FILES=\$\$files(\$\$lh_featglob)
+    !isEmpty(LH_FEATURES_FILES) {
+        for(lh_featfile, LH_FEATURES_FILES): include(\$\${lh_featfile})
+    } else {
+        error($$_PRO_FILE_: .qmake.cache.in: LH_FEATURES_FILES in "\$\$lh_featglob" not found)
+    }
+} else {
+    error($$_PRO_FILE_: .qmake.cache.in: invalid \\\$\\\$LH_DIR_SRCROOT = \"$$LH_DIR_SRCROOT\")
+}

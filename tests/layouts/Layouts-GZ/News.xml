@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<instance>
+    <identity name="Logitech QVGA device" id="rofvk"/>
+    <state modifiable="0" selectable="0" alerts="1"/>
+    <origin x="0" y="0"/>
+    <size w="320" h="240"/>
+    <plugin_size w="-1" h="-1"/>
+    <pos x="0" y="0" z="0"/>
+    <x_ref id="0" align="0" ref_align="0"/>
+    <y_ref id="0" align="0" ref_align="0"/>
+    <w_ref id="0" mod="0" units="0"/>
+    <h_ref id="0" mod="0" units="0"/>
+    <instance class="LH_Decor/StaticBackground">
+        <identity name="Background" id="rvzg0"/>
+        <state modifiable="1" selectable="1" alerts="1"/>
+        <origin x="0" y="0"/>
+        <size w="320" h="240"/>
+        <plugin_size w="-1" h="-1"/>
+        <pos x="0" y="0" z="0"/>
+        <x_ref id="rofvk" align="0" ref_align="0"/>
+        <y_ref id="rofvk" align="0" ref_align="0"/>
+        <w_ref id="rofvk" mod="0" units="0"/>
+        <h_ref id="rofvk" mod="0" units="0"/>
+        <setupitem>
+            <identity name="First color" type="3"/>
+            <value type="QString">-14876417</value>
+        </setupitem>
+        <setupitem>
+            <identity name="^Background is a gradient" type="2"/>
+            <value type="QString">true</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Second color" type="3"/>
+            <value type="QString">-16777216</value>
+        </setupitem>
+        <setupitem>
+            <identity name="^Gradient is horizontal" type="2"/>
+            <value type="QString">false</value>
+        </setupitem>
+    </instance>
+    <instance class="LH_WebKit/DynamicRSSFeedBody">
+        <identity name="RSS feed (Body)" id="rw0hc"/>
+        <state modifiable="1" selectable="1" alerts="1"/>
+        <origin x="0" y="0"/>
+        <size w="320" h="241"/>
+        <plugin_size w="-1" h="-1"/>
+        <pos x="0" y="-1" z="1"/>
+        <x_ref id="rofvk" align="0" ref_align="0"/>
+        <y_ref id="rofvk" align="0" ref_align="0"/>
+        <w_ref id="0" mod="320" units="4"/>
+        <h_ref id="0" mod="241" units="4"/>
+        <setupitem>
+            <identity name="URL" type="8"/>
+            <value type="QString">http://www.faz.net/s/Rub/Tpl~Epartner~SRss_.xml</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Switch delay" type="4"/>
+            <value type="QString">10</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Open in browser" type="12"/>
+            <value type="QString"></value>
+        </setupitem>
+        <setupitem>
+            <identity name="Previous Headline" type="12"/>
+            <value type="QString"></value>
+        </setupitem>
+        <setupitem>
+            <identity name="Next Headline" type="12"/>
+            <value type="QString"></value>
+        </setupitem>
+        <setupitem>
+            <identity name="Refresh (minutes)" type="1"/>
+            <value type="QString">5</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Modify Visible" type="1"/>
+            <value type="QString">0</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Zoom" type="4"/>
+            <value type="QString">10</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Enable Parsing" type="2"/>
+            <value type="QString">true</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Lazy Regular Expressions" type="2"/>
+            <value type="QString">false</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Parsing Expression" type="9"/>
+            <value type="QString">(.*)</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Parsing Template" type="9"/>
+            <value type="QString">&lt;body style=&quot;margin:2&quot; bgcolor=transparent&gt;
+&lt;br&gt;&lt;br&gt;
+&lt;img height=&quot;\thumbnail_height&quot; width=&quot;\thumbnail_width&quot;  src=&quot;\thumbnail_url&quot; style=&quot;float:left; border:1px black solid; padding:1px; margin-right:6px; margin-top:2px; background-color:white&quot;&gt;
+
+&lt;span style=&quot;color:white; font-size:12px; 
+text-shadow: 
+0.1em 0.1em 0.2em black,
+-0.1em -0.1em 0.2em black&quot;&gt;\1&lt;/span&gt;
+&lt;/span&gt;
+
+&lt;/body&gt;
+</value>
+        </setupitem>
+        <setupitem>
+            <identity name="~WebKitProgress" type="5"/>
+            <value type="QString">100</value>
+        </setupitem>
+    </instance>
+    <instance class="LH_WebKit/DynamicRSSFeedText">
+        <identity name="RSS feed (Title)" id="rvxjk"/>
+        <state modifiable="1" selectable="1" alerts="1"/>
+        <origin x="0" y="0"/>
+        <size w="319" h="23"/>
+        <plugin_size w="-1" h="-1"/>
+        <pos x="0" y="14" z="2"/>
+        <x_ref id="rofvk" align="0" ref_align="0"/>
+        <y_ref id="rofvk" align="0" ref_align="0"/>
+        <w_ref id="0" mod="319" units="4"/>
+        <h_ref id="0" mod="23" units="4"/>
+        <setupitem>
+            <identity name="URL" type="8"/>
+            <value type="QString">http://www.faz.net/s/Rub/Tpl~Epartner~SRss_.xml</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Font" type="11"/>
+            <value type="QString">Arial,11,-1,5,50,0,0,0,0,0</value>
+        </setupitem>
+        <setupitem>
+            <identity name="^Adjust font size to instance height" type="2"/>
+            <value type="QString">false</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Color" type="3"/>
+            <value type="QString">-1</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Background" type="3"/>
+            <value type="QString">0</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Horizontal" type="6"/>
+            <value type="QString">0</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Vertical" type="6"/>
+            <value type="QString">0</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Scroll rate" type="4"/>
+            <value type="QString">15</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Scroll step" type="4"/>
+            <value type="QString">2</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Scroll gap" type="4"/>
+            <value type="QString">10</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Switch delay" type="4"/>
+            <value type="QString">10</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Open in browser" type="12"/>
+            <value type="QString">Ok pressed @ Logitech QVGA device</value>
+            <extra str="Ok" int="32773"/>
+        </setupitem>
+        <setupitem>
+            <identity name="Previous Headline" type="12"/>
+            <value type="QString">Left pressed @ Logitech QVGA device</value>
+            <extra str="Left" int="32773"/>
+        </setupitem>
+        <setupitem>
+            <identity name="Next Headline" type="12"/>
+            <value type="QString">Right pressed @ Logitech QVGA device</value>
+            <extra str="Right" int="32773"/>
+        </setupitem>
+        <setupitem>
+            <identity name="Refresh (minutes)" type="1"/>
+            <value type="QString">5</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Modify Visible" type="1"/>
+            <value type="QString">0</value>
+        </setupitem>
+        <setupitem>
+            <identity name="^Enable Conditional Formatting" type="2"/>
+            <value type="QString">false</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Conditions XML" type="9"/>
+            <value type="QString">&lt;rules/&gt;</value>
+        </setupitem>
+    </instance>
+    <instance class="LH_Text/StaticText">
+        <identity name="Text" id="rvyr4"/>
+        <state modifiable="1" selectable="1" alerts="1"/>
+        <origin x="0" y="0"/>
+        <size w="222" h="19"/>
+        <plugin_size w="222" h="19"/>
+        <pos x="1" y="204" z="3"/>
+        <x_ref id="rofvk" align="0" ref_align="0"/>
+        <y_ref id="rofvk" align="0" ref_align="0"/>
+        <w_ref id="0" mod="0" units="0"/>
+        <h_ref id="0" mod="0" units="0"/>
+        <setupitem>
+            <identity name="Text" type="8"/>
+            <value type="QString">News - press &quot;Menu&quot; for Menu</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Font" type="11"/>
+            <value type="QString">Arial,10,-1,5,50,0,0,0,0,0</value>
+        </setupitem>
+        <setupitem>
+            <identity name="^Adjust font size to instance height" type="2"/>
+            <value type="QString">true</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Color" type="3"/>
+            <value type="QString">-256</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Background" type="3"/>
+            <value type="QString">0</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Horizontal" type="6"/>
+            <value type="QString">0</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Vertical" type="6"/>
+            <value type="QString">0</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Scroll rate" type="4"/>
+            <value type="QString">15</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Scroll step" type="4"/>
+            <value type="QString">2</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Scroll gap" type="4"/>
+            <value type="QString">10</value>
+        </setupitem>
+        <setupitem>
+            <identity name="^Enable Conditional Formatting" type="2"/>
+            <value type="QString">false</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Conditions XML" type="9"/>
+            <value type="QString">&lt;rules/&gt;</value>
+        </setupitem>
+    </instance>
+    <instance class="LH_Cursor/QuickAction">
+        <identity name="Quick Action" id="rw1ow"/>
+        <state modifiable="1" selectable="1" alerts="1"/>
+        <origin x="0" y="0"/>
+        <size w="48" h="48"/>
+        <plugin_size w="48" h="48"/>
+        <pos x="0" y="0" z="4"/>
+        <x_ref id="rofvk" align="0" ref_align="0"/>
+        <y_ref id="rofvk" align="0" ref_align="0"/>
+        <w_ref id="0" mod="0" units="0"/>
+        <h_ref id="0" mod="0" units="0"/>
+        <setupitem>
+            <identity name="Trigger key" type="12"/>
+            <value type="QString">Menu pressed @ QVGA</value>
+            <extra str="Menu" int="5"/>
+        </setupitem>
+        <setupitem>
+            <identity name="Enable Auto Trigger" type="2"/>
+            <value type="QString">false</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Auto Trigger Timeout" type="1"/>
+            <value type="QString">30</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Layout" type="10"/>
+            <value type="QString">Menu.xml</value>
+        </setupitem>
+    </instance>
+</instance>

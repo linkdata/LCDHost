@@ -1,0 +1,849 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<instance>
+    <identity name="Logitech QVGA device" id="tp0zc"/>
+    <state modifiable="0" selectable="0" alerts="1"/>
+    <origin x="0" y="0"/>
+    <size w="320" h="240"/>
+    <plugin_size w="-1" h="-1"/>
+    <pos x="0" y="0" z="-1"/>
+    <x_ref id="0" align="0" ref_align="0"/>
+    <y_ref id="0" align="0" ref_align="0"/>
+    <w_ref id="0" mod="0" units="0"/>
+    <h_ref id="0" mod="0" units="0"/>
+    <instance class="LH_Decor/StaticBackground">
+        <identity name="Background [2]" id="u7bl4"/>
+        <state modifiable="1" selectable="1" alerts="1"/>
+        <origin x="0" y="0"/>
+        <size w="320" h="240"/>
+        <plugin_size w="-1" h="-1"/>
+        <pos x="0" y="0" z="0"/>
+        <x_ref id="tp0zc" align="0" ref_align="0"/>
+        <y_ref id="tp0zc" align="0" ref_align="0"/>
+        <w_ref id="tp0zc" mod="0" units="0"/>
+        <h_ref id="tp0zc" mod="0" units="0"/>
+        <setupitem>
+            <identity name="First color" type="3"/>
+            <value type="QString">-6370658</value>
+        </setupitem>
+        <setupitem>
+            <identity name="^Background is a gradient" type="2"/>
+            <value type="QString">true</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Second color" type="3"/>
+            <value type="QString">-13416861</value>
+        </setupitem>
+        <setupitem>
+            <identity name="^Gradient is horizontal" type="2"/>
+            <value type="QString">false</value>
+        </setupitem>
+    </instance>
+    <instance class="LH_Dial/SystemCPUAverageDial">
+        <identity name="Average Load (Dial) [2]" id="u7gmg"/>
+        <state modifiable="1" selectable="1" alerts="1"/>
+        <origin x="0" y="0"/>
+        <size w="64" h="64"/>
+        <plugin_size w="-1" h="-1"/>
+        <pos x="4" y="5" z="1"/>
+        <x_ref id="tp0zc" align="0" ref_align="0"/>
+        <y_ref id="tp0zc" align="0" ref_align="0"/>
+        <w_ref id="0" mod="64" units="4"/>
+        <h_ref id="0" mod="64" units="4"/>
+        <setupitem>
+            <identity name="Smoothing" type="4"/>
+            <value type="QString">3</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Dial Type" type="6"/>
+            <value type="QString">0</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Orientation" type="6"/>
+            <value type="QString">0</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Background color" type="3"/>
+            <value type="QString">0</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Face Style" type="6"/>
+            <value type="QString">3</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Pen color" type="3"/>
+            <value type="QString">-16777216</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Fill color (start)" type="3"/>
+            <value type="QString">-1</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Fill color (end)" type="3"/>
+            <value type="QString">-4144960</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Face Image" type="10"/>
+            <value type="QString">128x128_Circle.png</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Show Ticks" type="2"/>
+            <value type="QString">false</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Reverse Needles" type="2"/>
+            <value type="QString">false</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Smooth Needles" type="2"/>
+            <value type="QString">false</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Selected Needle" type="6"/>
+        </setupitem>
+        <setupitem>
+            <identity name="Needle Style" type="6"/>
+        </setupitem>
+        <setupitem>
+            <identity name="Needle Color" type="3"/>
+        </setupitem>
+        <setupitem>
+            <identity name="Gradient Fill" type="2"/>
+        </setupitem>
+        <setupitem>
+            <identity name="Needle Color 2" type="3"/>
+        </setupitem>
+        <setupitem>
+            <identity name="Needle Thickness" type="1"/>
+        </setupitem>
+        <setupitem>
+            <identity name="Needle Length (%)" type="1"/>
+        </setupitem>
+        <setupitem>
+            <identity name="Needle Gap (%)" type="1"/>
+        </setupitem>
+        <setupitem>
+            <identity name="Needle Image" type="10"/>
+        </setupitem>
+        <setupitem>
+            <identity name="Needle Configs" type="9"/>
+            <value type="QString">0,0,0,0,255,1,73,0</value>
+        </setupitem>
+    </instance>
+    <instance class="LH_Text/SystemCPUText">
+        <identity name="Average Load (Text) [2]" id="ub3k8"/>
+        <state modifiable="1" selectable="1" alerts="1"/>
+        <origin x="0" y="0"/>
+        <size w="24" h="19"/>
+        <plugin_size w="24" h="19"/>
+        <pos x="25" y="49" z="2"/>
+        <x_ref id="tp0zc" align="0" ref_align="0"/>
+        <y_ref id="tp0zc" align="0" ref_align="0"/>
+        <w_ref id="0" mod="0" units="0"/>
+        <h_ref id="0" mod="0" units="0"/>
+        <setupitem>
+            <identity name="Average CPU load" type="8"/>
+            <value type="QString">5%</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Font" type="11"/>
+            <value type="QString">Arial,10,-1,5,50,0,0,0,0,0</value>
+        </setupitem>
+        <setupitem>
+            <identity name="^Adjust font size to instance height" type="2"/>
+            <value type="QString">true</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Color" type="3"/>
+            <value type="QString">-16777216</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Background" type="3"/>
+            <value type="QString">0</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Horizontal" type="6"/>
+            <value type="QString">0</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Vertical" type="6"/>
+            <value type="QString">0</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Scroll rate" type="4"/>
+            <value type="QString">15</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Scroll step" type="4"/>
+            <value type="QString">2</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Scroll gap" type="4"/>
+            <value type="QString">10</value>
+        </setupitem>
+        <setupitem>
+            <identity name="CF-Area-Rule" type="18"/>
+        </setupitem>
+        <setupitem>
+            <identity name="^Enable Conditional Formatting" type="2"/>
+            <value type="QString">false</value>
+        </setupitem>
+        <setupitem>
+            <identity name="State" type="8"/>
+        </setupitem>
+        <setupitem>
+            <identity name="Visibility" type="2"/>
+        </setupitem>
+        <setupitem>
+            <identity name="^Copy Conditions" type="17"/>
+        </setupitem>
+        <setupitem>
+            <identity name="^Paste Conditions" type="17"/>
+        </setupitem>
+        <setupitem>
+            <identity name="^Conditions" type="16"/>
+        </setupitem>
+        <setupitem>
+            <identity name="^Move Condition Up" type="17"/>
+        </setupitem>
+        <setupitem>
+            <identity name="^Move Condition Down" type="17"/>
+        </setupitem>
+        <setupitem>
+            <identity name="^New Condition" type="17"/>
+        </setupitem>
+        <setupitem>
+            <identity name="^Delete Condition" type="17"/>
+        </setupitem>
+        <setupitem>
+            <identity name="Source" type="6"/>
+        </setupitem>
+        <setupitem>
+            <identity name="Value" type="6"/>
+        </setupitem>
+        <setupitem>
+            <identity name="Condition" type="6"/>
+        </setupitem>
+        <setupitem>
+            <identity name="^Value 1" type="8"/>
+        </setupitem>
+        <setupitem>
+            <identity name="^Value 2" type="8"/>
+        </setupitem>
+        <setupitem>
+            <identity name="Target" type="6"/>
+        </setupitem>
+        <setupitem>
+            <identity name="^New Value - Color" type="3"/>
+        </setupitem>
+        <setupitem>
+            <identity name="^New Value - Font" type="11"/>
+        </setupitem>
+        <setupitem>
+            <identity name="^New Value - String" type="8"/>
+        </setupitem>
+        <setupitem>
+            <identity name="^New Value - Boolean" type="2"/>
+        </setupitem>
+        <setupitem>
+            <identity name="^New Value - File" type="10"/>
+        </setupitem>
+        <setupitem>
+            <identity name="^Save Condition" type="17"/>
+        </setupitem>
+        <setupitem>
+            <identity name="^Cancel Condition Edit" type="17"/>
+        </setupitem>
+        <setupitem>
+            <identity name="Conditions XML" type="9"/>
+            <value type="QString">&lt;rules/&gt;</value>
+        </setupitem>
+    </instance>
+    <instance class="LH_Dial/SystemTimeDial">
+        <identity name="Time (Dial) [2]" id="ua47c"/>
+        <state modifiable="1" selectable="1" alerts="1"/>
+        <origin x="0" y="0"/>
+        <size w="170" h="170"/>
+        <plugin_size w="-1" h="-1"/>
+        <pos x="121" y="28" z="3"/>
+        <x_ref id="tp0zc" align="0" ref_align="0"/>
+        <y_ref id="tp0zc" align="0" ref_align="0"/>
+        <w_ref id="0" mod="170" units="4"/>
+        <h_ref id="0" mod="170" units="4"/>
+        <setupitem>
+            <identity name="Manual Adjust" type="2"/>
+            <value type="QString">false</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Adjust Seconds" type="1"/>
+            <value type="QString">0</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Adjust Minutes" type="1"/>
+            <value type="QString">0</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Adjust Hours" type="1"/>
+            <value type="QString">0</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Dial Type" type="6"/>
+            <value type="QString">0</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Orientation" type="6"/>
+            <value type="QString">0</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Background color" type="3"/>
+            <value type="QString">0</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Face Style" type="6"/>
+            <value type="QString">2</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Pen color" type="3"/>
+            <value type="QString">-16777216</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Fill color (start)" type="3"/>
+            <value type="QString">-1</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Fill color (end)" type="3"/>
+            <value type="QString">-4144960</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Face Image" type="10"/>
+            <value type="QString"></value>
+        </setupitem>
+        <setupitem>
+            <identity name="Show Ticks" type="2"/>
+            <value type="QString">true</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Reverse Needles" type="2"/>
+            <value type="QString">false</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Smooth Needles" type="2"/>
+            <value type="QString">false</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Selected Needle" type="6"/>
+        </setupitem>
+        <setupitem>
+            <identity name="Needle Style" type="6"/>
+        </setupitem>
+        <setupitem>
+            <identity name="Needle Color" type="3"/>
+        </setupitem>
+        <setupitem>
+            <identity name="Gradient Fill" type="2"/>
+        </setupitem>
+        <setupitem>
+            <identity name="Needle Color 2" type="3"/>
+        </setupitem>
+        <setupitem>
+            <identity name="Needle Thickness" type="1"/>
+        </setupitem>
+        <setupitem>
+            <identity name="Needle Length (%)" type="1"/>
+        </setupitem>
+        <setupitem>
+            <identity name="Needle Gap (%)" type="1"/>
+        </setupitem>
+        <setupitem>
+            <identity name="Needle Image" type="10"/>
+        </setupitem>
+        <setupitem>
+            <identity name="Needle Configs" type="9"/>
+            <value type="QString">0,0,0,0,255,3,60,0,~0,85,0,0,255,2,80,0~2,255,0,0,255,1,95,0,128x128_Second2.png</value>
+        </setupitem>
+    </instance>
+    <instance class="LH_Text/SystemTimeText">
+        <identity name="Time (Text) [2]" id="ubccg"/>
+        <state modifiable="1" selectable="1" alerts="1"/>
+        <origin x="0" y="0"/>
+        <size w="64" h="19"/>
+        <plugin_size w="64" h="19"/>
+        <pos x="172" y="153" z="4"/>
+        <x_ref id="tp0zc" align="0" ref_align="0"/>
+        <y_ref id="tp0zc" align="0" ref_align="0"/>
+        <w_ref id="0" mod="0" units="0"/>
+        <h_ref id="0" mod="0" units="0"/>
+        <setupitem>
+            <identity name="Current time" type="8"/>
+            <value type="QString">19:27:02</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Font" type="11"/>
+            <value type="QString">Arial,10,-1,5,50,0,0,0,0,0</value>
+        </setupitem>
+        <setupitem>
+            <identity name="^Adjust font size to instance height" type="2"/>
+            <value type="QString">true</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Color" type="3"/>
+            <value type="QString">-16777216</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Background" type="3"/>
+            <value type="QString">0</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Horizontal" type="6"/>
+            <value type="QString">0</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Vertical" type="6"/>
+            <value type="QString">0</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Scroll rate" type="4"/>
+            <value type="QString">15</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Scroll step" type="4"/>
+            <value type="QString">2</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Scroll gap" type="4"/>
+            <value type="QString">10</value>
+        </setupitem>
+        <setupitem>
+            <identity name="&lt;a href=&quot;http://doc.trolltech.com/4.6/qtime.html#toString&quot;&gt;Format&lt;/a&gt;" type="8"/>
+            <value type="QString">HH:mm:ss</value>
+        </setupitem>
+        <setupitem>
+            <identity name="CF-Area-Rule" type="18"/>
+        </setupitem>
+        <setupitem>
+            <identity name="^Enable Conditional Formatting" type="2"/>
+            <value type="QString">false</value>
+        </setupitem>
+        <setupitem>
+            <identity name="State" type="8"/>
+        </setupitem>
+        <setupitem>
+            <identity name="Visibility" type="2"/>
+        </setupitem>
+        <setupitem>
+            <identity name="^Copy Conditions" type="17"/>
+        </setupitem>
+        <setupitem>
+            <identity name="^Paste Conditions" type="17"/>
+        </setupitem>
+        <setupitem>
+            <identity name="^Conditions" type="16"/>
+        </setupitem>
+        <setupitem>
+            <identity name="^Move Condition Up" type="17"/>
+        </setupitem>
+        <setupitem>
+            <identity name="^Move Condition Down" type="17"/>
+        </setupitem>
+        <setupitem>
+            <identity name="^New Condition" type="17"/>
+        </setupitem>
+        <setupitem>
+            <identity name="^Delete Condition" type="17"/>
+        </setupitem>
+        <setupitem>
+            <identity name="Source" type="6"/>
+        </setupitem>
+        <setupitem>
+            <identity name="Value" type="6"/>
+        </setupitem>
+        <setupitem>
+            <identity name="Condition" type="6"/>
+        </setupitem>
+        <setupitem>
+            <identity name="^Value 1" type="8"/>
+        </setupitem>
+        <setupitem>
+            <identity name="^Value 2" type="8"/>
+        </setupitem>
+        <setupitem>
+            <identity name="Target" type="6"/>
+        </setupitem>
+        <setupitem>
+            <identity name="^New Value - Color" type="3"/>
+        </setupitem>
+        <setupitem>
+            <identity name="^New Value - Font" type="11"/>
+        </setupitem>
+        <setupitem>
+            <identity name="^New Value - String" type="8"/>
+        </setupitem>
+        <setupitem>
+            <identity name="^New Value - Boolean" type="2"/>
+        </setupitem>
+        <setupitem>
+            <identity name="^New Value - File" type="10"/>
+        </setupitem>
+        <setupitem>
+            <identity name="^Save Condition" type="17"/>
+        </setupitem>
+        <setupitem>
+            <identity name="^Cancel Condition Edit" type="17"/>
+        </setupitem>
+        <setupitem>
+            <identity name="Conditions XML" type="9"/>
+            <value type="QString">&lt;rules/&gt;</value>
+        </setupitem>
+    </instance>
+    <instance class="LH_Dial/SystemMemoryPhysicalDial">
+        <identity name="Physical memory used (Dial) [3]" id="ubonc"/>
+        <state modifiable="1" selectable="1" alerts="1"/>
+        <origin x="0" y="0"/>
+        <size w="64" h="32"/>
+        <plugin_size w="-1" h="-1"/>
+        <pos x="6" y="80" z="5"/>
+        <x_ref id="tp0zc" align="0" ref_align="0"/>
+        <y_ref id="tp0zc" align="0" ref_align="0"/>
+        <w_ref id="0" mod="64" units="4"/>
+        <h_ref id="0" mod="32" units="4"/>
+        <setupitem>
+            <identity name="Dial Type" type="6"/>
+            <value type="QString">1</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Orientation" type="6"/>
+            <value type="QString">3</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Background color" type="3"/>
+            <value type="QString">0</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Face Style" type="6"/>
+            <value type="QString">3</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Pen color" type="3"/>
+            <value type="QString">-16777216</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Fill color (start)" type="3"/>
+            <value type="QString">-1</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Fill color (end)" type="3"/>
+            <value type="QString">-4144960</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Face Image" type="10"/>
+            <value type="QString">64x128_SemiCircle.png</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Show Ticks" type="2"/>
+            <value type="QString">false</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Reverse Needles" type="2"/>
+            <value type="QString">false</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Smooth Needles" type="2"/>
+            <value type="QString">false</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Selected Needle" type="6"/>
+        </setupitem>
+        <setupitem>
+            <identity name="Needle Style" type="6"/>
+        </setupitem>
+        <setupitem>
+            <identity name="Needle Color" type="3"/>
+        </setupitem>
+        <setupitem>
+            <identity name="Gradient Fill" type="2"/>
+        </setupitem>
+        <setupitem>
+            <identity name="Needle Color 2" type="3"/>
+        </setupitem>
+        <setupitem>
+            <identity name="Needle Thickness" type="1"/>
+        </setupitem>
+        <setupitem>
+            <identity name="Needle Length (%)" type="1"/>
+        </setupitem>
+        <setupitem>
+            <identity name="Needle Gap (%)" type="1"/>
+        </setupitem>
+        <setupitem>
+            <identity name="Needle Image" type="10"/>
+        </setupitem>
+        <setupitem>
+            <identity name="Needle Configs" type="9"/>
+            <value type="QString">0,0,0,0,255,1,80,0</value>
+        </setupitem>
+    </instance>
+    <instance class="LH_Dial/SystemMemoryVirtualDial">
+        <identity name="Virtual memory used (Dial) [2]" id="ubwhs"/>
+        <state modifiable="1" selectable="1" alerts="1"/>
+        <origin x="0" y="0"/>
+        <size w="32" h="32"/>
+        <plugin_size w="-1" h="-1"/>
+        <pos x="74" y="82" z="6"/>
+        <x_ref id="tp0zc" align="0" ref_align="0"/>
+        <y_ref id="tp0zc" align="0" ref_align="0"/>
+        <w_ref id="0" mod="32" units="4"/>
+        <h_ref id="0" mod="32" units="4"/>
+        <setupitem>
+            <identity name="Dial Type" type="6"/>
+            <value type="QString">2</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Orientation" type="6"/>
+            <value type="QString">0</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Background color" type="3"/>
+            <value type="QString">0</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Face Style" type="6"/>
+            <value type="QString">3</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Pen color" type="3"/>
+            <value type="QString">-16777216</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Fill color (start)" type="3"/>
+            <value type="QString">-1</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Fill color (end)" type="3"/>
+            <value type="QString">-4144960</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Face Image" type="10"/>
+            <value type="QString">64x64_QuarterCircle.png</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Show Ticks" type="2"/>
+            <value type="QString">false</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Reverse Needles" type="2"/>
+            <value type="QString">false</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Smooth Needles" type="2"/>
+            <value type="QString">false</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Selected Needle" type="6"/>
+        </setupitem>
+        <setupitem>
+            <identity name="Needle Style" type="6"/>
+        </setupitem>
+        <setupitem>
+            <identity name="Needle Color" type="3"/>
+        </setupitem>
+        <setupitem>
+            <identity name="Gradient Fill" type="2"/>
+        </setupitem>
+        <setupitem>
+            <identity name="Needle Color 2" type="3"/>
+        </setupitem>
+        <setupitem>
+            <identity name="Needle Thickness" type="1"/>
+        </setupitem>
+        <setupitem>
+            <identity name="Needle Length (%)" type="1"/>
+        </setupitem>
+        <setupitem>
+            <identity name="Needle Gap (%)" type="1"/>
+        </setupitem>
+        <setupitem>
+            <identity name="Needle Image" type="10"/>
+        </setupitem>
+        <setupitem>
+            <identity name="Needle Configs" type="9"/>
+            <value type="QString">0,0,0,0,255,1,80,0</value>
+        </setupitem>
+    </instance>
+    <instance class="LH_Dial/SystemMemoryPhysicalDial">
+        <identity name="Physical memory used (Dial) [2]" id="uc4dk"/>
+        <state modifiable="1" selectable="1" alerts="1"/>
+        <origin x="0" y="0"/>
+        <size w="100" h="99"/>
+        <plugin_size w="-1" h="-1"/>
+        <pos x="4" y="138" z="7"/>
+        <x_ref id="tp0zc" align="0" ref_align="0"/>
+        <y_ref id="tp0zc" align="0" ref_align="0"/>
+        <w_ref id="0" mod="100" units="4"/>
+        <h_ref id="0" mod="99" units="4"/>
+        <setupitem>
+            <identity name="Dial Type" type="6"/>
+            <value type="QString">0</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Orientation" type="6"/>
+            <value type="QString">0</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Background color" type="3"/>
+            <value type="QString">0</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Face Style" type="6"/>
+            <value type="QString">3</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Pen color" type="3"/>
+            <value type="QString">-16777216</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Fill color (start)" type="3"/>
+            <value type="QString">-1</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Fill color (end)" type="3"/>
+            <value type="QString">-4144960</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Face Image" type="10"/>
+            <value type="QString">128x128_Circle.png</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Show Ticks" type="2"/>
+            <value type="QString">false</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Reverse Needles" type="2"/>
+            <value type="QString">false</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Smooth Needles" type="2"/>
+            <value type="QString">false</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Selected Needle" type="6"/>
+        </setupitem>
+        <setupitem>
+            <identity name="Needle Style" type="6"/>
+        </setupitem>
+        <setupitem>
+            <identity name="Needle Color" type="3"/>
+        </setupitem>
+        <setupitem>
+            <identity name="Gradient Fill" type="2"/>
+        </setupitem>
+        <setupitem>
+            <identity name="Needle Color 2" type="3"/>
+        </setupitem>
+        <setupitem>
+            <identity name="Needle Thickness" type="1"/>
+        </setupitem>
+        <setupitem>
+            <identity name="Needle Length (%)" type="1"/>
+        </setupitem>
+        <setupitem>
+            <identity name="Needle Gap (%)" type="1"/>
+        </setupitem>
+        <setupitem>
+            <identity name="Needle Image" type="10"/>
+        </setupitem>
+        <setupitem>
+            <identity name="Needle Configs" type="9"/>
+            <value type="QString">1,255,0,0,255,3,60,0,64x5_BlackNeedle.png</value>
+        </setupitem>
+    </instance>
+    <instance class="LH_Dial/SystemCPUHistogramDial">
+        <identity name="Core Load (Dial) [1]" id="uccbs"/>
+        <state modifiable="1" selectable="1" alerts="1"/>
+        <origin x="0" y="0"/>
+        <size w="48" h="48"/>
+        <plugin_size w="48" h="48"/>
+        <pos x="70" y="3" z="8"/>
+        <x_ref id="tp0zc" align="0" ref_align="0"/>
+        <y_ref id="tp0zc" align="0" ref_align="0"/>
+        <w_ref id="0" mod="0" units="0"/>
+        <h_ref id="0" mod="0" units="0"/>
+        <setupitem>
+            <identity name="Smoothing" type="4"/>
+            <value type="QString">3</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Dial Type" type="6"/>
+            <value type="QString">0</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Orientation" type="6"/>
+            <value type="QString">0</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Background color" type="3"/>
+            <value type="QString">0</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Face Style" type="6"/>
+            <value type="QString">2</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Pen color" type="3"/>
+            <value type="QString">-16777216</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Fill color (start)" type="3"/>
+            <value type="QString">-1</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Fill color (end)" type="3"/>
+            <value type="QString">-4144960</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Face Image" type="10"/>
+            <value type="QString"></value>
+        </setupitem>
+        <setupitem>
+            <identity name="Show Ticks" type="2"/>
+            <value type="QString">true</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Reverse Needles" type="2"/>
+            <value type="QString">false</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Smooth Needles" type="2"/>
+            <value type="QString">true</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Selected Needle" type="6"/>
+        </setupitem>
+        <setupitem>
+            <identity name="Needle Style" type="6"/>
+        </setupitem>
+        <setupitem>
+            <identity name="Needle Color" type="3"/>
+        </setupitem>
+        <setupitem>
+            <identity name="Gradient Fill" type="2"/>
+        </setupitem>
+        <setupitem>
+            <identity name="Needle Color 2" type="3"/>
+        </setupitem>
+        <setupitem>
+            <identity name="Needle Thickness" type="1"/>
+        </setupitem>
+        <setupitem>
+            <identity name="Needle Length (%)" type="1"/>
+        </setupitem>
+        <setupitem>
+            <identity name="Needle Gap (%)" type="1"/>
+        </setupitem>
+        <setupitem>
+            <identity name="Needle Image" type="10"/>
+        </setupitem>
+        <setupitem>
+            <identity name="Needle Configs" type="9"/>
+            <value type="QString">0,255,0,0,255,3,90,0,~0,0,0,255,255,3,90,0,~0,170,170,0,255,3,90,0,~0,0,128,0,255,3,90,0,</value>
+        </setupitem>
+    </instance>
+</instance>

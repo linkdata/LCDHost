@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<instance>
+    <identity name="Logitech QVGA device" id="swznc"/>
+    <state modifiable="0" selectable="0" alerts="1"/>
+    <origin x="0" y="0"/>
+    <size w="320" h="240"/>
+    <plugin_size w="-1" h="-1"/>
+    <pos x="0" y="0" z="0"/>
+    <x_ref id="0" align="0" ref_align="0"/>
+    <y_ref id="0" align="0" ref_align="0"/>
+    <w_ref id="0" mod="0" units="0"/>
+    <h_ref id="0" mod="0" units="0"/>
+    <instance class="LH_Decor/StaticBackground">
+        <identity name="Background" id="1hr42g"/>
+        <state modifiable="1" selectable="1" alerts="1"/>
+        <origin x="0" y="0"/>
+        <size w="320" h="240"/>
+        <plugin_size w="-1" h="-1"/>
+        <pos x="0" y="1" z="0"/>
+        <x_ref id="swznc" align="0" ref_align="0"/>
+        <y_ref id="swznc" align="0" ref_align="0"/>
+        <w_ref id="swznc" mod="0" units="0"/>
+        <h_ref id="swznc" mod="0" units="0"/>
+        <setupitem>
+            <identity name="First color" type="3"/>
+            <value type="QString">-16776961</value>
+        </setupitem>
+        <setupitem>
+            <identity name="^Background is a gradient" type="2"/>
+            <value type="QString">true</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Second color" type="3"/>
+            <value type="QString">-16777216</value>
+        </setupitem>
+        <setupitem>
+            <identity name="^Gradient is horizontal" type="2"/>
+            <value type="QString">false</value>
+        </setupitem>
+    </instance>
+    <instance class="LH_Text/StaticText">
+        <identity name="Text" id="1hr4ew"/>
+        <state modifiable="1" selectable="1" alerts="1"/>
+        <origin x="0" y="0"/>
+        <size w="198" h="19"/>
+        <plugin_size w="198" h="19"/>
+        <pos x="0" y="0" z="1"/>
+        <x_ref id="swznc" align="0" ref_align="0"/>
+        <y_ref id="swznc" align="0" ref_align="0"/>
+        <w_ref id="0" mod="0" units="0"/>
+        <h_ref id="0" mod="0" units="0"/>
+        <setupitem>
+            <identity name="Text" type="8"/>
+            <value type="QString">Menu -  press OK for News</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Font" type="11"/>
+            <value type="QString">Arial,10,-1,5,50,0,0,0,0,0</value>
+        </setupitem>
+        <setupitem>
+            <identity name="^Adjust font size to instance height" type="2"/>
+            <value type="QString">true</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Color" type="3"/>
+            <value type="QString">-256</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Background" type="3"/>
+            <value type="QString">0</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Horizontal" type="6"/>
+            <value type="QString">0</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Vertical" type="6"/>
+            <value type="QString">0</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Scroll rate" type="4"/>
+            <value type="QString">15</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Scroll step" type="4"/>
+            <value type="QString">2</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Scroll gap" type="4"/>
+            <value type="QString">10</value>
+        </setupitem>
+        <setupitem>
+            <identity name="CF-Area-Rule" type="18"/>
+        </setupitem>
+        <setupitem>
+            <identity name="^Enable Conditional Formatting" type="2"/>
+            <value type="QString">false</value>
+        </setupitem>
+        <setupitem>
+            <identity name="State" type="8"/>
+        </setupitem>
+        <setupitem>
+            <identity name="Visibility" type="2"/>
+        </setupitem>
+        <setupitem>
+            <identity name="^Copy Conditions" type="17"/>
+        </setupitem>
+        <setupitem>
+            <identity name="^Paste Conditions" type="17"/>
+        </setupitem>
+        <setupitem>
+            <identity name="^Conditions" type="16"/>
+        </setupitem>
+        <setupitem>
+            <identity name="^Move Condition Up" type="17"/>
+        </setupitem>
+        <setupitem>
+            <identity name="^Move Condition Down" type="17"/>
+        </setupitem>
+        <setupitem>
+            <identity name="^New Condition" type="17"/>
+        </setupitem>
+        <setupitem>
+            <identity name="^Delete Condition" type="17"/>
+        </setupitem>
+        <setupitem>
+            <identity name="Source" type="6"/>
+        </setupitem>
+        <setupitem>
+            <identity name="Value" type="6"/>
+        </setupitem>
+        <setupitem>
+            <identity name="Condition" type="6"/>
+        </setupitem>
+        <setupitem>
+            <identity name="^Value 1" type="8"/>
+        </setupitem>
+        <setupitem>
+            <identity name="^Value 2" type="8"/>
+        </setupitem>
+        <setupitem>
+            <identity name="Target" type="6"/>
+        </setupitem>
+        <setupitem>
+            <identity name="^New Value - Color" type="3"/>
+        </setupitem>
+        <setupitem>
+            <identity name="^New Value - Font" type="11"/>
+        </setupitem>
+        <setupitem>
+            <identity name="^New Value - String" type="8"/>
+        </setupitem>
+        <setupitem>
+            <identity name="^New Value - Boolean" type="2"/>
+        </setupitem>
+        <setupitem>
+            <identity name="^New Value - File" type="10"/>
+        </setupitem>
+        <setupitem>
+            <identity name="^Save Condition" type="17"/>
+        </setupitem>
+        <setupitem>
+            <identity name="^Cancel Condition Edit" type="17"/>
+        </setupitem>
+        <setupitem>
+            <identity name="Conditions XML" type="9"/>
+            <value type="QString">&lt;rules/&gt;</value>
+        </setupitem>
+    </instance>
+    <instance class="LH_Text/SystemTimeText">
+        <identity name="Time (Text)" id="1hr4l4"/>
+        <state modifiable="1" selectable="1" alerts="1"/>
+        <origin x="0" y="0"/>
+        <size w="165" h="75"/>
+        <plugin_size w="165" h="75"/>
+        <pos x="149" y="152" z="2"/>
+        <x_ref id="swznc" align="0" ref_align="0"/>
+        <y_ref id="swznc" align="0" ref_align="0"/>
+        <w_ref id="0" mod="0" units="0"/>
+        <h_ref id="0" mod="0" units="0"/>
+        <setupitem>
+            <identity name="Current time" type="8"/>
+            <value type="QString">18:14</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Font" type="11"/>
+            <value type="QString">Arial,48,-1,5,75,0,0,0,0,0</value>
+        </setupitem>
+        <setupitem>
+            <identity name="^Adjust font size to instance height" type="2"/>
+            <value type="QString">false</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Color" type="3"/>
+            <value type="QString">-6842397</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Background" type="3"/>
+            <value type="QString">0</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Horizontal" type="6"/>
+            <value type="QString">0</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Vertical" type="6"/>
+            <value type="QString">0</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Scroll rate" type="4"/>
+            <value type="QString">15</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Scroll step" type="4"/>
+            <value type="QString">2</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Scroll gap" type="4"/>
+            <value type="QString">10</value>
+        </setupitem>
+        <setupitem>
+            <identity name="&lt;a href=&quot;http://doc.trolltech.com/4.6/qtime.html#toString&quot;&gt;Format&lt;/a&gt;" type="8"/>
+            <value type="QString">HH:mm</value>
+        </setupitem>
+        <setupitem>
+            <identity name="CF-Area-Rule" type="18"/>
+        </setupitem>
+        <setupitem>
+            <identity name="^Enable Conditional Formatting" type="2"/>
+            <value type="QString">false</value>
+        </setupitem>
+        <setupitem>
+            <identity name="State" type="8"/>
+        </setupitem>
+        <setupitem>
+            <identity name="Visibility" type="2"/>
+        </setupitem>
+        <setupitem>
+            <identity name="^Copy Conditions" type="17"/>
+        </setupitem>
+        <setupitem>
+            <identity name="^Paste Conditions" type="17"/>
+        </setupitem>
+        <setupitem>
+            <identity name="^Conditions" type="16"/>
+        </setupitem>
+        <setupitem>
+            <identity name="^Move Condition Up" type="17"/>
+        </setupitem>
+        <setupitem>
+            <identity name="^Move Condition Down" type="17"/>
+        </setupitem>
+        <setupitem>
+            <identity name="^New Condition" type="17"/>
+        </setupitem>
+        <setupitem>
+            <identity name="^Delete Condition" type="17"/>
+        </setupitem>
+        <setupitem>
+            <identity name="Source" type="6"/>
+        </setupitem>
+        <setupitem>
+            <identity name="Value" type="6"/>
+        </setupitem>
+        <setupitem>
+            <identity name="Condition" type="6"/>
+        </setupitem>
+        <setupitem>
+            <identity name="^Value 1" type="8"/>
+        </setupitem>
+        <setupitem>
+            <identity name="^Value 2" type="8"/>
+        </setupitem>
+        <setupitem>
+            <identity name="Target" type="6"/>
+        </setupitem>
+        <setupitem>
+            <identity name="^New Value - Color" type="3"/>
+        </setupitem>
+        <setupitem>
+            <identity name="^New Value - Font" type="11"/>
+        </setupitem>
+        <setupitem>
+            <identity name="^New Value - String" type="8"/>
+        </setupitem>
+        <setupitem>
+            <identity name="^New Value - Boolean" type="2"/>
+        </setupitem>
+        <setupitem>
+            <identity name="^New Value - File" type="10"/>
+        </setupitem>
+        <setupitem>
+            <identity name="^Save Condition" type="17"/>
+        </setupitem>
+        <setupitem>
+            <identity name="^Cancel Condition Edit" type="17"/>
+        </setupitem>
+        <setupitem>
+            <identity name="Conditions XML" type="9"/>
+            <value type="QString">&lt;rules/&gt;</value>
+        </setupitem>
+    </instance>
+    <instance class="LH_Text/SystemDateText">
+        <identity name="Date (Text)" id="1hr37c"/>
+        <state modifiable="1" selectable="1" alerts="1"/>
+        <origin x="0" y="0"/>
+        <size w="116" h="22"/>
+        <plugin_size w="116" h="22"/>
+        <pos x="107" y="202" z="3"/>
+        <x_ref id="swznc" align="0" ref_align="0"/>
+        <y_ref id="swznc" align="0" ref_align="0"/>
+        <w_ref id="0" mod="0" units="0"/>
+        <h_ref id="0" mod="0" units="0"/>
+        <setupitem>
+            <identity name="Current date" type="8"/>
+            <value type="QString">Sa, 21 Januar</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Font" type="11"/>
+            <value type="QString">Arial,14,-1,5,50,0,0,0,0,0</value>
+        </setupitem>
+        <setupitem>
+            <identity name="^Adjust font size to instance height" type="2"/>
+            <value type="QString">false</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Color" type="3"/>
+            <value type="QString">-131587</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Background" type="3"/>
+            <value type="QString">0</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Horizontal" type="6"/>
+            <value type="QString">2</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Vertical" type="6"/>
+            <value type="QString">0</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Scroll rate" type="4"/>
+            <value type="QString">15</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Scroll step" type="4"/>
+            <value type="QString">2</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Scroll gap" type="4"/>
+            <value type="QString">10</value>
+        </setupitem>
+        <setupitem>
+            <identity name="&lt;a href=&quot;http://doc.trolltech.com/4.6/qdate.html#toString&quot;&gt;Format&lt;/a&gt;" type="8"/>
+            <value type="QString">ddd, dd MMMM</value>
+        </setupitem>
+        <setupitem>
+            <identity name="CF-Area-Rule" type="18"/>
+        </setupitem>
+        <setupitem>
+            <identity name="^Enable Conditional Formatting" type="2"/>
+            <value type="QString">false</value>
+        </setupitem>
+        <setupitem>
+            <identity name="State" type="8"/>
+        </setupitem>
+        <setupitem>
+            <identity name="Visibility" type="2"/>
+        </setupitem>
+        <setupitem>
+            <identity name="^Copy Conditions" type="17"/>
+        </setupitem>
+        <setupitem>
+            <identity name="^Paste Conditions" type="17"/>
+        </setupitem>
+        <setupitem>
+            <identity name="^Conditions" type="16"/>
+        </setupitem>
+        <setupitem>
+            <identity name="^Move Condition Up" type="17"/>
+        </setupitem>
+        <setupitem>
+            <identity name="^Move Condition Down" type="17"/>
+        </setupitem>
+        <setupitem>
+            <identity name="^New Condition" type="17"/>
+        </setupitem>
+        <setupitem>
+            <identity name="^Delete Condition" type="17"/>
+        </setupitem>
+        <setupitem>
+            <identity name="Source" type="6"/>
+        </setupitem>
+        <setupitem>
+            <identity name="Value" type="6"/>
+        </setupitem>
+        <setupitem>
+            <identity name="Condition" type="6"/>
+        </setupitem>
+        <setupitem>
+            <identity name="^Value 1" type="8"/>
+        </setupitem>
+        <setupitem>
+            <identity name="^Value 2" type="8"/>
+        </setupitem>
+        <setupitem>
+            <identity name="Target" type="6"/>
+        </setupitem>
+        <setupitem>
+            <identity name="^New Value - Color" type="3"/>
+        </setupitem>
+        <setupitem>
+            <identity name="^New Value - Font" type="11"/>
+        </setupitem>
+        <setupitem>
+            <identity name="^New Value - String" type="8"/>
+        </setupitem>
+        <setupitem>
+            <identity name="^New Value - Boolean" type="2"/>
+        </setupitem>
+        <setupitem>
+            <identity name="^New Value - File" type="10"/>
+        </setupitem>
+        <setupitem>
+            <identity name="^Save Condition" type="17"/>
+        </setupitem>
+        <setupitem>
+            <identity name="^Cancel Condition Edit" type="17"/>
+        </setupitem>
+        <setupitem>
+            <identity name="Conditions XML" type="9"/>
+            <value type="QString">&lt;rules/&gt;</value>
+        </setupitem>
+    </instance>
+    <instance class="LH_Cursor/QuickAction">
+        <identity name="Quick Action" id="1hr4rc"/>
+        <state modifiable="1" selectable="1" alerts="1"/>
+        <origin x="0" y="0"/>
+        <size w="48" h="48"/>
+        <plugin_size w="48" h="48"/>
+        <pos x="0" y="0" z="4"/>
+        <x_ref id="swznc" align="0" ref_align="0"/>
+        <y_ref id="swznc" align="0" ref_align="0"/>
+        <w_ref id="0" mod="0" units="0"/>
+        <h_ref id="0" mod="0" units="0"/>
+        <setupitem>
+            <identity name="Trigger key" type="12"/>
+            <value type="QString">Ok pressed @ QVGA</value>
+            <extra str="Ok" int="5"/>
+        </setupitem>
+        <setupitem>
+            <identity name="Enable Auto Trigger" type="2"/>
+            <value type="QString">false</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Auto Trigger Timeout" type="1"/>
+            <value type="QString">30</value>
+        </setupitem>
+        <setupitem>
+            <identity name="^CountDown" type="8"/>
+        </setupitem>
+        <setupitem>
+            <identity name="Layout" type="10"/>
+            <value type="QString">News.xml</value>
+        </setupitem>
+    </instance>
+</instance>

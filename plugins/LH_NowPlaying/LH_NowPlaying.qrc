@@ -1,0 +1,33 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/control_end_blue.png</file>
+        <file>images/control_pause_blue.png</file>
+        <file>images/control_play_blue.png</file>
+        <file>images/control_power_blue.png</file>
+        <file>images/control_repeat_blue.png</file>
+        <file>images/control_start_blue.png</file>
+        <file>images/control_stop_blue.png</file>
+        <file>images/control_shuffle_blue.png</file>
+        <file>images/control_repeat_off_blue.png</file>
+        <file>images/control_shuffle_off_blue.png</file>
+        <file>images/player_foobar2000.png</file>
+        <file>images/player_iTunes.png</file>
+        <file>images/player_spotify.png</file>
+        <file>images/player_vlc.png</file>
+        <file>images/player_winamp.png</file>
+        <file>images/player_wmp.png</file>
+        <file>images/player_none.png</file>
+        <file>images/control_power_off_blue.png</file>
+        <file>images/0.0.png</file>
+        <file>images/0.5.png</file>
+        <file>images/1.0.png</file>
+        <file>images/1.5.png</file>
+        <file>images/2.0.png</file>
+        <file>images/2.5.png</file>
+        <file>images/3.0.png</file>
+        <file>images/3.5.png</file>
+        <file>images/4.0.png</file>
+        <file>images/4.5.png</file>
+        <file>images/5.0.png</file>
+    </qresource>
+</RCC>

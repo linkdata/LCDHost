@@ -1,0 +1,1316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<instance>
+    <identity name="Logitech QVGA device" id="3jr108"/>
+    <state modifiable="0" selectable="0" alerts="1"/>
+    <origin x="0" y="0"/>
+    <size w="320" h="240"/>
+    <plugin_size w="-1" h="-1"/>
+    <pos x="0" y="0" z="0"/>
+    <x_ref id="0" align="0" ref_align="0"/>
+    <y_ref id="0" align="0" ref_align="0"/>
+    <w_ref id="0" mod="0" units="0"/>
+    <h_ref id="0" mod="0" units="0"/>
+    <instance class="LH_Image/StaticImage">
+        <identity name="Background image" id="3jvj60"/>
+        <state modifiable="1" selectable="1" alerts="1"/>
+        <origin x="0" y="0"/>
+        <size w="320" h="240"/>
+        <plugin_size w="-1" h="-1"/>
+        <pos x="0" y="0" z="0"/>
+        <x_ref id="3jr108" align="0" ref_align="0"/>
+        <y_ref id="3jr108" align="0" ref_align="0"/>
+        <w_ref id="3jr108" mod="0" units="0"/>
+        <h_ref id="3jr108" mod="0" units="0"/>
+        <setupitem>
+            <identity name="Filename" type="10"/>
+            <value type="QString">Autumn Leaves.jpg</value>
+        </setupitem>
+    </instance>
+    <instance class="LH_Decor/StaticRectangle">
+        <identity name="Date, time and mail display" id="3jvjc8"/>
+        <state modifiable="1" selectable="1" alerts="1"/>
+        <origin x="0" y="0"/>
+        <size w="320" h="20"/>
+        <plugin_size w="-1" h="-1"/>
+        <pos x="0" y="0" z="1"/>
+        <x_ref id="3jr108" align="0" ref_align="0"/>
+        <y_ref id="3jr108" align="0" ref_align="0"/>
+        <w_ref id="3jr108" mod="0" units="0"/>
+        <h_ref id="0" mod="20" units="4"/>
+        <setupitem>
+            <identity name="Pen width" type="4"/>
+            <value type="QString">0</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Corner rounding" type="4"/>
+            <value type="QString">0</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Pen color" type="3"/>
+            <value type="QString">-16777216</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Fill color 1" type="3"/>
+            <value type="QString">-1</value>
+        </setupitem>
+        <setupitem>
+            <identity name="^Background is a gradient" type="2"/>
+            <value type="QString">true</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Fill color 2" type="3"/>
+            <value type="QString">-16777216</value>
+        </setupitem>
+        <setupitem>
+            <identity name="^Gradient is horizontal" type="2"/>
+            <value type="QString">true</value>
+        </setupitem>
+        <instance class="LH_Text/SystemDateText">
+            <identity name="DateTopLeft" id="3jvjig"/>
+            <state modifiable="1" selectable="1" alerts="1"/>
+            <origin x="0" y="0"/>
+            <size w="147" h="20"/>
+            <plugin_size w="147" h="-1"/>
+            <pos x="0" y="0" z="0"/>
+            <x_ref id="3jvjc8" align="0" ref_align="0"/>
+            <y_ref id="3jvjc8" align="0" ref_align="0"/>
+            <w_ref id="0" mod="0" units="0"/>
+            <h_ref id="3jvjc8" mod="0" units="0"/>
+            <setupitem>
+                <identity name="Current date" type="8"/>
+                <value type="QString"> 2011-07-06 onsdag</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Font" type="11"/>
+                <value type="QString">Arial,10,-1,5,75,0,0,0,0,0</value>
+            </setupitem>
+            <setupitem>
+                <identity name="^Adjust font size to instance height" type="2"/>
+                <value type="QString">true</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Color" type="3"/>
+                <value type="QString">-16777216</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Background" type="3"/>
+                <value type="QString">0</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Horizontal" type="6"/>
+                <value type="QString">0</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Vertical" type="6"/>
+                <value type="QString">0</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Scroll rate" type="4"/>
+                <value type="QString">15</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Scroll step" type="4"/>
+                <value type="QString">2</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Scroll gap" type="4"/>
+                <value type="QString">10</value>
+            </setupitem>
+            <setupitem>
+                <identity name="&lt;a href=&quot;http://doc.trolltech.com/4.6/qdate.html#toString&quot;&gt;Format&lt;/a&gt;" type="8"/>
+                <value type="QString"> yyyy-MM-dd dddd</value>
+            </setupitem>
+            <setupitem>
+                <identity name="^Enable Conditional Formatting" type="2"/>
+                <value type="QString">false</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Conditions XML" type="9"/>
+                <value type="QString">&lt;rules/&gt;</value>
+            </setupitem>
+        </instance>
+        <instance class="LH_Mailcount/SystemMailIcon">
+            <identity name="MailTopMiddle" id="3jvjoo"/>
+            <state modifiable="1" selectable="1" alerts="1"/>
+            <origin x="147" y="0"/>
+            <size w="103" h="20"/>
+            <plugin_size w="-1" h="-1"/>
+            <pos x="147" y="0" z="1"/>
+            <x_ref id="3jvjig" align="0" ref_align="2"/>
+            <y_ref id="3jvjc8" align="0" ref_align="0"/>
+            <w_ref id="3jvjuw" mod="0" units="2"/>
+            <h_ref id="3jvjig" mod="0" units="0"/>
+            <setupitem>
+                <identity name="Mail envelope image" type="10"/>
+                <value type="QString"></value>
+            </setupitem>
+            <setupitem>
+                <identity name="Flash when there is mail" type="2"/>
+                <value type="QString">true</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Use smooth flashes" type="2"/>
+                <value type="QString">false</value>
+            </setupitem>
+        </instance>
+        <instance class="LH_Text/SystemTimeText">
+            <identity name="TimeTopRight" id="3jvjuw"/>
+            <state modifiable="1" selectable="1" alerts="1"/>
+            <origin x="250" y="0"/>
+            <size w="70" h="20"/>
+            <plugin_size w="70" h="-1"/>
+            <pos x="250" y="0" z="2"/>
+            <x_ref id="3jvjc8" align="2" ref_align="2"/>
+            <y_ref id="3jvjc8" align="0" ref_align="0"/>
+            <w_ref id="0" mod="0" units="0"/>
+            <h_ref id="3jvjc8" mod="0" units="0"/>
+            <setupitem>
+                <identity name="Current time" type="8"/>
+                <value type="QString">12:34:47 </value>
+            </setupitem>
+            <setupitem>
+                <identity name="Font" type="11"/>
+                <value type="QString">Arial,10,-1,5,75,0,0,0,0,0</value>
+            </setupitem>
+            <setupitem>
+                <identity name="^Adjust font size to instance height" type="2"/>
+                <value type="QString">true</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Color" type="3"/>
+                <value type="QString">-1</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Background" type="3"/>
+                <value type="QString">0</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Horizontal" type="6"/>
+                <value type="QString">0</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Vertical" type="6"/>
+                <value type="QString">0</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Scroll rate" type="4"/>
+                <value type="QString">15</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Scroll step" type="4"/>
+                <value type="QString">2</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Scroll gap" type="4"/>
+                <value type="QString">10</value>
+            </setupitem>
+            <setupitem>
+                <identity name="&lt;a href=&quot;http://doc.trolltech.com/4.6/qtime.html#toString&quot;&gt;Format&lt;/a&gt;" type="8"/>
+                <value type="QString">HH:mm:ss </value>
+            </setupitem>
+            <setupitem>
+                <identity name="^Enable Conditional Formatting" type="2"/>
+                <value type="QString">false</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Conditions XML" type="9"/>
+                <value type="QString">&lt;rules/&gt;</value>
+            </setupitem>
+        </instance>
+    </instance>
+    <instance class="LH_Text/SystemTimeText">
+        <identity name="Time (large, shaded)" id="3jvk14"/>
+        <state modifiable="1" selectable="1" alerts="1"/>
+        <origin x="154" y="166"/>
+        <size w="166" h="74"/>
+        <plugin_size w="166" h="74"/>
+        <pos x="152" y="166" z="2"/>
+        <x_ref id="3jr108" align="2" ref_align="2"/>
+        <y_ref id="3jr108" align="2" ref_align="2"/>
+        <w_ref id="0" mod="0" units="0"/>
+        <h_ref id="0" mod="0" units="0"/>
+        <setupitem>
+            <identity name="Current time" type="8"/>
+            <value type="QString">12:34</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Font" type="11"/>
+            <value type="QString">Arial,48,-1,5,75,1,0,0,0,0</value>
+        </setupitem>
+        <setupitem>
+            <identity name="^Adjust font size to instance height" type="2"/>
+            <value type="QString">false</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Color" type="3"/>
+            <value type="QString">2130706432</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Background" type="3"/>
+            <value type="QString">0</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Horizontal" type="6"/>
+            <value type="QString">0</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Vertical" type="6"/>
+            <value type="QString">0</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Scroll rate" type="4"/>
+            <value type="QString">15</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Scroll step" type="4"/>
+            <value type="QString">2</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Scroll gap" type="4"/>
+            <value type="QString">10</value>
+        </setupitem>
+        <setupitem>
+            <identity name="&lt;a href=&quot;http://doc.trolltech.com/4.6/qtime.html#toString&quot;&gt;Format&lt;/a&gt;" type="8"/>
+            <value type="QString">HH:mm</value>
+        </setupitem>
+        <setupitem>
+            <identity name="^Enable Conditional Formatting" type="2"/>
+            <value type="QString">false</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Conditions XML" type="9"/>
+            <value type="QString">&lt;rules/&gt;</value>
+        </setupitem>
+        <instance class="LH_Text/SystemTimeText">
+            <identity name="Time (Text) [3]" id="3jvk7c"/>
+            <state modifiable="1" selectable="1" alerts="1"/>
+            <origin x="0" y="0"/>
+            <size w="166" h="74"/>
+            <plugin_size w="-1" h="-1"/>
+            <pos x="-3" y="-1" z="0"/>
+            <x_ref id="3jvk14" align="0" ref_align="0"/>
+            <y_ref id="3jvk14" align="0" ref_align="0"/>
+            <w_ref id="3jvk14" mod="0" units="0"/>
+            <h_ref id="3jvk14" mod="0" units="0"/>
+            <setupitem>
+                <identity name="Current time" type="8"/>
+                <value type="QString">12:34</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Font" type="11"/>
+                <value type="QString">Arial,48,-1,5,75,0,0,0,0,0</value>
+            </setupitem>
+            <setupitem>
+                <identity name="^Adjust font size to instance height" type="2"/>
+                <value type="QString">false</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Color" type="3"/>
+                <value type="QString">-5475584</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Background" type="3"/>
+                <value type="QString">0</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Horizontal" type="6"/>
+                <value type="QString">0</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Vertical" type="6"/>
+                <value type="QString">0</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Scroll rate" type="4"/>
+                <value type="QString">15</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Scroll step" type="4"/>
+                <value type="QString">2</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Scroll gap" type="4"/>
+                <value type="QString">10</value>
+            </setupitem>
+            <setupitem>
+                <identity name="&lt;a href=&quot;http://doc.trolltech.com/4.6/qtime.html#toString&quot;&gt;Format&lt;/a&gt;" type="8"/>
+                <value type="QString">HH:mm</value>
+            </setupitem>
+            <setupitem>
+                <identity name="^Enable Conditional Formatting" type="2"/>
+                <value type="QString">false</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Conditions XML" type="9"/>
+                <value type="QString">&lt;rules/&gt;</value>
+            </setupitem>
+        </instance>
+    </instance>
+    <instance class="LH_Text/SystemDateText">
+        <identity name="Date (large, shaded)" id="3jvkdk"/>
+        <state modifiable="1" selectable="1" alerts="1"/>
+        <origin x="208" y="217"/>
+        <size w="112" h="23"/>
+        <plugin_size w="112" h="23"/>
+        <pos x="208" y="217" z="3"/>
+        <x_ref id="3jr108" align="2" ref_align="2"/>
+        <y_ref id="3jr108" align="2" ref_align="2"/>
+        <w_ref id="0" mod="0" units="0"/>
+        <h_ref id="0" mod="0" units="0"/>
+        <setupitem>
+            <identity name="Current date" type="8"/>
+            <value type="QString">onsdag 6 juli</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Font" type="11"/>
+            <value type="QString">Arial,14,-1,5,50,1,0,0,0,0</value>
+        </setupitem>
+        <setupitem>
+            <identity name="^Adjust font size to instance height" type="2"/>
+            <value type="QString">false</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Color" type="3"/>
+            <value type="QString">2130706432</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Background" type="3"/>
+            <value type="QString">0</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Horizontal" type="6"/>
+            <value type="QString">0</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Vertical" type="6"/>
+            <value type="QString">0</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Scroll rate" type="4"/>
+            <value type="QString">15</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Scroll step" type="4"/>
+            <value type="QString">2</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Scroll gap" type="4"/>
+            <value type="QString">10</value>
+        </setupitem>
+        <setupitem>
+            <identity name="&lt;a href=&quot;http://doc.trolltech.com/4.6/qdate.html#toString&quot;&gt;Format&lt;/a&gt;" type="8"/>
+            <value type="QString">dddd d MMMM</value>
+        </setupitem>
+        <setupitem>
+            <identity name="^Enable Conditional Formatting" type="2"/>
+            <value type="QString">false</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Conditions XML" type="9"/>
+            <value type="QString">&lt;rules/&gt;</value>
+        </setupitem>
+        <instance class="LH_Text/SystemDateText">
+            <identity name="Date (Text) [5]" id="3jvkjs"/>
+            <state modifiable="1" selectable="1" alerts="1"/>
+            <origin x="0" y="0"/>
+            <size w="112" h="23"/>
+            <plugin_size w="-1" h="-1"/>
+            <pos x="-1" y="-2" z="0"/>
+            <x_ref id="3jvkdk" align="0" ref_align="0"/>
+            <y_ref id="3jvkdk" align="0" ref_align="0"/>
+            <w_ref id="3jvkdk" mod="0" units="0"/>
+            <h_ref id="3jvkdk" mod="0" units="0"/>
+            <setupitem>
+                <identity name="Current date" type="8"/>
+                <value type="QString">onsdag 6 juli</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Font" type="11"/>
+                <value type="QString">Arial,14,-1,5,50,0,0,0,0,0</value>
+            </setupitem>
+            <setupitem>
+                <identity name="^Adjust font size to instance height" type="2"/>
+                <value type="QString">false</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Color" type="3"/>
+                <value type="QString">-256</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Background" type="3"/>
+                <value type="QString">0</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Horizontal" type="6"/>
+                <value type="QString">0</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Vertical" type="6"/>
+                <value type="QString">0</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Scroll rate" type="4"/>
+                <value type="QString">15</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Scroll step" type="4"/>
+                <value type="QString">2</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Scroll gap" type="4"/>
+                <value type="QString">10</value>
+            </setupitem>
+            <setupitem>
+                <identity name="&lt;a href=&quot;http://doc.trolltech.com/4.6/qdate.html#toString&quot;&gt;Format&lt;/a&gt;" type="8"/>
+                <value type="QString">dddd d MMMM</value>
+            </setupitem>
+            <setupitem>
+                <identity name="^Enable Conditional Formatting" type="2"/>
+                <value type="QString">false</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Conditions XML" type="9"/>
+                <value type="QString">&lt;rules/&gt;</value>
+            </setupitem>
+        </instance>
+    </instance>
+    <instance class="LH_Decor/StaticRectangle">
+        <identity name="CPU display" id="3jvkq0"/>
+        <state modifiable="1" selectable="1" alerts="1"/>
+        <origin x="0" y="192"/>
+        <size w="60" h="48"/>
+        <plugin_size w="-1" h="48"/>
+        <pos x="3" y="189" z="4"/>
+        <x_ref id="3jr108" align="0" ref_align="0"/>
+        <y_ref id="3jr108" align="2" ref_align="2"/>
+        <w_ref id="0" mod="60" units="4"/>
+        <h_ref id="0" mod="0" units="0"/>
+        <setupitem>
+            <identity name="Pen width" type="4"/>
+            <value type="QString">0</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Corner rounding" type="4"/>
+            <value type="QString">27</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Pen color" type="3"/>
+            <value type="QString">-16777216</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Fill color 1" type="3"/>
+            <value type="QString">-2147483648</value>
+        </setupitem>
+        <setupitem>
+            <identity name="^Background is a gradient" type="2"/>
+            <value type="QString">false</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Fill color 2" type="3"/>
+            <value type="QString">-4144960</value>
+        </setupitem>
+        <setupitem>
+            <identity name="^Gradient is horizontal" type="2"/>
+            <value type="QString">false</value>
+        </setupitem>
+        <instance class="LH_Text/StaticText">
+            <identity name="&quot;CPU&quot;" id="3jvkw8"/>
+            <state modifiable="1" selectable="1" alerts="1"/>
+            <origin x="0" y="0"/>
+            <size w="26" h="14"/>
+            <plugin_size w="26" h="-1"/>
+            <pos x="2" y="2" z="0"/>
+            <x_ref id="3jvkq0" align="0" ref_align="0"/>
+            <y_ref id="3jvkq0" align="0" ref_align="0"/>
+            <w_ref id="0" mod="0" units="0"/>
+            <h_ref id="3jvkq0" mod="300" units="1"/>
+            <setupitem>
+                <identity name="Text" type="8"/>
+                <value type="QString">CPU</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Font" type="11"/>
+                <value type="QString">Arial,7,-1,5,50,0,0,0,0,0</value>
+            </setupitem>
+            <setupitem>
+                <identity name="^Adjust font size to instance height" type="2"/>
+                <value type="QString">true</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Color" type="3"/>
+                <value type="QString">-1</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Background" type="3"/>
+                <value type="QString">0</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Horizontal" type="6"/>
+                <value type="QString">0</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Vertical" type="6"/>
+                <value type="QString">0</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Scroll rate" type="4"/>
+                <value type="QString">15</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Scroll step" type="4"/>
+                <value type="QString">2</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Scroll gap" type="4"/>
+                <value type="QString">10</value>
+            </setupitem>
+            <setupitem>
+                <identity name="^Enable Conditional Formatting" type="2"/>
+                <value type="QString">false</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Conditions XML" type="9"/>
+                <value type="QString">&lt;rules/&gt;</value>
+            </setupitem>
+        </instance>
+        <instance class="LH_Text/SystemCPUText">
+            <identity name="Average Load (Text) [2]" id="3jvl2g"/>
+            <state modifiable="1" selectable="1" alerts="1"/>
+            <origin x="42" y="2"/>
+            <size w="18" h="14"/>
+            <plugin_size w="18" h="-1"/>
+            <pos x="40" y="2" z="1"/>
+            <x_ref id="3jvkq0" align="2" ref_align="2"/>
+            <y_ref id="3jvkw8" align="0" ref_align="0"/>
+            <w_ref id="0" mod="0" units="0"/>
+            <h_ref id="3jvkw8" mod="0" units="0"/>
+            <setupitem>
+                <identity name="Average CPU load" type="8"/>
+                <value type="QString">3%</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Font" type="11"/>
+                <value type="QString">Arial,7,-1,5,50,0,0,0,0,0</value>
+            </setupitem>
+            <setupitem>
+                <identity name="^Adjust font size to instance height" type="2"/>
+                <value type="QString">true</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Color" type="3"/>
+                <value type="QString">-1</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Background" type="3"/>
+                <value type="QString">0</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Horizontal" type="6"/>
+                <value type="QString">0</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Vertical" type="6"/>
+                <value type="QString">0</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Scroll rate" type="4"/>
+                <value type="QString">15</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Scroll step" type="4"/>
+                <value type="QString">2</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Scroll gap" type="4"/>
+                <value type="QString">10</value>
+            </setupitem>
+            <setupitem>
+                <identity name="^Enable Conditional Formatting" type="2"/>
+                <value type="QString">false</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Conditions XML" type="9"/>
+                <value type="QString">&lt;rules/&gt;</value>
+            </setupitem>
+        </instance>
+        <instance class="LH_Bar/SystemCPUHistogram">
+            <identity name="CPU Core Bars [2]" id="3jvl8o"/>
+            <state modifiable="1" selectable="1" alerts="1"/>
+            <origin x="2" y="16"/>
+            <size w="56" h="30"/>
+            <plugin_size w="-1" h="-1"/>
+            <pos x="2" y="16" z="2"/>
+            <x_ref id="3jvkq0" align="1" ref_align="1"/>
+            <y_ref id="3jvkw8" align="0" ref_align="2"/>
+            <w_ref id="3jvkq0" mod="-4" units="0"/>
+            <h_ref id="3jvkq0" mod="-2" units="3"/>
+            <setupitem>
+                <identity name="Bar Style" type="6"/>
+                <value type="QString">0</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Bar Image" type="10"/>
+                <value type="QString"></value>
+            </setupitem>
+            <setupitem>
+                <identity name="Masking" type="6"/>
+                <value type="QString">0</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Transparency Mask" type="10"/>
+                <value type="QString"></value>
+            </setupitem>
+            <setupitem>
+                <identity name="Bar color (start)" type="3"/>
+                <value type="QString">-16711936</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Bar color (end)" type="3"/>
+                <value type="QString">-65536</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Bar Background Image" type="10"/>
+                <value type="QString"></value>
+            </setupitem>
+            <setupitem>
+                <identity name="Background color" type="3"/>
+                <value type="QString">0</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Direction" type="6"/>
+                <value type="QString">1</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Spacing" type="4"/>
+                <value type="QString">0</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Discrete Segments" type="2"/>
+                <value type="QString">false</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Number of Segments" type="1"/>
+                <value type="QString">20</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Smoothing" type="4"/>
+                <value type="QString">3</value>
+            </setupitem>
+            <setupitem>
+                <identity name="^Enable Conditional Formatting" type="2"/>
+                <value type="QString">false</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Conditions XML" type="9"/>
+                <value type="QString">&lt;rules/&gt;</value>
+            </setupitem>
+        </instance>
+    </instance>
+    <instance class="LH_Decor/StaticRectangle">
+        <identity name="Network display" id="3jvlew"/>
+        <state modifiable="1" selectable="1" alerts="1"/>
+        <origin x="3" y="141"/>
+        <size w="60" h="48"/>
+        <plugin_size w="-1" h="48"/>
+        <pos x="3" y="139" z="5"/>
+        <x_ref id="3jvkq0" align="0" ref_align="0"/>
+        <y_ref id="3jvkq0" align="2" ref_align="0"/>
+        <w_ref id="0" mod="60" units="4"/>
+        <h_ref id="0" mod="0" units="0"/>
+        <setupitem>
+            <identity name="Pen width" type="4"/>
+            <value type="QString">0</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Corner rounding" type="4"/>
+            <value type="QString">27</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Pen color" type="3"/>
+            <value type="QString">-16777216</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Fill color 1" type="3"/>
+            <value type="QString">-2147483648</value>
+        </setupitem>
+        <setupitem>
+            <identity name="^Background is a gradient" type="2"/>
+            <value type="QString">false</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Fill color 2" type="3"/>
+            <value type="QString">-4144960</value>
+        </setupitem>
+        <setupitem>
+            <identity name="^Gradient is horizontal" type="2"/>
+            <value type="QString">false</value>
+        </setupitem>
+        <instance class="LH_Text/StaticText">
+            <identity name="&quot;Network&quot;" id="3ksfyw"/>
+            <state modifiable="1" selectable="1" alerts="1"/>
+            <origin x="0" y="0"/>
+            <size w="45" h="14"/>
+            <plugin_size w="45" h="-1"/>
+            <pos x="2" y="2" z="0"/>
+            <x_ref id="3jvlew" align="0" ref_align="0"/>
+            <y_ref id="3jvlew" align="0" ref_align="0"/>
+            <w_ref id="0" mod="0" units="0"/>
+            <h_ref id="3jvlew" mod="300" units="1"/>
+            <setupitem>
+                <identity name="Text" type="8"/>
+                <value type="QString">Network</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Font" type="11"/>
+                <value type="QString">Arial,7,-1,5,50,0,0,0,0,0</value>
+            </setupitem>
+            <setupitem>
+                <identity name="^Adjust font size to instance height" type="2"/>
+                <value type="QString">true</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Color" type="3"/>
+                <value type="QString">-1</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Background" type="3"/>
+                <value type="QString">0</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Horizontal" type="6"/>
+                <value type="QString">0</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Vertical" type="6"/>
+                <value type="QString">0</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Scroll rate" type="4"/>
+                <value type="QString">15</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Scroll step" type="4"/>
+                <value type="QString">2</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Scroll gap" type="4"/>
+                <value type="QString">10</value>
+            </setupitem>
+            <setupitem>
+                <identity name="^Enable Conditional Formatting" type="2"/>
+                <value type="QString">false</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Conditions XML" type="9"/>
+                <value type="QString">&lt;rules/&gt;</value>
+            </setupitem>
+        </instance>
+        <instance class="LH_Bar/SystemNetworkInboundBar">
+            <identity name="Inbound" id="3ksg54"/>
+            <state modifiable="1" selectable="1" alerts="1"/>
+            <origin x="21" y="22"/>
+            <size w="31" h="4"/>
+            <plugin_size w="-1" h="-1"/>
+            <pos x="27" y="23" z="1"/>
+            <x_ref id="3ksgns" align="0" ref_align="2"/>
+            <y_ref id="3ksghk" align="1" ref_align="1"/>
+            <w_ref id="3jvlew" mod="-2" units="3"/>
+            <h_ref id="3ksghk" mod="300" units="1"/>
+            <setupitem>
+                <identity name="Bar Style" type="6"/>
+                <value type="QString">0</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Bar Image" type="10"/>
+                <value type="QString"></value>
+            </setupitem>
+            <setupitem>
+                <identity name="Masking" type="6"/>
+                <value type="QString">0</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Transparency Mask" type="10"/>
+                <value type="QString"></value>
+            </setupitem>
+            <setupitem>
+                <identity name="Bar color (start)" type="3"/>
+                <value type="QString">-16711936</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Bar color (end)" type="3"/>
+                <value type="QString">-65536</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Bar Background Image" type="10"/>
+                <value type="QString"></value>
+            </setupitem>
+            <setupitem>
+                <identity name="Background color" type="3"/>
+                <value type="QString">0</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Direction" type="6"/>
+                <value type="QString">0</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Spacing" type="4"/>
+                <value type="QString">0</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Discrete Segments" type="2"/>
+                <value type="QString">false</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Number of Segments" type="1"/>
+                <value type="QString">20</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Smoothing" type="4"/>
+                <value type="QString">3</value>
+            </setupitem>
+            <setupitem>
+                <identity name="^Enable Conditional Formatting" type="2"/>
+                <value type="QString">false</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Conditions XML" type="9"/>
+                <value type="QString">&lt;rules/&gt;</value>
+            </setupitem>
+        </instance>
+        <instance class="LH_Bar/SystemNetworkOutboundBar">
+            <identity name="Outbound" id="3ksgbc"/>
+            <state modifiable="1" selectable="1" alerts="1"/>
+            <origin x="27" y="37"/>
+            <size w="31" h="4"/>
+            <plugin_size w="-1" h="-1"/>
+            <pos x="27" y="38" z="2"/>
+            <x_ref id="3ksg54" align="0" ref_align="0"/>
+            <y_ref id="3ksgns" align="1" ref_align="1"/>
+            <w_ref id="3jvlew" mod="-2" units="3"/>
+            <h_ref id="3ksg54" mod="0" units="0"/>
+            <setupitem>
+                <identity name="Bar Style" type="6"/>
+                <value type="QString">0</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Bar Image" type="10"/>
+                <value type="QString"></value>
+            </setupitem>
+            <setupitem>
+                <identity name="Masking" type="6"/>
+                <value type="QString">0</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Transparency Mask" type="10"/>
+                <value type="QString"></value>
+            </setupitem>
+            <setupitem>
+                <identity name="Bar color (start)" type="3"/>
+                <value type="QString">-16711936</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Bar color (end)" type="3"/>
+                <value type="QString">-65536</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Bar Background Image" type="10"/>
+                <value type="QString"></value>
+            </setupitem>
+            <setupitem>
+                <identity name="Background color" type="3"/>
+                <value type="QString">0</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Direction" type="6"/>
+                <value type="QString">0</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Spacing" type="4"/>
+                <value type="QString">0</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Discrete Segments" type="2"/>
+                <value type="QString">false</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Number of Segments" type="1"/>
+                <value type="QString">20</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Smoothing" type="4"/>
+                <value type="QString">3</value>
+            </setupitem>
+            <setupitem>
+                <identity name="^Enable Conditional Formatting" type="2"/>
+                <value type="QString">false</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Conditions XML" type="9"/>
+                <value type="QString">&lt;rules/&gt;</value>
+            </setupitem>
+        </instance>
+        <instance class="LH_Text/StaticText">
+            <identity name="&quot;In&quot;" id="3ksghk"/>
+            <state modifiable="1" selectable="1" alerts="1"/>
+            <origin x="0" y="16"/>
+            <size w="10" h="14"/>
+            <plugin_size w="10" h="-1"/>
+            <pos x="2" y="17" z="3"/>
+            <x_ref id="3jvlew" align="0" ref_align="0"/>
+            <y_ref id="3ksfyw" align="0" ref_align="2"/>
+            <w_ref id="0" mod="0" units="0"/>
+            <h_ref id="3ksfyw" mod="0" units="0"/>
+            <setupitem>
+                <identity name="Text" type="8"/>
+                <value type="QString">In</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Font" type="11"/>
+                <value type="QString">Arial,7,-1,5,50,0,0,0,0,0</value>
+            </setupitem>
+            <setupitem>
+                <identity name="^Adjust font size to instance height" type="2"/>
+                <value type="QString">true</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Color" type="3"/>
+                <value type="QString">-1</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Background" type="3"/>
+                <value type="QString">0</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Horizontal" type="6"/>
+                <value type="QString">0</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Vertical" type="6"/>
+                <value type="QString">0</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Scroll rate" type="4"/>
+                <value type="QString">15</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Scroll step" type="4"/>
+                <value type="QString">2</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Scroll gap" type="4"/>
+                <value type="QString">10</value>
+            </setupitem>
+            <setupitem>
+                <identity name="^Enable Conditional Formatting" type="2"/>
+                <value type="QString">false</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Conditions XML" type="9"/>
+                <value type="QString">&lt;rules/&gt;</value>
+            </setupitem>
+        </instance>
+        <instance class="LH_Text/StaticText">
+            <identity name="&quot;Out&quot;" id="3ksgns"/>
+            <state modifiable="1" selectable="1" alerts="1"/>
+            <origin x="0" y="31"/>
+            <size w="19" h="14"/>
+            <plugin_size w="19" h="-1"/>
+            <pos x="2" y="32" z="4"/>
+            <x_ref id="3jvlew" align="0" ref_align="0"/>
+            <y_ref id="3ksghk" align="0" ref_align="2"/>
+            <w_ref id="0" mod="0" units="0"/>
+            <h_ref id="3ksfyw" mod="0" units="0"/>
+            <setupitem>
+                <identity name="Text" type="8"/>
+                <value type="QString">Out</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Font" type="11"/>
+                <value type="QString">Arial,7,-1,5,50,0,0,0,0,0</value>
+            </setupitem>
+            <setupitem>
+                <identity name="^Adjust font size to instance height" type="2"/>
+                <value type="QString">true</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Color" type="3"/>
+                <value type="QString">-1</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Background" type="3"/>
+                <value type="QString">0</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Horizontal" type="6"/>
+                <value type="QString">0</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Vertical" type="6"/>
+                <value type="QString">0</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Scroll rate" type="4"/>
+                <value type="QString">15</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Scroll step" type="4"/>
+                <value type="QString">2</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Scroll gap" type="4"/>
+                <value type="QString">10</value>
+            </setupitem>
+            <setupitem>
+                <identity name="^Enable Conditional Formatting" type="2"/>
+                <value type="QString">false</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Conditions XML" type="9"/>
+                <value type="QString">&lt;rules/&gt;</value>
+            </setupitem>
+        </instance>
+    </instance>
+    <instance class="LH_WebKit/DynamicRSSFeedText">
+        <identity name="BBC News Ticker" id="3ksgu0"/>
+        <state modifiable="1" selectable="1" alerts="1"/>
+        <origin x="0" y="20"/>
+        <size w="320" h="18"/>
+        <plugin_size w="-1" h="-1"/>
+        <pos x="0" y="22" z="6"/>
+        <x_ref id="3jr108" align="0" ref_align="0"/>
+        <y_ref id="3jvjc8" align="0" ref_align="2"/>
+        <w_ref id="0" mod="320" units="4"/>
+        <h_ref id="0" mod="18" units="4"/>
+        <setupitem>
+            <identity name="URL" type="8"/>
+            <value type="QString">http://feeds.bbci.co.uk/news/rss.xml</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Font" type="11"/>
+            <value type="QString">Arial,10,-1,5,50,0,0,0,0,0</value>
+        </setupitem>
+        <setupitem>
+            <identity name="^Adjust font size to instance height" type="2"/>
+            <value type="QString">true</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Color" type="3"/>
+            <value type="QString">-16711895</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Background" type="3"/>
+            <value type="QString">-1470407845</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Horizontal" type="6"/>
+            <value type="QString">0</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Vertical" type="6"/>
+            <value type="QString">0</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Scroll rate" type="4"/>
+            <value type="QString">15</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Scroll step" type="4"/>
+            <value type="QString">2</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Scroll gap" type="4"/>
+            <value type="QString">10</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Switch delay" type="4"/>
+            <value type="QString">5</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Open in browser" type="12"/>
+            <value type="QString">Ok pressed @ QVGA</value>
+            <extra str="Ok" int="5"/>
+        </setupitem>
+        <setupitem>
+            <identity name="Previous Headline" type="12"/>
+            <value type="QString">Left pressed @ QVGA</value>
+            <extra str="Left" int="5"/>
+        </setupitem>
+        <setupitem>
+            <identity name="Next Headline" type="12"/>
+            <value type="QString">Right pressed @ QVGA</value>
+            <extra str="Right" int="5"/>
+        </setupitem>
+        <setupitem>
+            <identity name="Refresh (minutes)" type="1"/>
+            <value type="QString">5</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Modify Visible" type="1"/>
+            <value type="QString">0</value>
+        </setupitem>
+        <setupitem>
+            <identity name="^Enable Conditional Formatting" type="2"/>
+            <value type="QString">false</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Conditions XML" type="9"/>
+            <value type="QString">&lt;rules/&gt;</value>
+        </setupitem>
+    </instance>
+    <instance class="LH_Decor/StaticRectangle">
+        <identity name="Clock" id="3ksh08"/>
+        <state modifiable="1" selectable="1" alerts="1"/>
+        <origin x="208" y="54"/>
+        <size w="112" h="112"/>
+        <plugin_size w="48" h="48"/>
+        <pos x="208" y="54" z="7"/>
+        <x_ref id="3jr108" align="2" ref_align="2"/>
+        <y_ref id="3jvk14" align="2" ref_align="0"/>
+        <w_ref id="0" mod="64" units="0"/>
+        <h_ref id="0" mod="64" units="0"/>
+        <setupitem>
+            <identity name="Pen width" type="4"/>
+            <value type="QString">0</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Corner rounding" type="4"/>
+            <value type="QString">100</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Pen color" type="3"/>
+            <value type="QString">-16777216</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Fill color 1" type="3"/>
+            <value type="QString">-1</value>
+        </setupitem>
+        <setupitem>
+            <identity name="^Background is a gradient" type="2"/>
+            <value type="QString">false</value>
+        </setupitem>
+        <setupitem>
+            <identity name="Fill color 2" type="3"/>
+            <value type="QString">-4144960</value>
+        </setupitem>
+        <setupitem>
+            <identity name="^Gradient is horizontal" type="2"/>
+            <value type="QString">false</value>
+        </setupitem>
+        <instance class="LH_Dial/SystemTimeDial">
+            <identity name="Time (Dial) [1]" id="3ksh6g"/>
+            <state modifiable="1" selectable="1" alerts="1"/>
+            <origin x="0" y="0"/>
+            <size w="112" h="112"/>
+            <plugin_size w="-1" h="-1"/>
+            <pos x="0" y="0" z="0"/>
+            <x_ref id="3ksh08" align="0" ref_align="0"/>
+            <y_ref id="3ksh08" align="0" ref_align="0"/>
+            <w_ref id="3ksh08" mod="0" units="0"/>
+            <h_ref id="3ksh08" mod="0" units="0"/>
+            <setupitem>
+                <identity name="Manual Adjust" type="2"/>
+                <value type="bool">false</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Adjust Seconds" type="1"/>
+                <value type="int">0</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Adjust Minutes" type="1"/>
+                <value type="int">0</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Adjust Hours" type="1"/>
+                <value type="int">0</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Dial Type" type="6"/>
+                <value type="QString">0</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Orientation" type="6"/>
+                <value type="QString">0</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Background color" type="3"/>
+                <value type="QString">0</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Face Style" type="6"/>
+                <value type="QString">1</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Pen color" type="3"/>
+                <value type="QString">-16777216</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Fill color (start)" type="3"/>
+                <value type="QString">-1</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Fill color (end)" type="3"/>
+                <value type="QString">-4144960</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Face Image" type="10"/>
+                <value type="QString"></value>
+            </setupitem>
+            <setupitem>
+                <identity name="Show Ticks" type="2"/>
+                <value type="QString">true</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Reverse Needles" type="2"/>
+                <value type="QString">false</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Smooth Needles" type="2"/>
+                <value type="QString">true</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Needle Configs" type="9"/>
+                <value type="QString">0,0,0,0,255,3,60,0,~0,0,0,0,255,3,75,0,~0,255,0,0,255,1,90,0,</value>
+            </setupitem>
+        </instance>
+        <instance class="LH_Decor/StaticRectangle">
+            <identity name="Rounded rectangle [2]" id="3kshco"/>
+            <state modifiable="1" selectable="1" alerts="1"/>
+            <origin x="0" y="0"/>
+            <size w="8" h="8"/>
+            <plugin_size w="-1" h="-1"/>
+            <pos x="51" y="51" z="1"/>
+            <x_ref id="3ksh08" align="0" ref_align="0"/>
+            <y_ref id="3ksh08" align="0" ref_align="0"/>
+            <w_ref id="0" mod="8" units="4"/>
+            <h_ref id="0" mod="8" units="4"/>
+            <setupitem>
+                <identity name="Pen width" type="4"/>
+                <value type="QString">0</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Corner rounding" type="4"/>
+                <value type="QString">100</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Pen color" type="3"/>
+                <value type="QString">-16777216</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Fill color 1" type="3"/>
+                <value type="QString">-65536</value>
+            </setupitem>
+            <setupitem>
+                <identity name="^Background is a gradient" type="2"/>
+                <value type="QString">false</value>
+            </setupitem>
+            <setupitem>
+                <identity name="Fill color 2" type="3"/>
+                <value type="QString">-4144960</value>
+            </setupitem>
+            <setupitem>
+                <identity name="^Gradient is horizontal" type="2"/>
+                <value type="QString">false</value>
+            </setupitem>
+        </instance>
+    </instance>
+</instance>

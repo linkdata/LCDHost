@@ -1,0 +1,11 @@
+#!/bin/sh
+
+if [ -f "LCDHost.pro" ]; then
+	rm -f QT_HOST_BINS
+	find . -name '\.DS_Store' -or -name '*\.user' -execdir rm {} \;
+	for d in ../`basename $PWD`-build* ../build-`basename $PWD`-* ; do
+		if [ -d "${d}" ] && [ -f "${d}/Makefile" ]; then
+			rm -rf "${d}"
+		fi
+	done
+fi

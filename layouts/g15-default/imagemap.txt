@@ -1,0 +1,5 @@
+VLO	Charging.png
+LO	25.png
+OK	50.png
+HI	75.png
+VHI	100.png

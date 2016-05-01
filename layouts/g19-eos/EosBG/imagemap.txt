@@ -1,0 +1,9 @@
+; The image map file instructs the weather image on how to match up
+; a weather code with the appropriate images in the same folder.
+;
+; The format is as follows:
+; <Code>	<Day Image>	<Night Image>
+; Note that each item is seperated by a tab.
+;
+3200	Eos.png	Eos_Night.png
+
